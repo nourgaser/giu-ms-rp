@@ -1,0 +1,573 @@
+{
+  "dataset": "synthetic",
+  "n": 900,
+  "label_names": [
+    "class0",
+    "class1",
+    "class2"
+  ],
+  "config": {
+    "epochs": 25,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 10,
+    "d_model": 256,
+    "n_heads": 4,
+    "dropout": 0.3,
+    "loss": "weighted_ce",
+    "focal_gamma": 2.0,
+    "n_folds": 3,
+    "seed": 0,
+    "n_threads": 0
+  },
+  "params": {
+    "late-fusion": 349443,
+    "late-fusion-wide": 1407003,
+    "tri-can": 1403651
+  },
+  "results": {
+    "late-fusion": {
+      "overall": {
+        "n": 900,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            301,
+            0,
+            0
+          ],
+          [
+            0,
+            304,
+            0
+          ],
+          [
+            0,
+            0,
+            295
+          ]
+        ]
+      },
+      "congruent": {
+        "n": 525,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            174,
+            0,
+            0
+          ],
+          [
+            0,
+            175,
+            0
+          ],
+          [
+            0,
+            0,
+            176
+          ]
+        ]
+      },
+      "partial": {
+        "n": 276,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            92,
+            0,
+            0
+          ],
+          [
+            0,
+            93,
+            0
+          ],
+          [
+            0,
+            0,
+            91
+          ]
+        ]
+      },
+      "conflicting": {
+        "n": 99,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            35,
+            0,
+            0
+          ],
+          [
+            0,
+            36,
+            0
+          ],
+          [
+            0,
+            0,
+            28
+          ]
+        ]
+      },
+      "incongruent": {
+        "n": 375,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            127,
+            0,
+            0
+          ],
+          [
+            0,
+            129,
+            0
+          ],
+          [
+            0,
+            0,
+            119
+          ]
+        ]
+      }
+    },
+    "late-fusion-wide": {
+      "overall": {
+        "n": 900,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            301,
+            0,
+            0
+          ],
+          [
+            0,
+            304,
+            0
+          ],
+          [
+            0,
+            0,
+            295
+          ]
+        ]
+      },
+      "congruent": {
+        "n": 525,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            174,
+            0,
+            0
+          ],
+          [
+            0,
+            175,
+            0
+          ],
+          [
+            0,
+            0,
+            176
+          ]
+        ]
+      },
+      "partial": {
+        "n": 276,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            92,
+            0,
+            0
+          ],
+          [
+            0,
+            93,
+            0
+          ],
+          [
+            0,
+            0,
+            91
+          ]
+        ]
+      },
+      "conflicting": {
+        "n": 99,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            35,
+            0,
+            0
+          ],
+          [
+            0,
+            36,
+            0
+          ],
+          [
+            0,
+            0,
+            28
+          ]
+        ]
+      },
+      "incongruent": {
+        "n": 375,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            127,
+            0,
+            0
+          ],
+          [
+            0,
+            129,
+            0
+          ],
+          [
+            0,
+            0,
+            119
+          ]
+        ]
+      }
+    },
+    "tri-can": {
+      "overall": {
+        "n": 900,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            301,
+            0,
+            0
+          ],
+          [
+            0,
+            304,
+            0
+          ],
+          [
+            0,
+            0,
+            295
+          ]
+        ]
+      },
+      "congruent": {
+        "n": 525,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            174,
+            0,
+            0
+          ],
+          [
+            0,
+            175,
+            0
+          ],
+          [
+            0,
+            0,
+            176
+          ]
+        ]
+      },
+      "partial": {
+        "n": 276,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            92,
+            0,
+            0
+          ],
+          [
+            0,
+            93,
+            0
+          ],
+          [
+            0,
+            0,
+            91
+          ]
+        ]
+      },
+      "conflicting": {
+        "n": 99,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            35,
+            0,
+            0
+          ],
+          [
+            0,
+            36,
+            0
+          ],
+          [
+            0,
+            0,
+            28
+          ]
+        ]
+      },
+      "incongruent": {
+        "n": 375,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            127,
+            0,
+            0
+          ],
+          [
+            0,
+            129,
+            0
+          ],
+          [
+            0,
+            0,
+            119
+          ]
+        ]
+      }
+    }
+  },
+  "did_vs_late_fusion": {
+    "did": 0.0,
+    "gap_congruent": 0.0,
+    "gap_incongruent": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n_congruent": 525,
+    "n_incongruent": 375,
+    "n_boot": 500,
+    "frac_le_zero": 1.0
+  },
+  "did_vs_capacity_matched": {
+    "did": 0.0,
+    "gap_congruent": 0.0,
+    "gap_incongruent": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n_congruent": 525,
+    "n_incongruent": 375,
+    "n_boot": 500,
+    "frac_le_zero": 1.0
+  },
+  "sarcasm": {
+    "late-fusion": {
+      "sarcastic": {
+        "n": 375,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            127,
+            0,
+            0
+          ],
+          [
+            0,
+            129,
+            0
+          ],
+          [
+            0,
+            0,
+            119
+          ]
+        ]
+      },
+      "not_sarcastic": {
+        "n": 525,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            174,
+            0,
+            0
+          ],
+          [
+            0,
+            175,
+            0
+          ],
+          [
+            0,
+            0,
+            176
+          ]
+        ]
+      }
+    },
+    "late-fusion-wide": {
+      "sarcastic": {
+        "n": 375,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            127,
+            0,
+            0
+          ],
+          [
+            0,
+            129,
+            0
+          ],
+          [
+            0,
+            0,
+            119
+          ]
+        ]
+      },
+      "not_sarcastic": {
+        "n": 525,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            174,
+            0,
+            0
+          ],
+          [
+            0,
+            175,
+            0
+          ],
+          [
+            0,
+            0,
+            176
+          ]
+        ]
+      }
+    },
+    "tri-can": {
+      "sarcastic": {
+        "n": 375,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            127,
+            0,
+            0
+          ],
+          [
+            0,
+            129,
+            0
+          ],
+          [
+            0,
+            0,
+            119
+          ]
+        ]
+      },
+      "not_sarcastic": {
+        "n": 525,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion": [
+          [
+            174,
+            0,
+            0
+          ],
+          [
+            0,
+            175,
+            0
+          ],
+          [
+            0,
+            0,
+            176
+          ]
+        ]
+      }
+    }
+  },
+  "args": {
+    "dataset": "synthetic",
+    "cache": "None",
+    "models": "['late-fusion', 'late-fusion-wide', 'tri-can']",
+    "modalities": "None",
+    "folds": "3",
+    "epochs": "25",
+    "d_model": "256",
+    "dropout": "0.3",
+    "lr": "0.001",
+    "loss": "weighted_ce",
+    "seed": "0",
+    "threads": "0",
+    "boot": "500",
+    "out": "results",
+    "synthetic_n": "900",
+    "synthetic_signal": "0.6",
+    "list": "False"
+  }
+}

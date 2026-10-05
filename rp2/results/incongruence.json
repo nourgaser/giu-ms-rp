@@ -1,0 +1,174 @@
+{
+  "target": "incongruence",
+  "n": 8699,
+  "prior_accuracy": 0.6101850787446833,
+  "encoders": {
+    "text": "aubmindlab/bert-base-arabertv2",
+    "audio": "facebook/wav2vec2-base",
+    "visual": "microsoft/swin-tiny-patch4-window7-224"
+  },
+  "results": {
+    "late-fusion / text": {
+      "n": 8699,
+      "macro_f1": 0.5411658655321072,
+      "weighted_f1": 0.5654591064208357,
+      "accuracy": 0.5676514541901369,
+      "confusion": [
+        [
+          1424,
+          1967
+        ],
+        [
+          1794,
+          3514
+        ]
+      ],
+      "params": 231042,
+      "seconds": 2073.6522517204285
+    },
+    "late-fusion / audio": {
+      "n": 8699,
+      "macro_f1": 0.525692395070436,
+      "weighted_f1": 0.5396905070902306,
+      "accuracy": 0.5341993332566962,
+      "confusion": [
+        [
+          1741,
+          1650
+        ],
+        [
+          2402,
+          2906
+        ]
+      ],
+      "params": 231042,
+      "seconds": 141.30556297302246
+    },
+    "late-fusion / visual": {
+      "n": 8699,
+      "macro_f1": 0.5588319737802843,
+      "weighted_f1": 0.5782894384973253,
+      "accuracy": 0.5765030463271641,
+      "confusion": [
+        [
+          1637,
+          1754
+        ],
+        [
+          1930,
+          3378
+        ]
+      ],
+      "params": 231042,
+      "seconds": 166.67463064193726
+    },
+    "late-fusion / text+audio": {
+      "n": 8699,
+      "macro_f1": 0.5412121976882556,
+      "weighted_f1": 0.5631552634189511,
+      "accuracy": 0.5628233130244856,
+      "confusion": [
+        [
+          1504,
+          1887
+        ],
+        [
+          1916,
+          3392
+        ]
+      ],
+      "params": 527618,
+      "seconds": 301.2504756450653
+    },
+    "late-fusion / text+visual": {
+      "n": 8699,
+      "macro_f1": 0.5697581327880907,
+      "weighted_f1": 0.5894639544008166,
+      "accuracy": 0.5883434877572135,
+      "confusion": [
+        [
+          1655,
+          1736
+        ],
+        [
+          1845,
+          3463
+        ]
+      ],
+      "params": 527618,
+      "seconds": 279.34108901023865
+    },
+    "late-fusion / audio+visual": {
+      "n": 8699,
+      "macro_f1": 0.5634387133155436,
+      "weighted_f1": 0.5838321110162866,
+      "accuracy": 0.583055523623405,
+      "confusion": [
+        [
+          1614,
+          1777
+        ],
+        [
+          1850,
+          3458
+        ]
+      ],
+      "params": 527618,
+      "seconds": 225.11571788787842
+    },
+    "late-fusion / all": {
+      "n": 8699,
+      "macro_f1": 0.5683212580783175,
+      "weighted_f1": 0.5918219434930959,
+      "accuracy": 0.5946660535693757,
+      "confusion": [
+        [
+          1512,
+          1879
+        ],
+        [
+          1647,
+          3661
+        ]
+      ],
+      "params": 889730,
+      "seconds": 409.7684893608093
+    },
+    "late-fusion-wide / all": {
+      "n": 8699,
+      "macro_f1": 0.5663100470946265,
+      "weighted_f1": 0.5875690935869946,
+      "accuracy": 0.587768709047017,
+      "confusion": [
+        [
+          1589,
+          1802
+        ],
+        [
+          1784,
+          3524
+        ]
+      ],
+      "params": 1944098,
+      "seconds": 698.8712229728699
+    },
+    "tri-can / all": {
+      "n": 8699,
+      "macro_f1": 0.5649774255317741,
+      "weighted_f1": 0.586753629998501,
+      "accuracy": 0.5874238418208989,
+      "confusion": [
+        [
+          1567,
+          1824
+        ],
+        [
+          1765,
+          3543
+        ]
+      ],
+      "params": 1943938,
+      "seconds": 2673.324802160263
+    }
+  }
+}

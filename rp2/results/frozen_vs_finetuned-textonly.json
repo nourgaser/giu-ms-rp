@@ -1,0 +1,57 @@
+{
+  "target": "overall",
+  "encoder": "aubmindlab/bert-base-arabertv02-twitter",
+  "n": 8699,
+  "folds": 3,
+  "results": {
+    "frozen/late-fusion": {
+      "n": 8699,
+      "macro_f1": 0.5877463346631736,
+      "weighted_f1": 0.5975737762579686,
+      "accuracy": 0.5950109207954938,
+      "confusion": [
+        [
+          1846,
+          499,
+          748
+        ],
+        [
+          334,
+          1161,
+          467
+        ],
+        [
+          687,
+          788,
+          2169
+        ]
+      ],
+      "params": 231171,
+      "seconds": 71.20752716064453
+    },
+    "finetuned/late-fusion": {
+      "n": 8699,
+      "macro_f1": 0.6398889797451139,
+      "weighted_f1": 0.6458853924377465,
+      "accuracy": 0.6452465800666743,
+      "confusion": [
+        [
+          2093,
+          318,
+          682
+        ],
+        [
+          273,
+          1239,
+          450
+        ],
+        [
+          731,
+          632,
+          2281
+        ]
+      ],
+      "seconds": 5841.374324321747
+    }
+  }
+}

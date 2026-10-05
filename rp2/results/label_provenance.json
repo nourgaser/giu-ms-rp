@@ -1,0 +1,31 @@
+{
+  "ar-musa": {
+    "n": 8699,
+    "agree_transcript": 0.9650534544200483,
+    "agree_audio": 0.7710081618576848,
+    "agree_visual": 0.4820094263708472,
+    "overall_differs_from_text": 0.03494654557995169,
+    "n_differs_from_text": 304,
+    "macro_f1_of_transcript_label": 0.965483351133463,
+    "sarcasm_agree_transcript": 0.949068751437112,
+    "congruence": {
+      "partial": 4897,
+      "conflicting": 411,
+      "congruent": 3391
+    }
+  },
+  "egy-mer": {
+    "n": 473,
+    "agree_transcript": 0.5940803382663847,
+    "agree_audio": 0.9112050739957717,
+    "agree_visual": 0.8435517970401691,
+    "overall_differs_from_text": 0.40591966173361527,
+    "n_differs_from_text": 192,
+    "macro_f1_of_transcript_label": 0.4965222287285574,
+    "congruence": {
+      "congruent": 208,
+      "partial": 222,
+      "conflicting": 43
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "dataset": "ar-musa",
+  "n": 8699,
+  "label_names": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "config": {
+    "epochs": 40,
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 10,
+    "d_model": 256,
+    "n_heads": 4,
+    "dropout": 0.3,
+    "loss": "weighted_ce",
+    "focal_gamma": 2.0,
+    "n_folds": 5,
+    "seed": 0,
+    "n_threads": 10
+  },
+  "params": {
+    "late-fusion": 231171
+  },
+  "results": {
+    "late-fusion": {
+      "overall": {
+        "n": 8699,
+        "macro_f1": 0.545781152695722,
+        "weighted_f1": 0.5607736176494518,
+        "accuracy": 0.5579951718588343,
+        "confusion": [
+          [
+            1712,
+            610,
+            771
+          ],
+          [
+            382,
+            985,
+            595
+          ],
+          [
+            741,
+            746,
+            2157
+          ]
+        ]
+      },
+      "congruent": {
+        "n": 3391,
+        "macro_f1": 0.5585369341766321,
+        "weighted_f1": 0.6012560205303754,
+        "accuracy": 0.5912710115010321,
+        "confusion": [
+          [
+            491,
+            175,
+            211
+          ],
+          [
+            107,
+            350,
+            169
+          ],
+          [
+            366,
+            358,
+            1164
+          ]
+        ]
+      },
+      "partial": {
+        "n": 4897,
+        "macro_f1": 0.5309519651454959,
+        "weighted_f1": 0.5431456684099688,
+        "accuracy": 0.5399224014702879,
+        "confusion": [
+          [
+            1142,
+            398,
+            518
+          ],
+          [
+            240,
+            589,
+            400
+          ],
+          [
+            347,
+            350,
+            913
+          ]
+        ]
+      },
+      "conflicting": {
+        "n": 411,
+        "macro_f1": 0.4914643752237737,
+        "weighted_f1": 0.5008383314908752,
+        "accuracy": 0.49878345498783455,
+        "confusion": [
+          [
+            79,
+            37,
+            42
+          ],
+          [
+            35,
+            46,
+            26
+          ],
+          [
+            28,
+            38,
+            80
+          ]
+        ]
+      },
+      "incongruent": {
+        "n": 5308,
+        "macro_f1": 0.527925548015106,
+        "weighted_f1": 0.5397616175008262,
+        "accuracy": 0.5367370007535796,
+        "confusion": [
+          [
+            1221,
+            435,
+            560
+          ],
+          [
+            275,
+            635,
+            426
+          ],
+          [
+            375,
+            388,
+            993
+          ]
+        ]
+      }
+    }
+  },
+  "did_vs_late_fusion": null,
+  "did_vs_capacity_matched": null,
+  "sarcasm": {
+    "late-fusion": {
+      "sarcastic": {
+        "n": 1157,
+        "macro_f1": 0.5369674131077655,
+        "weighted_f1": 0.5391214796129985,
+        "accuracy": 0.5375972342264477,
+        "confusion": [
+          [
+            179,
+            74,
+            100
+          ],
+          [
+            78,
+            240,
+            141
+          ],
+          [
+            56,
+            86,
+            203
+          ]
+        ]
+      },
+      "not_sarcastic": {
+        "n": 7542,
+        "macro_f1": 0.5426786399806698,
+        "weighted_f1": 0.5659193694819193,
+        "accuracy": 0.5611243701935826,
+        "confusion": [
+          [
+            1533,
+            536,
+            671
+          ],
+          [
+            304,
+            745,
+            454
+          ],
+          [
+            685,
+            660,
+            1954
+          ]
+        ]
+      }
+    }
+  },
+  "args": {
+    "dataset": "ar-musa",
+    "cache": "data/cache/ar-musa",
+    "models": "['late-fusion']",
+    "modalities": "['text']",
+    "folds": "5",
+    "epochs": "40",
+    "d_model": "256",
+    "dropout": "0.3",
+    "lr": "0.001",
+    "loss": "weighted_ce",
+    "seed": "0",
+    "threads": "10",
+    "boot": "2000",
+    "out": "results/unimodal-text",
+    "synthetic_n": "900",
+    "synthetic_signal": "0.03",
+    "list": "False"
+  }
+}

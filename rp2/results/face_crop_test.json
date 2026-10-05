@@ -1,0 +1,35 @@
+{
+  "dataset": "egy-mer",
+  "encoder": "trpakov/vit-face-expression",
+  "frames": 16,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "swin_baseline": 0.5225,
+  "results": {
+    "full-frame": {
+      "macro_f1": 0.5430145168911608,
+      "std": 0.004157080135597089,
+      "per_seed": [
+        0.5487747952558176,
+        0.541152399197757,
+        0.5391163562199074
+      ],
+      "faces_detected": 0,
+      "frames_seen": 0
+    },
+    "face-crop": {
+      "macro_f1": 0.5055525493188173,
+      "std": 0.002820776890045336,
+      "per_seed": [
+        0.5027806657476772,
+        0.5094229768652951,
+        0.5044540053434796
+      ],
+      "faces_detected": 7584,
+      "frames_seen": 7744
+    }
+  }
+}
