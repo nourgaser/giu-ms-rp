@@ -1,0 +1,319 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{xcolor}
+
+\geometry{left=25mm, right=25mm, top=25mm, bottom=25mm}
+
+\title{\textbf{Where the Signal Is:\\
+Label Provenance, Encoder Choice and the Limits of Fusion\\
+in Arabic Multimodal Affect Recognition}}
+\author{Nour Gaser, Mohamed Wael \\
+\textit{Department of Computer Science} \\
+\textit{German International University}}
+\date{August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Cross-modal attention is the dominant architectural response to multimodal
+affect recognition. We set out to test whether it outperforms late fusion for
+Arabic, and in particular whether its advantage concentrates on samples where
+the modalities carry conflicting evidence. Across two corpora, twelve fusion
+arrangements and four encoder families, it does not --- and the reason is
+instructive. On Ar-MuSA, the only openly available Arabic multimodal sentiment
+corpus, we find that the overall label agrees with the corpus's own
+transcript-level annotation on \textbf{96.5\%} of samples, so a text-only model
+already holds nearly all the label information and no fusion mechanism has room
+to distinguish itself. We predicted from this that a corpus whose label is
+\emph{not} recoverable from text would behave differently, and tested that
+prediction on EGY-MER, an Egyptian Arabic emotion corpus obtained during this
+work. The prediction holds: on EGY-MER the same measurement gives
+\textbf{59.4\%} for transcript against \textbf{91.1\%} for audio, the ordering
+of the modalities inverts, and the multimodal gain over the best single modality
+triples. Yet even there, no attention arrangement we tried beats plain
+concatenation by more than the variation between seeds, and concatenation is the
+smallest model by a factor of two to seven. Every measurable
+improvement we obtained came from representation --- dialect-matched text
+encoders ($+0.054$), reading audio from mid-stack rather than the final layer
+($+0.053$), expression-pretrained visual encoders ($+0.026$) and fine-tuning
+($+0.051$) --- and none from fusion design. We report four falsified hypotheses
+alongside these. Our system reaches weighted $F_1$ 0.664 on EGY-MER against a
+published baseline of 0.519 (single seed; the three-seed mean is 0.654, and 0.669
+with the best encoders).
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+Multimodal affect recognition rests on the premise that non-verbal channels
+carry information the words do not. The canonical motivating case is
+incongruence: an utterance whose literal content is contradicted by its
+delivery. Cross-modal attention \citep{Tsai2019} operationalises this directly,
+letting one modality condition on another before a decision is made, and has
+become the default architectural response; it has recently reached Arabic
+\citep{Cheikhi2026}.
+
+This report asks a narrow architectural question and arrives at a broader answer
+about evaluation. Section~\ref{sec:setup} describes the two corpora and the
+protocol. Section~\ref{sec:provenance} introduces \emph{label provenance}, the
+measurement on which everything else turns, and reports it for both corpora.
+Section~\ref{sec:fusion} reports the fusion comparison.
+Section~\ref{sec:encoders} reports the encoder study, which is where the actual
+gains are. Section~\ref{sec:falsified} lists the hypotheses we tested and
+rejected. Section~\ref{sec:limits} states the limitations.
+
+\section{Corpora and Protocol}
+\label{sec:setup}
+
+\paragraph{Ar-MuSA} \citep{Khaled2025} comprises 8{,}700 Egyptian Arabic and MSA
+clips (8{,}699 usable) labelled for three-way sentiment with a binary sarcasm
+flag. Crucially, both are annotated \emph{separately for the transcript, the
+audio and the frame}, in addition to an overall judgement. The visual stream is
+a single extracted frame per clip.
+
+\paragraph{EGY-MER} \citep{Hussein2025} is an Egyptian Arabic emotion corpus,
+obtained from the corpus holders during this work. As delivered it holds 5{,}471
+speaker-diarised segments with media, of which \textbf{505 carry a complete
+annotation} --- three annotators, three modalities each, with a documented
+majority-vote resolution --- across 49 source videos and 70 minutes. We use the
+484 whose overall label is one of the seven emotions. Unlike Ar-MuSA it ships
+full video segments, so the visual stream is genuinely temporal; we sample 16
+frames per segment.
+
+\paragraph{Protocol.} Encoders are frozen and features extracted once, so that
+the only difference between compared models is the fusion mechanism.
+Validation is stratified $k$-fold with identical folds for every model, and
+predictions are collected out-of-fold so subsets can be analysed without
+leakage. Because EGY-MER has 484 samples across 7 classes, every EGY-MER number
+is a mean over three seeds with the standard deviation reported; we treat
+differences smaller than the seed spread as ties rather than results.
+
+\section{Label Provenance}
+\label{sec:provenance}
+
+Both corpora annotate each modality separately, so we can ask how much of the
+overall label a single modality's own annotation already supplies. We call this
+\emph{label provenance}, and it turns out to determine whether a corpus can
+evaluate fusion at all.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Annotation} & \textbf{Ar-MuSA (sentiment)} & \textbf{EGY-MER (emotion)} \\
+\midrule
+Transcript & \textbf{96.5\%} & 59.4\% \\
+Audio      & 77.1\% & \textbf{91.1\%} \\
+Frame / video & 48.2\% & 84.4\% \\
+\midrule
+Overall label differs from text label & 3.5\% & \textbf{40.6\%} \\
+\bottomrule
+\end{tabular}
+\caption{How often the overall label equals each modality's own annotation.
+The ordering inverts between the two corpora. Computed over samples carrying all
+three modality labels (8{,}699 and 473) by \texttt{experiments/label\_provenance.py}.}
+\label{tab:provenance}
+\end{table}
+
+On Ar-MuSA a predictor with perfect access to the transcript label alone would
+score macro-$F_1$ 0.9655 on the ostensibly multimodal target; only 304 of 8{,}699
+clips disagree with the text. The sarcasm flag behaves the same way (94.9\%).
+Any fusion comparison on that corpus is therefore a contest over a
+$\sim$3.5\% residue, and a model with no access to audio or vision begins with
+almost all the available label information. This is a property of the benchmark
+and applies to every result reported on it, ours included.
+
+EGY-MER inverts this. Its label lives in the \emph{delivery}: text is the
+weakest channel, audio the strongest, and 40.6\% of segments carry an overall
+label that differs from the text label. This is precisely the regime in which
+non-verbal channels must carry discriminative information, and it is what the
+Ar-MuSA result predicted would be required.
+
+\paragraph{The prediction is confirmed by model behaviour.} Unimodal macro-$F_1$
+inverts to match the annotations (Table~\ref{tab:unimodal}), and the gain from
+using all three modalities over the best single one is \textbf{three times
+larger} on EGY-MER ($+0.0439$) than on Ar-MuSA ($+0.0135$).
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Modality alone} & \textbf{Ar-MuSA} & \textbf{EGY-MER} \\
+\midrule
+Text   & \textbf{0.5458} & 0.3404 \\
+Audio  & 0.4184 & 0.4770 \\
+Visual & 0.4327 & \textbf{0.5225} \\
+\midrule
+All three (late fusion) & 0.5593 & 0.5664 \\
+Multimodal gain & $+0.0135$ & $\mathbf{+0.0439}$ \\
+\bottomrule
+\end{tabular}
+\caption{Unimodal macro-$F_1$. The modality ordering inverts with the task, in
+the same direction as label provenance.}
+\label{tab:unimodal}
+\end{table}
+
+\section{Fusion Arrangements}
+\label{sec:fusion}
+
+On EGY-MER --- the corpus where multimodality demonstrably matters --- we
+compared twelve fusion arrangements under one protocol: plain concatenation; a
+capacity-matched widening of it; per-modality gating (the strategy the published
+EGY-MER baseline uses); cross-modal attention anchored on each of the three
+modalities in turn; an all-pairs arrangement in which every modality attends to
+every other (following \citealp{Tsai2019}); full self-attention over the
+concatenated token sequence; and a hybrid described below.
+
+\textbf{With the base encoders, plain concatenation scores highest and is the
+smallest model} (891K parameters against 1.1--6.4M). The largest seed standard
+deviation is 0.021, so the top seven arrangements are statistically
+indistinguishable; the remaining five are worse. Repeating the benchmark with the
+best encoders from Section~\ref{sec:encoders} changes the order at the top: a
+gated hybrid scores 0.608 against concatenation's 0.594, a difference smaller than
+its own seed deviation (0.017). In neither run does any arrangement beat
+concatenation by more than seed variation, and the three Tri-CAN variants fall in
+the lower half both times.
+
+\paragraph{A design flaw in the proposed architecture.} The originally specified
+Tri-CAN feeds its classifier
+$[\,\text{pool}(\text{anchor}),\ \text{pool}(\text{anchor's view of }A),\
+\text{pool}(\text{anchor's view of }B)\,]$, where every term is pooled over
+\emph{anchor} positions. All three therefore live in the anchor's token space,
+and the raw $A$ and $B$ representations never reach the classifier. Tri-CAN is
+not late fusion plus attention: it \emph{replaces} the other modalities with the
+anchor's interrogation of them, and so has strictly less information than the
+baseline it is meant to beat. This predicts the observed pattern. On
+incongruent samples every anchor scores below late fusion ($-0.047$, $-0.070$ and
+$-0.066$ for text, audio and visual anchors), while on congruent samples the
+text-anchored model is ahead ($+0.036$). The difference-in-differences for the
+text anchor is $-0.082$, but its 95\% bootstrap interval ($[-0.189, +0.034]$,
+208 and 265 samples) includes zero, so we read it as a consistent direction
+rather than an established effect. On a corpus that is 56\% incongruent, the
+losses dominate.
+
+Restoring the discarded representations (our \emph{hybrid} arrangement, whose
+input is a strict superset of late fusion's, here with a learned gate) lifts
+text-anchored attention from
+$-0.0099$ to $-0.0014$ relative to the baseline --- from losing to exactly tied.
+The diagnosis is therefore confirmed, but the repair only recovers parity: the
+attended view adds nothing the raw vectors did not already carry.
+
+\section{Where the Gains Actually Are}
+\label{sec:encoders}
+
+Every measurable improvement in this study came from representation, not
+architecture:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Change} & \textbf{Gain (macro-$F_1$)} & \textbf{Corpus} \\
+\midrule
+Dialect-matched text encoder (AraBERT-twitter over AraBERTv2) & $+0.054$ & Ar-MuSA \\
+Fine-tuning the text encoder & $+0.051$ & Ar-MuSA \\
+Reading audio from mid-stack rather than the final layer & $+0.053$ & EGY-MER \\
+Expression-pretrained visual encoder over ImageNet Swin & $+0.026$ & EGY-MER \\
+\midrule
+Best fusion architecture over plain concatenation & $\approx 0$ & both \\
+\bottomrule
+\end{tabular}
+\caption{Representation choices dominate architectural ones by an order of
+magnitude.}
+\label{tab:gains}
+\end{table}
+
+The audio result deserves emphasis because it invalidates a conclusion we had
+already drawn. In wav2vec2-style models the final layers specialise toward the
+self-supervised pretraining objective, discarding the slowly-varying
+paralinguistic content an affect task needs. Reading the final layer cost
+$0.045$--$0.053$ macro-$F_1$, and our earlier finding that audio "contributes
+almost nothing" was measured at the wrong depth.
+
+Fine-tuning is separable from fusion: on Ar-MuSA it improved late fusion and
+Tri-CAN by exactly $+0.0505$ each, leaving their ordering unchanged. The fusion
+null is therefore not an artefact of the frozen-feature protocol.
+
+\section{Hypotheses We Rejected}
+\label{sec:falsified}
+
+We state these because each was predicted in advance and each failed.
+
+\begin{enumerate}
+\item \textbf{Anchor choice.} Since text is EGY-MER's weakest modality, we
+predicted anchoring attention on audio or vision would help. It did not: text
+remained the best anchor (audio $-0.034$, vision $-0.009$ relative to it).
+\item \textbf{Multilingual audio encoder.} XLS-R-300m scored \emph{worse} than
+English-pretrained wav2vec2-base ($0.3835$ vs $0.4206$), so the weak audio
+signal was not a language mismatch.
+\item \textbf{Face cropping.} Cropping to the detected face before an
+expression-pretrained encoder cost $-0.0375$ despite 98\% detection. We
+attribute this to the corpus being speaker-diarised but not
+speaker-\emph{localised}: the largest face in a talk-show frame is not
+necessarily the person speaking, so cropping reliably delivers the wrong face.
+Active-speaker detection would be required.
+\item \textbf{Emotion-pretrained audio encoder.} A model fine-tuned for speech
+emotion recognition scored worse than the generic self-supervised one
+($0.4578$ vs $0.4770$); it is tuned on English acted emotion, and that
+specialisation narrows rather than improves the representation for Egyptian
+Arabic.
+\end{enumerate}
+
+Items 2 and 4 share a lesson worth stating: matching an encoder's \emph{domain}
+to the data helps, while matching its \emph{task label space} does not.
+
+\section{Limitations}
+\label{sec:limits}
+
+\begin{enumerate}
+\item \textbf{Sample size.} EGY-MER's 484 annotated segments across seven
+classes, with Fear at 12 and Happiness at 18, make macro-$F_1$ noisy. We report
+mean $\pm$ SD over seeds and decline to interpret differences below the seed
+spread.
+\item \textbf{Baseline comparability.} Our weighted $F_1$ 0.664 (single seed;
+0.654 over three) exceeds the
+published 0.519, but that figure was obtained on 363 samples with different
+splits; the comparison is indicative, not like-for-like.
+\item \textbf{Frozen non-verbal encoders.} Only the text encoder was fine-tuned,
+a compute limitation rather than a design choice.
+\item \textbf{Annotations, not signal.} "The modalities disagree" means the
+annotators assigned different labels per stream. It is a good proxy for
+conflicting evidence, but a proxy.
+\item \textbf{Grouping.} Folds are stratified by label but not grouped by source
+video, so some speaker leakage across folds is possible. This affects absolute
+scores more than the within-study contrasts, which apply equally to every model.
+\end{enumerate}
+
+\section{Conclusion}
+
+Cross-modal attention did not outperform late fusion on either Arabic corpus,
+under any anchor, arrangement, encoder family, or training protocol we tested.
+We do not read this as evidence that the mechanism is worthless. We read it as
+two separate findings.
+
+First, \textbf{a benchmark can be structurally incapable of evaluating fusion},
+and the standard Arabic multimodal sentiment corpus is: with 96.5\% of its label
+recoverable from the transcript annotation alone, there is no headroom in which
+mechanisms could be distinguished. Label provenance is cheap to compute, and we
+suggest reporting it whenever a multimodal benchmark is proposed.
+
+Second, on a corpus that \emph{does} have the headroom, \textbf{the binding
+constraint is representation, not fusion}. Encoder domain, layer depth and
+fine-tuning moved results by $0.03$--$0.05$ macro-$F_1$ each; the best of twelve
+fusion architectures moved them by approximately zero, and the simplest
+arrangement was also the smallest and the best.
+
+\bibliographystyle{plainnat}
+\bibliography{../../rp1/report/references}
+
+\end{document}
