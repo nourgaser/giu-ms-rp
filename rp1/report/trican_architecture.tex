@@ -1,0 +1,81 @@
+% Tri-CAN architecture. Shared by report/main.tex and slides/presentation.tex.
+\begin{tikzpicture}[
+    node distance=0.6cm and 0.8cm,
+    >={Stealth[length=3pt]},
+    encoder/.style={draw, rounded corners, fill=blue!12, minimum width=2.4cm, minimum height=0.7cm, font=\footnotesize\bfseries, align=center},
+    feat/.style={draw, rounded corners, fill=orange!15, minimum width=2.0cm, minimum height=0.6cm, font=\footnotesize, align=center},
+    qkv/.style={draw, rounded corners, minimum width=1.1cm, minimum height=0.55cm, font=\footnotesize\bfseries, align=center},
+    attnblock/.style={draw, rounded corners, fill=green!12, minimum width=2.6cm, minimum height=0.7cm, font=\footnotesize\bfseries, align=center},
+    fusebox/.style={draw, rounded corners, fill=purple!12, minimum width=3.0cm, minimum height=0.7cm, font=\footnotesize\bfseries, align=center},
+    inputbox/.style={draw, rounded corners, fill=gray!15, minimum width=2.4cm, minimum height=0.7cm, font=\footnotesize, align=center},
+    every edge/.style={draw, ->, thick},
+]
+
+% --- Input Layer ---
+\node[inputbox] (text_in) {Text $X_t$};
+\node[inputbox, right=1.6cm of text_in] (audio_in) {Audio $X_a$};
+\node[inputbox, right=1.6cm of audio_in] (video_in) {Video $X_v$};
+
+% --- Encoders ---
+\node[encoder, above=0.5cm of text_in] (arabert) {AraBERT\\{\tiny (frozen + LoRA)}};
+\node[encoder, above=0.5cm of audio_in] (wav2vec) {Wav2Vec2\\{\tiny (frozen + LoRA)}};
+\node[encoder, above=0.5cm of video_in] (swin) {Swin\\{\tiny (frozen + LoRA)}};
+
+% --- Feature Representations ---
+\node[feat, above=0.5cm of arabert] (ht) {$H_t$};
+\node[feat, above=0.5cm of wav2vec] (ha) {$H_a$};
+\node[feat, above=0.5cm of swin] (hv) {$H_v$};
+
+% --- Q, K, V labels ---
+\node[qkv, fill=red!15, above=0.8cm of ht] (Q) {Q};
+\node[qkv, fill=cyan!18, above=0.8cm of ha] (K) {K, V};
+\node[qkv, fill=cyan!18, above=0.8cm of hv] (K2) {K, V};
+
+% --- Cross-Attention Blocks ---
+\node[attnblock, above=0.7cm of K, xshift=-1.2cm] (cma_ta) {Cross-Attn\\$T \!\rightarrow\! A$};
+\node[attnblock, above=0.7cm of K2, xshift=1.2cm] (cma_tv) {Cross-Attn\\$T \!\rightarrow\! V$};
+
+% --- Fusion ---
+\node[fusebox, above=1.0cm of cma_ta, xshift=2.6cm] (fuse) {Concatenate \& Project};
+
+% --- Output ---
+\node[draw, rounded corners, fill=yellow!20, minimum width=2.6cm, minimum height=0.7cm, font=\footnotesize\bfseries, above=0.5cm of fuse] (cls) {Classification Head};
+\node[above=0.4cm of cls, font=\footnotesize\bfseries] (out) {Emotion Label};
+
+% --- Arrows: Input -> Encoder ---
+\draw[->] (text_in) -- (arabert);
+\draw[->] (audio_in) -- (wav2vec);
+\draw[->] (video_in) -- (swin);
+
+% --- Arrows: Encoder -> Features ---
+\draw[->] (arabert) -- (ht);
+\draw[->] (wav2vec) -- (ha);
+\draw[->] (swin) -- (hv);
+
+% --- Arrows: Features -> Q/K/V ---
+\draw[->] (ht) -- (Q);
+\draw[->] (ha) -- (K);
+\draw[->] (hv) -- (K2);
+
+% --- Arrows: Q/K/V -> Cross-Attention ---
+\draw[->, color=red!60] (Q.north) -- ++(0, 0.15) -| (cma_ta.south west);
+\draw[->, color=red!60] (Q.north) -- ++(0, 0.15) -| (cma_tv.south west);
+\draw[->, color=cyan!60] (K) -- (cma_ta);
+\draw[->, color=cyan!60] (K2) -- (cma_tv);
+
+% --- Arrows: Cross-Attention -> Fusion ---
+\draw[->] (cma_ta) -- (fuse);
+\draw[->] (cma_tv) -- (fuse);
+
+% --- Arrow: Fusion -> Classifier ---
+\draw[->] (fuse) -- (cls);
+\draw[->] (cls) -- (out);
+
+% --- Background box around cross-attention ---
+\begin{scope}[on background layer]
+    \node[draw=green!50!black, dashed, thick, rounded corners, fill=green!3,
+          fit=(Q)(K)(K2)(cma_ta)(cma_tv),
+          inner sep=6pt, label={[font=\scriptsize\itshape, anchor=south west]north west:Cross-Modal Attention Block}] {};
+\end{scope}
+
+\end{tikzpicture}
