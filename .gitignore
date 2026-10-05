@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Corpora and feature caches (not redistributable / too large)
+rp2/data/raw/
+rp2/data/cache/
+
+# LaTeX build by-products
+*.log
+*.aux
+*.out
+*.toc
+*.nav
+*.snm
+*.bbl
+*.blg
+_build/
