@@ -108,6 +108,7 @@ evaluate fusion at all.
 
 \begin{table}[h]
 \centering
+\small
 \begin{tabular}{lcc}
 \toprule
 \textbf{Annotation} & \textbf{Ar-MuSA (sentiment)} & \textbf{EGY-MER (emotion)} \\
@@ -216,7 +217,8 @@ architecture:
 
 \begin{table}[h]
 \centering
-\begin{tabular}{lcc}
+\small
+\begin{tabular}{p{0.56\linewidth}cc}
 \toprule
 \textbf{Change} & \textbf{Gain (macro-$F_1$)} & \textbf{Corpus} \\
 \midrule
@@ -237,8 +239,8 @@ The audio result deserves emphasis because it invalidates a conclusion we had
 already drawn. In wav2vec2-style models the final layers specialise toward the
 self-supervised pretraining objective, discarding the slowly-varying
 paralinguistic content an affect task needs. Reading the final layer cost
-$0.045$--$0.053$ macro-$F_1$, and our earlier finding that audio "contributes
-almost nothing" was measured at the wrong depth.
+$0.045$--$0.053$ macro-$F_1$, and our earlier finding that audio ``contributes
+almost nothing'' was measured at the wrong depth.
 
 Fine-tuning is separable from fusion: on Ar-MuSA it improved late fusion and
 Tri-CAN by exactly $+0.0505$ each, leaving their ordering unchanged. The fusion
@@ -286,7 +288,7 @@ published 0.519, but that figure was obtained on 363 samples with different
 splits; the comparison is indicative, not like-for-like.
 \item \textbf{Frozen non-verbal encoders.} Only the text encoder was fine-tuned,
 a compute limitation rather than a design choice.
-\item \textbf{Annotations, not signal.} "The modalities disagree" means the
+\item \textbf{Annotations, not signal.} ``The modalities disagree'' means the
 annotators assigned different labels per stream. It is a good proxy for
 conflicting evidence, but a proxy.
 \item \textbf{Grouping.} Folds are stratified by label but not grouped by source
