@@ -3,6 +3,7 @@
 % Same look as the RP1 deck, so the two read as one project.
 \usetheme{Madrid}
 \useinnertheme{rounded}
+\setbeamertemplate{blocks}[rounded][shadow=false]
 \setbeamertemplate{navigation symbols}{}
 \setbeameroption{hide notes}
 
@@ -123,7 +124,7 @@ Video & Swin / ViT \\
 \begin{frame}[t]{Two things changed after the proposal}
 \begin{columns}[T,onlytextwidth]
 \column{0.48\linewidth}
-\begin{block}{EGY-MER was not available for most of the project}
+\begin{block}{EGY-MER arrived late}
 We requested it and heard nothing back for months, so we built the pipeline on
 \textbf{Ar-MuSA}, the one openly downloadable Arabic tri-modal corpus
 (8,699 clips, 3-class sentiment).
@@ -200,7 +201,7 @@ Tri-CAN did not beat late fusion either, and neither did two other attention var
 Before concluding that attention does not work, we checked whether the corpus
 gives it any room to work in.
 \end{columns}
-\note{This was the point where we could have just written "attention does not help". Instead we asked why text alone is almost as good as everything together.}
+\note{This was the point where we could have just written ``attention does not help''. Instead we asked why text alone is almost as good as everything together.}
 \end{frame}
 
 % ---------------------------------------------------------------- 6
@@ -246,11 +247,11 @@ and the gain from combining them should grow. We wrote this down before EGY-MER 
 \centering
 \begin{tikzpicture}
 \begin{axis}[
-  ybar, bar width=14pt, width=0.8\linewidth, height=4.6cm,
+  ybar, bar width=14pt, width=0.8\linewidth, height=4.2cm,
   ymin=0, ymax=100, ylabel={agrees with overall label (\%)},
   ylabel style={font=\footnotesize}, tick label style={font=\footnotesize},
   symbolic x coords={Transcript,Audio,Visual}, xtick=data,
-  enlarge x limits=0.25, legend style={font=\footnotesize, at={(0.98,0.98)}, anchor=north east, draw=none},
+  enlarge x limits=0.25, legend style={font=\footnotesize, at={(0.5,1.04)}, anchor=south, draw=none}, legend columns=2,
   nodes near coords, nodes near coords style={font=\scriptsize}, axis lines*=left,
 ]
 \addplot[fill=MidBlue, draw=none] coordinates {(Transcript,96.5) (Audio,77.1) (Visual,48.2)};
@@ -418,7 +419,7 @@ behind late fusion: a tie, not a gain.
 \vspace{0.3cm}
 \small From 2 and 4: matching the encoder's language and domain to the data helped;
 matching its training labels to our task did not.
-\note{We wrote each of these down before running it. Reporting the ones that failed is part of the result, and it answers "did you try X" questions before they come.}
+\note{We wrote each of these down before running it. Reporting the ones that failed is part of the result, and it answers ``did you try X'' questions before they come.}
 \end{frame}
 
 % ---------------------------------------------------------------- 13
