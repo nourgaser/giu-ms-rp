@@ -1,0 +1,34 @@
+{
+ "meta": {
+  "count": 0,
+  "db_response_time_ms": 46,
+  "page": 1,
+  "per_page": 50,
+  "groups_count": null,
+  "x_query": {
+   "oql": "works where date >= (2015-01-01)\n  and title/abstract has (arabic audiovisual emotion corpus)\n  and date <= (2026-07-31)",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "from_publication_date",
+      "value": "2015-01-01"
+     },
+     {
+      "column_id": "title_and_abstract.search",
+      "value": "arabic audiovisual emotion corpus",
+      "operator": "has"
+     },
+     {
+      "column_id": "to_publication_date",
+      "value": "2026-07-31"
+     }
+    ]
+   },
+   "url": "/works?filter=from_publication_date:2015-01-01,title_and_abstract.search:arabic audiovisual emotion corpus,to_publication_date:2026-07-31&per_page=50"
+  },
+  "cost_usd": 0.001
+ },
+ "results": [],
+ "group_by": []
+}

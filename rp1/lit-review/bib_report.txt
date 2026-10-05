@@ -1,0 +1,10 @@
+BibTeX generated for 66 of 68 included papers.
+
+NEEDS MANUAL ENTRY (2) — no DOI and not on arXiv:
+
+  - Arabic Multimodal Emotion Recognition Using Deep Learning
+      venue: DSpace at AUS (American University of Sharjah)
+      url:   https://openalex.org/W7135286553
+  - Multimodal Arabic Sentiment Analysis for Video Opinion Mining
+      venue: Research Publication Repository of King Fahd University of Petroleum and Minerals (King Fahd University of Petroleum and Minerals)
+      url:   https://openalex.org/W7167192071

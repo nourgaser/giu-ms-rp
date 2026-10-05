@@ -1,0 +1,6175 @@
+{
+ "meta": {
+  "count": 7,
+  "db_response_time_ms": 70,
+  "page": 1,
+  "per_page": 50,
+  "groups_count": null,
+  "x_query": {
+   "oql": "works where date >= (2015-01-01)\n  and title/abstract has (arabic sarcasm detection multimodal)\n  and date <= (2026-07-31)",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "from_publication_date",
+      "value": "2015-01-01"
+     },
+     {
+      "column_id": "title_and_abstract.search",
+      "value": "arabic sarcasm detection multimodal",
+      "operator": "has"
+     },
+     {
+      "column_id": "to_publication_date",
+      "value": "2026-07-31"
+     }
+    ]
+   },
+   "url": "/works?filter=from_publication_date:2015-01-01,title_and_abstract.search:arabic sarcasm detection multimodal,to_publication_date:2026-07-31&per_page=50"
+  },
+  "cost_usd": 0.001
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W4417169305",
+   "doi": "https://doi.org/10.1109/sita67914.2025.11273462",
+   "title": "Multimodal Arabic Sarcasm Detection Using CNN and BiLSTM",
+   "display_name": "Multimodal Arabic Sarcasm Detection Using CNN and BiLSTM",
+   "relevance_score": 147.30952,
+   "publication_year": 2025,
+   "publication_date": "2025-10-20",
+   "ids": {
+    "openalex": "https://openalex.org/W4417169305",
+    "doi": "https://doi.org/10.1109/sita67914.2025.11273462"
+   },
+   "language": null,
+   "primary_location": {
+    "id": "doi:10.1109/sita67914.2025.11273462",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/sita67914.2025.11273462",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "2025 International Conference on Intelligent Systems: Theories and Applications (SITA)",
+    "raw_type": "proceedings-article"
+   },
+   "type": "conference-paper",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5120656216",
+      "display_name": "Ayoub Ben Cheikhi",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I81605866",
+       "display_name": "Sidi Mohamed Ben Abdellah University",
+       "ror": "https://ror.org/04efg9a07",
+       "country_code": "MA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I81605866"
+       ]
+      }
+     ],
+     "countries": [
+      "MA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Ayoub Ben Cheikhi",
+     "raw_affiliation_strings": [
+      "Sidi Mohamed Ben Abdallah University,L3IA Laboratory, Faculty of Sciences Dhar El Mahraz,Fez,Morocco"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Sidi Mohamed Ben Abdallah University,L3IA Laboratory, Faculty of Sciences Dhar El Mahraz,Fez,Morocco",
+       "institution_ids": [
+        "https://openalex.org/I81605866"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5085575952",
+      "display_name": "El Habib Nfaoui",
+      "orcid": "https://orcid.org/0000-0002-5816-0897"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I81605866",
+       "display_name": "Sidi Mohamed Ben Abdellah University",
+       "ror": "https://ror.org/04efg9a07",
+       "country_code": "MA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I81605866"
+       ]
+      }
+     ],
+     "countries": [
+      "MA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "El Habib Nfaoui",
+     "raw_affiliation_strings": [
+      "Sidi Mohamed Ben Abdallah University,L3IA Laboratory, Faculty of Sciences Dhar El Mahraz,Fez,Morocco"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Sidi Mohamed Ben Abdallah University,L3IA Laboratory, Faculty of Sciences Dhar El Mahraz,Fez,Morocco",
+       "institution_ids": [
+        "https://openalex.org/I81605866"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I81605866"
+   ],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 1.673,
+   "has_fulltext": false,
+   "cited_by_count": 1,
+   "citation_normalized_percentile": {
+    "value": 0.88089497,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 94,
+    "max": 97
+   },
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "5"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T12262",
+    "display_name": "Hate Speech and Cyberbullying Detection",
+    "score": 0.5289999842643738,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T12262",
+     "display_name": "Hate Speech and Cyberbullying Detection",
+     "score": 0.5289999842643738,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10664",
+     "display_name": "Sentiment Analysis and Opinion Mining",
+     "score": 0.17440000176429749,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11644",
+     "display_name": "Spam and Phishing Detection",
+     "score": 0.027699999511241913,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1710",
+      "display_name": "Information Systems"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/sarcasm",
+     "display_name": "Sarcasm",
+     "score": 0.9671000242233276
+    },
+    {
+     "id": "https://openalex.org/keywords/arabic",
+     "display_name": "Arabic",
+     "score": 0.602400004863739
+    },
+    {
+     "id": "https://openalex.org/keywords/context",
+     "display_name": "Context (archaeology)",
+     "score": 0.5680999755859375
+    },
+    {
+     "id": "https://openalex.org/keywords/feature",
+     "display_name": "Feature (linguistics)",
+     "score": 0.5467000007629395
+    },
+    {
+     "id": "https://openalex.org/keywords/semantic-feature",
+     "display_name": "Semantic feature",
+     "score": 0.37860000133514404
+    },
+    {
+     "id": "https://openalex.org/keywords/feature-extraction",
+     "display_name": "Feature extraction",
+     "score": 0.31619998812675476
+    },
+    {
+     "id": "https://openalex.org/keywords/artificial-neural-network",
+     "display_name": "Artificial neural network",
+     "score": 0.30959999561309814
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2776207355",
+     "wikidata": "https://www.wikidata.org/wiki/Q191035",
+     "display_name": "Sarcasm",
+     "level": 3,
+     "score": 0.9671000242233276
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.6927000284194946
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.6741999983787537
+    },
+    {
+     "id": "https://openalex.org/C96455323",
+     "wikidata": "https://www.wikidata.org/wiki/Q13955",
+     "display_name": "Arabic",
+     "level": 2,
+     "score": 0.602400004863739
+    },
+    {
+     "id": "https://openalex.org/C2779343474",
+     "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+     "display_name": "Context (archaeology)",
+     "level": 2,
+     "score": 0.5680999755859375
+    },
+    {
+     "id": "https://openalex.org/C204321447",
+     "wikidata": "https://www.wikidata.org/wiki/Q30642",
+     "display_name": "Natural language processing",
+     "level": 1,
+     "score": 0.5504999756813049
+    },
+    {
+     "id": "https://openalex.org/C2776401178",
+     "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+     "display_name": "Feature (linguistics)",
+     "level": 2,
+     "score": 0.5467000007629395
+    },
+    {
+     "id": "https://openalex.org/C2781122975",
+     "wikidata": "https://www.wikidata.org/wiki/Q16928266",
+     "display_name": "Semantic feature",
+     "level": 2,
+     "score": 0.37860000133514404
+    },
+    {
+     "id": "https://openalex.org/C41895202",
+     "wikidata": "https://www.wikidata.org/wiki/Q8162",
+     "display_name": "Linguistics",
+     "level": 1,
+     "score": 0.34049999713897705
+    },
+    {
+     "id": "https://openalex.org/C52622490",
+     "wikidata": "https://www.wikidata.org/wiki/Q1026626",
+     "display_name": "Feature extraction",
+     "level": 2,
+     "score": 0.31619998812675476
+    },
+    {
+     "id": "https://openalex.org/C28490314",
+     "wikidata": "https://www.wikidata.org/wiki/Q189436",
+     "display_name": "Speech recognition",
+     "level": 1,
+     "score": 0.3160000145435333
+    },
+    {
+     "id": "https://openalex.org/C50644808",
+     "wikidata": "https://www.wikidata.org/wiki/Q192776",
+     "display_name": "Artificial neural network",
+     "level": 2,
+     "score": 0.30959999561309814
+    },
+    {
+     "id": "https://openalex.org/C2778355321",
+     "wikidata": "https://www.wikidata.org/wiki/Q17079427",
+     "display_name": "Identity (music)",
+     "level": 2,
+     "score": 0.30709999799728394
+    },
+    {
+     "id": "https://openalex.org/C153180895",
+     "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+     "display_name": "Pattern recognition (psychology)",
+     "level": 2,
+     "score": 0.28459998965263367
+    },
+    {
+     "id": "https://openalex.org/C2776291640",
+     "wikidata": "https://www.wikidata.org/wiki/Q2912517",
+     "display_name": "Value (mathematics)",
+     "level": 2,
+     "score": 0.28049999475479126
+    },
+    {
+     "id": "https://openalex.org/C2780910867",
+     "wikidata": "https://www.wikidata.org/wiki/Q1952416",
+     "display_name": "Multimodality",
+     "level": 2,
+     "score": 0.27079999446868896
+    },
+    {
+     "id": "https://openalex.org/C183322885",
+     "wikidata": "https://www.wikidata.org/wiki/Q17007702",
+     "display_name": "Context model",
+     "level": 3,
+     "score": 0.26820001006126404
+    },
+    {
+     "id": "https://openalex.org/C518677369",
+     "wikidata": "https://www.wikidata.org/wiki/Q202833",
+     "display_name": "Social media",
+     "level": 2,
+     "score": 0.2646999955177307
+    },
+    {
+     "id": "https://openalex.org/C123657996",
+     "wikidata": "https://www.wikidata.org/wiki/Q12271",
+     "display_name": "Architecture",
+     "level": 2,
+     "score": 0.2542000114917755
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.1109/sita67914.2025.11273462",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1109/sita67914.2025.11273462",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "2025 International Conference on Intelligent Systems: Theories and Applications (SITA)",
+     "raw_type": "proceedings-article"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 14,
+   "referenced_works": [
+    "https://openalex.org/W2074777185",
+    "https://openalex.org/W2250710744",
+    "https://openalex.org/W2252381721",
+    "https://openalex.org/W2263859238",
+    "https://openalex.org/W2493916176",
+    "https://openalex.org/W2512532697",
+    "https://openalex.org/W2513973860",
+    "https://openalex.org/W3028751324",
+    "https://openalex.org/W4322703887",
+    "https://openalex.org/W4365504037",
+    "https://openalex.org/W4404689106",
+    "https://openalex.org/W4405717907",
+    "https://openalex.org/W4405785725",
+    "https://openalex.org/W4409406878"
+   ],
+   "related_works": [],
+   "abstract_inverted_index": {
+    "Sarcasm": [
+     0
+    ],
+    "detection": [
+     1
+    ],
+    "in": [
+     2
+    ],
+    "Arabic": [
+     3,
+     79
+    ],
+    "social": [
+     4
+    ],
+    "media": [
+     5
+    ],
+    "is": [
+     6,
+     22
+    ],
+    "difficult": [
+     7
+    ],
+    "due": [
+     8
+    ],
+    "to": [
+     9,
+     24
+    ],
+    "linguistic": [
+     10
+    ],
+    "diversity": [
+     11
+    ],
+    "and": [
+     12,
+     36,
+     48
+    ],
+    "the": [
+     13,
+     40,
+     72
+    ],
+    "need": [
+     14
+    ],
+    "for": [
+     15,
+     51,
+     77
+    ],
+    "context": [
+     16
+    ],
+    "beyond": [
+     17
+    ],
+    "text.": [
+     18
+    ],
+    "Most": [
+     19
+    ],
+    "existing": [
+     20
+    ],
+    "work": [
+     21
+    ],
+    "limited": [
+     23
+    ],
+    "single-modality": [
+     25
+    ],
+    "approaches.": [
+     26
+    ],
+    "We": [
+     27
+    ],
+    "present": [
+     28
+    ],
+    "a": [
+     29
+    ],
+    "neural": [
+     30
+    ],
+    "model": [
+     31,
+     61
+    ],
+    "that": [
+     32,
+     58
+    ],
+    "fuses": [
+     33
+    ],
+    "text,": [
+     34
+    ],
+    "audio,": [
+     35
+    ],
+    "image": [
+     37
+    ],
+    "features": [
+     38
+    ],
+    "using": [
+     39
+    ],
+    "Ar-MuSA": [
+     41
+    ],
+    "dataset.": [
+     42
+    ],
+    "Our": [
+     43
+    ],
+    "architecture": [
+     44
+    ],
+    "combines": [
+     45
+    ],
+    "BiLSTM,": [
+     46
+    ],
+    "CNN,": [
+     47
+    ],
+    "ResNet-50": [
+     49
+    ],
+    "encoders": [
+     50
+    ],
+    "comprehensive": [
+     52
+    ],
+    "feature": [
+     53
+    ],
+    "extraction.": [
+     54
+    ],
+    "Experimental": [
+     55
+    ],
+    "results": [
+     56
+    ],
+    "show": [
+     57
+    ],
+    "our": [
+     59
+    ],
+    "multimodal": [
+     60,
+     75
+    ],
+    "achieves": [
+     62
+    ],
+    "97%": [
+     63
+    ],
+    "accuracy,": [
+     64
+    ],
+    "greatly": [
+     65
+    ],
+    "surpassing": [
+     66
+    ],
+    "unimodal": [
+     67
+    ],
+    "baselines.": [
+     68
+    ],
+    "These": [
+     69
+    ],
+    "findings": [
+     70
+    ],
+    "demonstrate": [
+     71
+    ],
+    "value": [
+     73
+    ],
+    "of": [
+     74
+    ],
+    "fusion": [
+     76
+    ],
+    "accurate": [
+     78
+    ],
+    "sarcasm": [
+     80
+    ],
+    "detection.": [
+     81
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-07-29T14:22:42.915294",
+   "created_date": "2025-12-09T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W4385350475",
+   "doi": "https://doi.org/10.3233/jifs-224514",
+   "title": "Automatic sarcasm detection in Arabic tweets: resources and approaches",
+   "display_name": "Automatic sarcasm detection in Arabic tweets: resources and approaches",
+   "relevance_score": 70.73234,
+   "publication_year": 2023,
+   "publication_date": "2023-07-28",
+   "ids": {
+    "openalex": "https://openalex.org/W4385350475",
+    "doi": "https://doi.org/10.3233/jifs-224514"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.3233/jifs-224514",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.3233/jifs-224514",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S179157397",
+     "display_name": "Journal of Intelligent & Fuzzy Systems",
+     "issn_l": "1064-1246",
+     "issn": [
+      "1064-1246",
+      "1875-8967"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "host_organization": "https://openalex.org/P4310318577",
+     "host_organization_name": "IOS Press",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310318577"
+     ],
+     "host_organization_lineage_names": [
+      "IOS Press"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Intelligent &amp; Fuzzy Systems",
+    "raw_type": "journal-article"
+   },
+   "type": "article",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5002943334",
+      "display_name": "Soukaina Mihi",
+      "orcid": "https://orcid.org/0000-0002-1409-8841"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210145365",
+       "display_name": "Université Hassan 1er",
+       "ror": "https://ror.org/03cdvht47",
+       "country_code": "MA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ],
+     "countries": [
+      "MA"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Soukaina Mihi",
+     "raw_affiliation_strings": [
+      "Faculty of Sciences and Techniques, IR2M Laboratory, Hassan First University of Settat, Settat, Morocco"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Sciences and Techniques, IR2M Laboratory, Hassan First University of Settat, Settat, Morocco",
+       "institution_ids": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5035575789",
+      "display_name": "Brahim Ait Ben Ali",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210145365",
+       "display_name": "Université Hassan 1er",
+       "ror": "https://ror.org/03cdvht47",
+       "country_code": "MA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ],
+     "countries": [
+      "MA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Brahim Ait Benali",
+     "raw_affiliation_strings": [
+      "Faculty of Sciences and Techniques, IR2M Laboratory, Hassan First University of Settat, Settat, Morocco"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Sciences and Techniques, IR2M Laboratory, Hassan First University of Settat, Settat, Morocco",
+       "institution_ids": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5022118227",
+      "display_name": "Nabil Laachfoubi",
+      "orcid": "https://orcid.org/0000-0002-0565-4789"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210145365",
+       "display_name": "Université Hassan 1er",
+       "ror": "https://ror.org/03cdvht47",
+       "country_code": "MA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ],
+     "countries": [
+      "MA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Nabil Laachfoubi",
+     "raw_affiliation_strings": [
+      "Faculty of Sciences and Techniques, IR2M Laboratory, Hassan First University of Settat, Settat, Morocco"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Sciences and Techniques, IR2M Laboratory, Hassan First University of Settat, Settat, Morocco",
+       "institution_ids": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 3,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5002943334"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I4210145365"
+   ],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.3313,
+   "has_fulltext": false,
+   "cited_by_count": 2,
+   "citation_normalized_percentile": {
+    "value": 0.64422004,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+   },
+   "biblio": {
+    "volume": "45",
+    "issue": "6",
+    "first_page": "9483",
+    "last_page": "9497"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10664",
+    "display_name": "Sentiment Analysis and Opinion Mining",
+    "score": 0.9998999834060669,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10664",
+     "display_name": "Sentiment Analysis and Opinion Mining",
+     "score": 0.9998999834060669,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13083",
+     "display_name": "Advanced Text Analysis Techniques",
+     "score": 0.9975000023841858,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11644",
+     "display_name": "Spam and Phishing Detection",
+     "score": 0.9900000095367432,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1710",
+      "display_name": "Information Systems"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/sarcasm",
+     "display_name": "Sarcasm",
+     "score": 0.9958581328392029
+    },
+    {
+     "id": "https://openalex.org/keywords/computer-science",
+     "display_name": "Computer science",
+     "score": 0.7141661047935486
+    },
+    {
+     "id": "https://openalex.org/keywords/utterance",
+     "display_name": "Utterance",
+     "score": 0.67093425989151
+    },
+    {
+     "id": "https://openalex.org/keywords/sentiment-analysis",
+     "display_name": "Sentiment analysis",
+     "score": 0.6649335026741028
+    },
+    {
+     "id": "https://openalex.org/keywords/natural-language-processing",
+     "display_name": "Natural language processing",
+     "score": 0.5664808750152588
+    },
+    {
+     "id": "https://openalex.org/keywords/artificial-intelligence",
+     "display_name": "Artificial intelligence",
+     "score": 0.5553911924362183
+    },
+    {
+     "id": "https://openalex.org/keywords/deception",
+     "display_name": "Deception",
+     "score": 0.5107638835906982
+    },
+    {
+     "id": "https://openalex.org/keywords/context",
+     "display_name": "Context (archaeology)",
+     "score": 0.5068512558937073
+    },
+    {
+     "id": "https://openalex.org/keywords/task",
+     "display_name": "Task (project management)",
+     "score": 0.42587897181510925
+    },
+    {
+     "id": "https://openalex.org/keywords/linguistics",
+     "display_name": "Linguistics",
+     "score": 0.32058531045913696
+    },
+    {
+     "id": "https://openalex.org/keywords/irony",
+     "display_name": "Irony",
+     "score": 0.27871590852737427
+    },
+    {
+     "id": "https://openalex.org/keywords/psychology",
+     "display_name": "Psychology",
+     "score": 0.25781235098838806
+    },
+    {
+     "id": "https://openalex.org/keywords/social-psychology",
+     "display_name": "Social psychology",
+     "score": 0.10600811243057251
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2776207355",
+     "wikidata": "https://www.wikidata.org/wiki/Q191035",
+     "display_name": "Sarcasm",
+     "level": 3,
+     "score": 0.9958581328392029
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.7141661047935486
+    },
+    {
+     "id": "https://openalex.org/C2775852435",
+     "wikidata": "https://www.wikidata.org/wiki/Q258403",
+     "display_name": "Utterance",
+     "level": 2,
+     "score": 0.67093425989151
+    },
+    {
+     "id": "https://openalex.org/C66402592",
+     "wikidata": "https://www.wikidata.org/wiki/Q2271421",
+     "display_name": "Sentiment analysis",
+     "level": 2,
+     "score": 0.6649335026741028
+    },
+    {
+     "id": "https://openalex.org/C204321447",
+     "wikidata": "https://www.wikidata.org/wiki/Q30642",
+     "display_name": "Natural language processing",
+     "level": 1,
+     "score": 0.5664808750152588
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.5553911924362183
+    },
+    {
+     "id": "https://openalex.org/C2779267917",
+     "wikidata": "https://www.wikidata.org/wiki/Q170028",
+     "display_name": "Deception",
+     "level": 2,
+     "score": 0.5107638835906982
+    },
+    {
+     "id": "https://openalex.org/C2779343474",
+     "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+     "display_name": "Context (archaeology)",
+     "level": 2,
+     "score": 0.5068512558937073
+    },
+    {
+     "id": "https://openalex.org/C2780451532",
+     "wikidata": "https://www.wikidata.org/wiki/Q759676",
+     "display_name": "Task (project management)",
+     "level": 2,
+     "score": 0.42587897181510925
+    },
+    {
+     "id": "https://openalex.org/C41895202",
+     "wikidata": "https://www.wikidata.org/wiki/Q8162",
+     "display_name": "Linguistics",
+     "level": 1,
+     "score": 0.32058531045913696
+    },
+    {
+     "id": "https://openalex.org/C2779975665",
+     "wikidata": "https://www.wikidata.org/wiki/Q131361",
+     "display_name": "Irony",
+     "level": 2,
+     "score": 0.27871590852737427
+    },
+    {
+     "id": "https://openalex.org/C15744967",
+     "wikidata": "https://www.wikidata.org/wiki/Q9418",
+     "display_name": "Psychology",
+     "level": 0,
+     "score": 0.25781235098838806
+    },
+    {
+     "id": "https://openalex.org/C77805123",
+     "wikidata": "https://www.wikidata.org/wiki/Q161272",
+     "display_name": "Social psychology",
+     "level": 1,
+     "score": 0.10600811243057251
+    },
+    {
+     "id": "https://openalex.org/C187736073",
+     "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+     "display_name": "Management",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C151730666",
+     "wikidata": "https://www.wikidata.org/wiki/Q7205",
+     "display_name": "Paleontology",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C86803240",
+     "wikidata": "https://www.wikidata.org/wiki/Q420",
+     "display_name": "Biology",
+     "level": 0,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C162324750",
+     "wikidata": "https://www.wikidata.org/wiki/Q8134",
+     "display_name": "Economics",
+     "level": 0,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C138885662",
+     "wikidata": "https://www.wikidata.org/wiki/Q5891",
+     "display_name": "Philosophy",
+     "level": 0,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.3233/jifs-224514",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.3233/jifs-224514",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S179157397",
+      "display_name": "Journal of Intelligent & Fuzzy Systems",
+      "issn_l": "1064-1246",
+      "issn": [
+       "1064-1246",
+       "1875-8967"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310318577",
+      "host_organization_name": "IOS Press",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310318577"
+      ],
+      "host_organization_lineage_names": [
+       "IOS Press"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Journal of Intelligent &amp; Fuzzy Systems",
+     "raw_type": "journal-article"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 50,
+   "referenced_works": [
+    "https://openalex.org/W872253517",
+    "https://openalex.org/W2024011160",
+    "https://openalex.org/W2219354571",
+    "https://openalex.org/W2250204095",
+    "https://openalex.org/W2250247764",
+    "https://openalex.org/W2250594687",
+    "https://openalex.org/W2252381721",
+    "https://openalex.org/W2397798297",
+    "https://openalex.org/W2472594302",
+    "https://openalex.org/W2512470422",
+    "https://openalex.org/W2513138008",
+    "https://openalex.org/W2537906591",
+    "https://openalex.org/W2598852632",
+    "https://openalex.org/W2599054872",
+    "https://openalex.org/W2626407095",
+    "https://openalex.org/W2760733354",
+    "https://openalex.org/W2767481019",
+    "https://openalex.org/W2773532513",
+    "https://openalex.org/W2786781024",
+    "https://openalex.org/W2807333695",
+    "https://openalex.org/W2807671431",
+    "https://openalex.org/W2883399209",
+    "https://openalex.org/W2890931798",
+    "https://openalex.org/W2908852800",
+    "https://openalex.org/W2916132663",
+    "https://openalex.org/W2954498767",
+    "https://openalex.org/W2964573145",
+    "https://openalex.org/W2966734007",
+    "https://openalex.org/W2988565954",
+    "https://openalex.org/W2990612494",
+    "https://openalex.org/W3004026490",
+    "https://openalex.org/W3022550801",
+    "https://openalex.org/W3096616455",
+    "https://openalex.org/W3113447537",
+    "https://openalex.org/W3162395105",
+    "https://openalex.org/W3168221706",
+    "https://openalex.org/W4206593922",
+    "https://openalex.org/W4210295555",
+    "https://openalex.org/W4220916830",
+    "https://openalex.org/W4224282090",
+    "https://openalex.org/W4287854975",
+    "https://openalex.org/W4287890990",
+    "https://openalex.org/W4287890992",
+    "https://openalex.org/W6604324126",
+    "https://openalex.org/W6691436989",
+    "https://openalex.org/W6767883279",
+    "https://openalex.org/W6784850579",
+    "https://openalex.org/W6840586545",
+    "https://openalex.org/W6840836740",
+    "https://openalex.org/W6841014804"
+   ],
+   "related_works": [
+    "https://openalex.org/W2900446122",
+    "https://openalex.org/W4312684429",
+    "https://openalex.org/W3037315328",
+    "https://openalex.org/W3101138303",
+    "https://openalex.org/W2349372848",
+    "https://openalex.org/W2753593955",
+    "https://openalex.org/W2907442881",
+    "https://openalex.org/W2785935389",
+    "https://openalex.org/W2892193869",
+    "https://openalex.org/W3002413615"
+   ],
+   "abstract_inverted_index": {
+    "Sentiment": [
+     0,
+     26,
+     83
+    ],
+    "analysis": [
+     1,
+     27,
+     46,
+     84,
+     110
+    ],
+    "has": [
+     2,
+     28
+    ],
+    "become": [
+     3
+    ],
+    "a": [
+     4,
+     39,
+     43,
+     89,
+     121
+    ],
+    "prevalent": [
+     5
+    ],
+    "issue": [
+     6
+    ],
+    "in": [
+     7,
+     94,
+     101
+    ],
+    "the": [
+     8,
+     59,
+     64,
+     68,
+     72,
+     75,
+     78,
+     81,
+     106,
+     117,
+     126,
+     135,
+     139
+    ],
+    "research": [
+     9
+    ],
+    "community,": [
+     10
+    ],
+    "with": [
+     11
+    ],
+    "researchers": [
+     12
+    ],
+    "employing": [
+     13
+    ],
+    "data": [
+     14,
+     103
+    ],
+    "mining": [
+     15
+    ],
+    "and": [
+     16,
+     54,
+     125,
+     141
+    ],
+    "artificial": [
+     17
+    ],
+    "intelligence": [
+     18
+    ],
+    "approaches": [
+     19
+    ],
+    "to": [
+     20,
+     38,
+     115
+    ],
+    "extract": [
+     21
+    ],
+    "insights": [
+     22
+    ],
+    "from": [
+     23,
+     30,
+     63
+    ],
+    "textual": [
+     24,
+     102
+    ],
+    "data.": [
+     25
+    ],
+    "progressed": [
+     29
+    ],
+    "simply": [
+     31
+    ],
+    "classifying": [
+     32
+    ],
+    "evaluations": [
+     33
+    ],
+    "as": [
+     34
+    ],
+    "positive": [
+     35
+    ],
+    "or": [
+     36
+    ],
+    "negative": [
+     37
+    ],
+    "sophisticated": [
+     40
+    ],
+    "task": [
+     41
+    ],
+    "requiring": [
+     42
+    ],
+    "fine-grained": [
+     44
+    ],
+    "multimodal": [
+     45
+    ],
+    "of": [
+     47,
+     50,
+     67,
+     74,
+     80,
+     108,
+     120
+    ],
+    "emotions,": [
+     48
+    ],
+    "manifestations": [
+     49
+    ],
+    "sarcasm,": [
+     51
+    ],
+    "aggression,": [
+     52
+    ],
+    "hatred,": [
+     53
+    ],
+    "racism.": [
+     55
+    ],
+    "Sarcasm": [
+     56
+    ],
+    "occurs": [
+     57
+    ],
+    "when": [
+     58,
+     88
+    ],
+    "intended": [
+     60
+    ],
+    "message": [
+     61
+    ],
+    "differs": [
+     62
+    ],
+    "literal": [
+     65
+    ],
+    "meaning": [
+     66
+    ],
+    "words": [
+     69
+    ],
+    "employed.": [
+     70
+    ],
+    "Generally,": [
+     71
+    ],
+    "content": [
+     73
+    ],
+    "utterance": [
+     76
+    ],
+    "is": [
+     77,
+     92
+    ],
+    "opposite": [
+     79
+    ],
+    "context.": [
+     82
+    ],
+    "tasks": [
+     85
+    ],
+    "are": [
+     86
+    ],
+    "hampered": [
+     87
+    ],
+    "sarcastic": [
+     90
+    ],
+    "tone": [
+     91
+    ],
+    "recognized": [
+     93
+    ],
+    "user-generated": [
+     95
+    ],
+    "content.": [
+     96
+    ],
+    "Thus,": [
+     97
+    ],
+    "automatic": [
+     98
+    ],
+    "sarcasm": [
+     99,
+     122
+    ],
+    "detection": [
+     100,
+     123
+    ],
+    "dramatically": [
+     104
+    ],
+    "impacts": [
+     105
+    ],
+    "performance": [
+     107
+    ],
+    "sentiment": [
+     109
+    ],
+    "models.": [
+     111
+    ],
+    "This": [
+     112
+    ],
+    "study": [
+     113
+    ],
+    "aims": [
+     114
+    ],
+    "explain": [
+     116
+    ],
+    "basic": [
+     118
+    ],
+    "architecture": [
+     119
+    ],
+    "system": [
+     124
+    ],
+    "most": [
+     127
+    ],
+    "effective": [
+     128
+    ],
+    "techniques": [
+     129
+    ],
+    "for": [
+     130,
+     134
+    ],
+    "extracting": [
+     131
+    ],
+    "sarcasm.": [
+     132
+    ],
+    "Then,": [
+     133
+    ],
+    "Arabic": [
+     136
+    ],
+    "language,": [
+     137
+    ],
+    "determining": [
+     138
+    ],
+    "gap": [
+     140
+    ],
+    "challenges.": [
+     142
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2025,
+     "cited_by_count": 2
+    }
+   ],
+   "updated_date": "2026-05-21T06:26:12.895304",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W4379982640",
+   "doi": "https://doi.org/10.1007/978-3-031-26384-2_74",
+   "title": "A Comparative Review of Tweets Automatic Sarcasm Detection in Arabic and English",
+   "display_name": "A Comparative Review of Tweets Automatic Sarcasm Detection in Arabic and English",
+   "relevance_score": 56.237324,
+   "publication_year": 2023,
+   "publication_date": "2023-01-01",
+   "ids": {
+    "openalex": "https://openalex.org/W4379982640",
+    "doi": "https://doi.org/10.1007/978-3-031-26384-2_74"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1007/978-3-031-26384-2_74",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/978-3-031-26384-2_74",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210169156",
+     "display_name": "Lecture notes in networks and systems",
+     "issn_l": "2367-3370",
+     "issn": [
+      "2367-3370",
+      "2367-3389"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "host_organization": "https://openalex.org/P4310319972",
+     "host_organization_name": "Springer International Publishing",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319972",
+      "https://openalex.org/P4310319965"
+     ],
+     "host_organization_lineage_names": [
+      "Springer International Publishing",
+      "Springer Nature"
+     ],
+     "type": "book series"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Lecture Notes in Networks and Systems",
+    "raw_type": "book-chapter"
+   },
+   "type": "conference-paper",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5002943334",
+      "display_name": "Soukaina Mihi",
+      "orcid": "https://orcid.org/0000-0002-1409-8841"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210145365",
+       "display_name": "Université Hassan 1er",
+       "ror": "https://ror.org/03cdvht47",
+       "country_code": "MA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ],
+     "countries": [
+      "MA"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Soukaina Mihi",
+     "raw_affiliation_strings": [
+      "IR2M Laboratory, Faculty of Science and Techniques, University Hassan First of Settat, Settat, Morocco"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "IR2M Laboratory, Faculty of Science and Techniques, University Hassan First of Settat, Settat, Morocco",
+       "institution_ids": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5035575789",
+      "display_name": "Brahim Ait Ben Ali",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210145365",
+       "display_name": "Université Hassan 1er",
+       "ror": "https://ror.org/03cdvht47",
+       "country_code": "MA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ],
+     "countries": [
+      "MA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Brahim Ait Ben Ali",
+     "raw_affiliation_strings": [
+      "IR2M Laboratory, Faculty of Science and Techniques, University Hassan First of Settat, Settat, Morocco"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "IR2M Laboratory, Faculty of Science and Techniques, University Hassan First of Settat, Settat, Morocco",
+       "institution_ids": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5022118227",
+      "display_name": "Nabil Laachfoubi",
+      "orcid": "https://orcid.org/0000-0002-0565-4789"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210145365",
+       "display_name": "Université Hassan 1er",
+       "ror": "https://ror.org/03cdvht47",
+       "country_code": "MA",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ],
+     "countries": [
+      "MA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Nabil Laachfoubi",
+     "raw_affiliation_strings": [
+      "IR2M Laboratory, Faculty of Science and Techniques, University Hassan First of Settat, Settat, Morocco"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "IR2M Laboratory, Faculty of Science and Techniques, University Hassan First of Settat, Settat, Morocco",
+       "institution_ids": [
+        "https://openalex.org/I4210145365"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5002943334"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I4210145365"
+   ],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.2178,
+   "has_fulltext": false,
+   "cited_by_count": 1,
+   "citation_normalized_percentile": {
+    "value": 0.4028582,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 91,
+    "max": 95
+   },
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "841",
+    "last_page": "849"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10664",
+    "display_name": "Sentiment Analysis and Opinion Mining",
+    "score": 0.9998999834060669,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10664",
+     "display_name": "Sentiment Analysis and Opinion Mining",
+     "score": 0.9998999834060669,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T13083",
+     "display_name": "Advanced Text Analysis Techniques",
+     "score": 0.9914000034332275,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11644",
+     "display_name": "Spam and Phishing Detection",
+     "score": 0.9840999841690063,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1710",
+      "display_name": "Information Systems"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/sarcasm",
+     "display_name": "Sarcasm",
+     "score": 0.9940052032470703
+    },
+    {
+     "id": "https://openalex.org/keywords/utterance",
+     "display_name": "Utterance",
+     "score": 0.6817967295646667
+    },
+    {
+     "id": "https://openalex.org/keywords/computer-science",
+     "display_name": "Computer science",
+     "score": 0.6231200098991394
+    },
+    {
+     "id": "https://openalex.org/keywords/sentiment-analysis",
+     "display_name": "Sentiment analysis",
+     "score": 0.6121047735214233
+    },
+    {
+     "id": "https://openalex.org/keywords/natural-language-processing",
+     "display_name": "Natural language processing",
+     "score": 0.5761510133743286
+    },
+    {
+     "id": "https://openalex.org/keywords/artificial-intelligence",
+     "display_name": "Artificial intelligence",
+     "score": 0.5463616251945496
+    },
+    {
+     "id": "https://openalex.org/keywords/context",
+     "display_name": "Context (archaeology)",
+     "score": 0.45614928007125854
+    },
+    {
+     "id": "https://openalex.org/keywords/linguistics",
+     "display_name": "Linguistics",
+     "score": 0.422769695520401
+    },
+    {
+     "id": "https://openalex.org/keywords/psychology",
+     "display_name": "Psychology",
+     "score": 0.3320085406303406
+    },
+    {
+     "id": "https://openalex.org/keywords/irony",
+     "display_name": "Irony",
+     "score": 0.21342620253562927
+    },
+    {
+     "id": "https://openalex.org/keywords/history",
+     "display_name": "History",
+     "score": 0.07181227207183838
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2776207355",
+     "wikidata": "https://www.wikidata.org/wiki/Q191035",
+     "display_name": "Sarcasm",
+     "level": 3,
+     "score": 0.9940052032470703
+    },
+    {
+     "id": "https://openalex.org/C2775852435",
+     "wikidata": "https://www.wikidata.org/wiki/Q258403",
+     "display_name": "Utterance",
+     "level": 2,
+     "score": 0.6817967295646667
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.6231200098991394
+    },
+    {
+     "id": "https://openalex.org/C66402592",
+     "wikidata": "https://www.wikidata.org/wiki/Q2271421",
+     "display_name": "Sentiment analysis",
+     "level": 2,
+     "score": 0.6121047735214233
+    },
+    {
+     "id": "https://openalex.org/C204321447",
+     "wikidata": "https://www.wikidata.org/wiki/Q30642",
+     "display_name": "Natural language processing",
+     "level": 1,
+     "score": 0.5761510133743286
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.5463616251945496
+    },
+    {
+     "id": "https://openalex.org/C2779343474",
+     "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+     "display_name": "Context (archaeology)",
+     "level": 2,
+     "score": 0.45614928007125854
+    },
+    {
+     "id": "https://openalex.org/C41895202",
+     "wikidata": "https://www.wikidata.org/wiki/Q8162",
+     "display_name": "Linguistics",
+     "level": 1,
+     "score": 0.422769695520401
+    },
+    {
+     "id": "https://openalex.org/C15744967",
+     "wikidata": "https://www.wikidata.org/wiki/Q9418",
+     "display_name": "Psychology",
+     "level": 0,
+     "score": 0.3320085406303406
+    },
+    {
+     "id": "https://openalex.org/C2779975665",
+     "wikidata": "https://www.wikidata.org/wiki/Q131361",
+     "display_name": "Irony",
+     "level": 2,
+     "score": 0.21342620253562927
+    },
+    {
+     "id": "https://openalex.org/C95457728",
+     "wikidata": "https://www.wikidata.org/wiki/Q309",
+     "display_name": "History",
+     "level": 0,
+     "score": 0.07181227207183838
+    },
+    {
+     "id": "https://openalex.org/C166957645",
+     "wikidata": "https://www.wikidata.org/wiki/Q23498",
+     "display_name": "Archaeology",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C138885662",
+     "wikidata": "https://www.wikidata.org/wiki/Q5891",
+     "display_name": "Philosophy",
+     "level": 0,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.1007/978-3-031-26384-2_74",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1007/978-3-031-26384-2_74",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210169156",
+      "display_name": "Lecture notes in networks and systems",
+      "issn_l": "2367-3370",
+      "issn": [
+       "2367-3370",
+       "2367-3389"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319972",
+      "host_organization_name": "Springer International Publishing",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319972",
+       "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+       "Springer International Publishing",
+       "Springer Nature"
+      ],
+      "type": "book series"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Lecture Notes in Networks and Systems",
+     "raw_type": "book-chapter"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [
+    {
+     "id": "https://metadata.un.org/sdg/10",
+     "score": 0.4399999976158142,
+     "display_name": "Reduced inequalities"
+    }
+   ],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 15,
+   "referenced_works": [
+    "https://openalex.org/W2041400887",
+    "https://openalex.org/W2250594687",
+    "https://openalex.org/W2251920663",
+    "https://openalex.org/W2512532697",
+    "https://openalex.org/W2767481019",
+    "https://openalex.org/W2786781024",
+    "https://openalex.org/W2807333695",
+    "https://openalex.org/W2908852800",
+    "https://openalex.org/W2915002815",
+    "https://openalex.org/W2916132663",
+    "https://openalex.org/W3000128329",
+    "https://openalex.org/W3176169354",
+    "https://openalex.org/W6604324126",
+    "https://openalex.org/W6608541557",
+    "https://openalex.org/W6644850997"
+   ],
+   "related_works": [
+    "https://openalex.org/W2900446122",
+    "https://openalex.org/W4312684429",
+    "https://openalex.org/W3037315328",
+    "https://openalex.org/W3101138303",
+    "https://openalex.org/W2349372848",
+    "https://openalex.org/W2753593955",
+    "https://openalex.org/W2907442881",
+    "https://openalex.org/W2785935389",
+    "https://openalex.org/W2892193869",
+    "https://openalex.org/W3002413615"
+   ],
+   "abstract_inverted_index": null,
+   "counts_by_year": [
+    {
+     "year": 2025,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-07-29T14:22:42.915294",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W4287888561",
+   "doi": "https://doi.org/10.18653/v1/2022.semeval-1.141",
+   "title": "DUCS at SemEval-2022 Task 6: Exploring Emojis and Sentiments for Sarcasm Detection",
+   "display_name": "DUCS at SemEval-2022 Task 6: Exploring Emojis and Sentiments for Sarcasm Detection",
+   "relevance_score": 39.131012,
+   "publication_year": 2022,
+   "publication_date": "2022-01-01",
+   "ids": {
+    "openalex": "https://openalex.org/W4287888561",
+    "doi": "https://doi.org/10.18653/v1/2022.semeval-1.141"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.18653/v1/2022.semeval-1.141",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.18653/v1/2022.semeval-1.141",
+    "pdf_url": "https://aclanthology.org/2022.semeval-1.141.pdf",
+    "source": {
+     "id": "https://openalex.org/S4363608670",
+     "display_name": "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "conference"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+    "raw_type": "proceedings-article"
+   },
+   "type": "conference-paper",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://aclanthology.org/2022.semeval-1.141.pdf",
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5049775032",
+      "display_name": "Vandita Grover",
+      "orcid": null
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Vandita Grover",
+     "raw_affiliation_strings": [
+      "Department of Computer Science University of Delhi"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer Science University of Delhi",
+       "institution_ids": []
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5019424017",
+      "display_name": "Prof Hema Banati",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I110166357",
+       "display_name": "University of Delhi",
+       "ror": "https://ror.org/04gzb2213",
+       "country_code": "IN",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I110166357"
+       ]
+      }
+     ],
+     "countries": [
+      "IN"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Prof Hema Banati",
+     "raw_affiliation_strings": [
+      "College University of Delhi"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "College University of Delhi",
+       "institution_ids": [
+        "https://openalex.org/I110166357"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.1687,
+   "has_fulltext": true,
+   "cited_by_count": 1,
+   "citation_normalized_percentile": {
+    "value": 0.40229174,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": {
+    "min": 89,
+    "max": 94
+   },
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "1005",
+    "last_page": "1011"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10181",
+    "display_name": "Natural Language Processing Techniques",
+    "score": 0.9977999925613403,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10181",
+     "display_name": "Natural Language Processing Techniques",
+     "score": 0.9977999925613403,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10664",
+     "display_name": "Sentiment Analysis and Opinion Mining",
+     "score": 0.9972000122070312,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10028",
+     "display_name": "Topic Modeling",
+     "score": 0.9934999942779541,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/sarcasm",
+     "display_name": "Sarcasm",
+     "score": 0.9526308178901672
+    },
+    {
+     "id": "https://openalex.org/keywords/semeval",
+     "display_name": "SemEval",
+     "score": 0.7764753103256226
+    },
+    {
+     "id": "https://openalex.org/keywords/computer-science",
+     "display_name": "Computer science",
+     "score": 0.7556426525115967
+    },
+    {
+     "id": "https://openalex.org/keywords/natural-language-processing",
+     "display_name": "Natural language processing",
+     "score": 0.6782018542289734
+    },
+    {
+     "id": "https://openalex.org/keywords/artificial-intelligence",
+     "display_name": "Artificial intelligence",
+     "score": 0.6331584453582764
+    },
+    {
+     "id": "https://openalex.org/keywords/punctuation",
+     "display_name": "Punctuation",
+     "score": 0.600671112537384
+    },
+    {
+     "id": "https://openalex.org/keywords/polarity",
+     "display_name": "Polarity (international relations)",
+     "score": 0.5111179947853088
+    },
+    {
+     "id": "https://openalex.org/keywords/task",
+     "display_name": "Task (project management)",
+     "score": 0.44238829612731934
+    },
+    {
+     "id": "https://openalex.org/keywords/linguistics",
+     "display_name": "Linguistics",
+     "score": 0.27410688996315
+    },
+    {
+     "id": "https://openalex.org/keywords/irony",
+     "display_name": "Irony",
+     "score": 0.10764047503471375
+    },
+    {
+     "id": "https://openalex.org/keywords/biology",
+     "display_name": "Biology",
+     "score": 0.06706801056861877
+    },
+    {
+     "id": "https://openalex.org/keywords/philosophy",
+     "display_name": "Philosophy",
+     "score": 0.06147736310958862
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2776207355",
+     "wikidata": "https://www.wikidata.org/wiki/Q191035",
+     "display_name": "Sarcasm",
+     "level": 3,
+     "score": 0.9526308178901672
+    },
+    {
+     "id": "https://openalex.org/C44572571",
+     "wikidata": "https://www.wikidata.org/wiki/Q7448970",
+     "display_name": "SemEval",
+     "level": 3,
+     "score": 0.7764753103256226
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.7556426525115967
+    },
+    {
+     "id": "https://openalex.org/C204321447",
+     "wikidata": "https://www.wikidata.org/wiki/Q30642",
+     "display_name": "Natural language processing",
+     "level": 1,
+     "score": 0.6782018542289734
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.6331584453582764
+    },
+    {
+     "id": "https://openalex.org/C540372491",
+     "wikidata": "https://www.wikidata.org/wiki/Q82622",
+     "display_name": "Punctuation",
+     "level": 2,
+     "score": 0.600671112537384
+    },
+    {
+     "id": "https://openalex.org/C2777361361",
+     "wikidata": "https://www.wikidata.org/wiki/Q1112585",
+     "display_name": "Polarity (international relations)",
+     "level": 3,
+     "score": 0.5111179947853088
+    },
+    {
+     "id": "https://openalex.org/C2780451532",
+     "wikidata": "https://www.wikidata.org/wiki/Q759676",
+     "display_name": "Task (project management)",
+     "level": 2,
+     "score": 0.44238829612731934
+    },
+    {
+     "id": "https://openalex.org/C41895202",
+     "wikidata": "https://www.wikidata.org/wiki/Q8162",
+     "display_name": "Linguistics",
+     "level": 1,
+     "score": 0.27410688996315
+    },
+    {
+     "id": "https://openalex.org/C2779975665",
+     "wikidata": "https://www.wikidata.org/wiki/Q131361",
+     "display_name": "Irony",
+     "level": 2,
+     "score": 0.10764047503471375
+    },
+    {
+     "id": "https://openalex.org/C86803240",
+     "wikidata": "https://www.wikidata.org/wiki/Q420",
+     "display_name": "Biology",
+     "level": 0,
+     "score": 0.06706801056861877
+    },
+    {
+     "id": "https://openalex.org/C138885662",
+     "wikidata": "https://www.wikidata.org/wiki/Q5891",
+     "display_name": "Philosophy",
+     "level": 0,
+     "score": 0.06147736310958862
+    },
+    {
+     "id": "https://openalex.org/C162324750",
+     "wikidata": "https://www.wikidata.org/wiki/Q8134",
+     "display_name": "Economics",
+     "level": 0,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C187736073",
+     "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+     "display_name": "Management",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C54355233",
+     "wikidata": "https://www.wikidata.org/wiki/Q7162",
+     "display_name": "Genetics",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C1491633281",
+     "wikidata": "https://www.wikidata.org/wiki/Q7868",
+     "display_name": "Cell",
+     "level": 2,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.18653/v1/2022.semeval-1.141",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.18653/v1/2022.semeval-1.141",
+     "pdf_url": "https://aclanthology.org/2022.semeval-1.141.pdf",
+     "source": {
+      "id": "https://openalex.org/S4363608670",
+      "display_name": "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "conference"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+     "raw_type": "proceedings-article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.18653/v1/2022.semeval-1.141",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.18653/v1/2022.semeval-1.141",
+    "pdf_url": "https://aclanthology.org/2022.semeval-1.141.pdf",
+    "source": {
+     "id": "https://openalex.org/S4363608670",
+     "display_name": "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "conference"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+    "raw_type": "proceedings-article"
+   },
+   "sustainable_development_goals": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+   },
+   "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4287888561.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4287888561.grobid-xml"
+   },
+   "referenced_works_count": 25,
+   "referenced_works": [
+    "https://openalex.org/W2062346783",
+    "https://openalex.org/W2079735306",
+    "https://openalex.org/W2099813784",
+    "https://openalex.org/W2130942839",
+    "https://openalex.org/W2140494000",
+    "https://openalex.org/W2250539671",
+    "https://openalex.org/W2397798297",
+    "https://openalex.org/W2402268235",
+    "https://openalex.org/W2433308416",
+    "https://openalex.org/W2792216068",
+    "https://openalex.org/W2805962582",
+    "https://openalex.org/W2896457183",
+    "https://openalex.org/W2900625152",
+    "https://openalex.org/W2951046759",
+    "https://openalex.org/W2951678842",
+    "https://openalex.org/W2963349408",
+    "https://openalex.org/W2963918774",
+    "https://openalex.org/W2964126051",
+    "https://openalex.org/W3000333714",
+    "https://openalex.org/W3024820536",
+    "https://openalex.org/W3045625189",
+    "https://openalex.org/W3168023126",
+    "https://openalex.org/W3194388628",
+    "https://openalex.org/W4220677907",
+    "https://openalex.org/W4287888944"
+   ],
+   "related_works": [
+    "https://openalex.org/W4287887361",
+    "https://openalex.org/W4287888941",
+    "https://openalex.org/W4287854812",
+    "https://openalex.org/W4221151255",
+    "https://openalex.org/W2171289255",
+    "https://openalex.org/W4287887212",
+    "https://openalex.org/W2807380311",
+    "https://openalex.org/W2128514324",
+    "https://openalex.org/W3186948874",
+    "https://openalex.org/W2807333695"
+   ],
+   "abstract_inverted_index": {
+    "This": [
+     0
+    ],
+    "paper": [
+     1
+    ],
+    "describes": [
+     2
+    ],
+    "the": [
+     3,
+     34,
+     54,
+     69,
+     118,
+     122
+    ],
+    "participation": [
+     4
+    ],
+    "of": [
+     5,
+     27,
+     57,
+     71,
+     80,
+     86,
+     94,
+     100,
+     121,
+     128,
+     159,
+     164
+    ],
+    "team": [
+     6
+    ],
+    "DUCS": [
+     7,
+     22
+    ],
+    "at": [
+     8
+    ],
+    "SemEval": [
+     9
+    ],
+    "2022": [
+     10
+    ],
+    "Task": [
+     11
+    ],
+    "6:": [
+     12
+    ],
+    "iSarcasmEval": [
+     13,
+     28
+    ],
+    "-Intended": [
+     14
+    ],
+    "Sarcasm": [
+     15
+    ],
+    "Detection": [
+     16
+    ],
+    "in": [
+     17,
+     24,
+     107,
+     189
+    ],
+    "English": [
+     18,
+     36
+    ],
+    "and": [
+     19,
+     78,
+     98,
+     131,
+     134,
+     139,
+     155
+    ],
+    "Arabic.": [
+     20
+    ],
+    "Team": [
+     21
+    ],
+    "participated": [
+     23
+    ],
+    "SubTask": [
+     25
+    ],
+    "A": [
+     26
+    ],
+    "which": [
+     29
+    ],
+    "was": [
+     30,
+     38,
+     114,
+     146,
+     167
+    ],
+    "to": [
+     31,
+     48,
+     53,
+     90,
+     116
+    ],
+    "determine": [
+     32,
+     91
+    ],
+    "if": [
+     33
+    ],
+    "given": [
+     35,
+     73
+    ],
+    "text": [
+     37
+    ],
+    "sarcastic": [
+     39,
+     55,
+     169,
+     190
+    ],
+    "or": [
+     40,
+     67
+    ],
+    "not.": [
+     41
+    ],
+    "In": [
+     42,
+     175
+    ],
+    "this": [
+     43,
+     165
+    ],
+    "work,": [
+     44
+    ],
+    "emojis": [
+     45,
+     64,
+     177
+    ],
+    "were": [
+     46,
+     88,
+     105,
+     142
+    ],
+    "utilized": [
+     47
+    ],
+    "capture": [
+     49
+    ],
+    "how": [
+     50
+    ],
+    "they": [
+     51
+    ],
+    "contributed": [
+     52
+    ],
+    "nature": [
+     56,
+     120
+    ],
+    "a": [
+     58,
+     72
+    ],
+    "text.": [
+     59
+    ],
+    "It": [
+     60,
+     145
+    ],
+    "is": [
+     61
+    ],
+    "observed": [
+     62,
+     147
+    ],
+    "that": [
+     63,
+     148,
+     168
+    ],
+    "can": [
+     65
+    ],
+    "augment": [
+     66
+    ],
+    "reverse": [
+     68
+    ],
+    "polarity": [
+     70,
+     180
+    ],
+    "statement.": [
+     74
+    ],
+    "Thus": [
+     75
+    ],
+    "sentiment": [
+     76,
+     109
+    ],
+    "polarities": [
+     77,
+     188
+    ],
+    "intensities": [
+     79
+    ],
+    "emojis,": [
+     81
+    ],
+    "as": [
+     82,
+     84,
+     108
+    ],
+    "well": [
+     83
+    ],
+    "those": [
+     85,
+     185
+    ],
+    "text,": [
+     87
+    ],
+    "computed": [
+     89
+    ],
+    "sarcasm.": [
+     92
+    ],
+    "Use": [
+     93
+    ],
+    "capitalization,": [
+     95
+    ],
+    "word": [
+     96
+    ],
+    "repetition,": [
+     97
+    ],
+    "use": [
+     99
+    ],
+    "punctuation": [
+     101
+    ],
+    "marks": [
+     102
+    ],
+    "like": [
+     103,
+     137
+    ],
+    "'!'": [
+     104
+    ],
+    "factored": [
+     106
+    ],
+    "intensifiers.": [
+     110
+    ],
+    "An": [
+     111
+    ],
+    "NLP": [
+     112
+    ],
+    "augmenter": [
+     113
+    ],
+    "used": [
+     115,
+     182
+    ],
+    "tackle": [
+     117
+    ],
+    "imbalanced": [
+     119
+    ],
+    "sarcasm": [
+     123
+    ],
+    "dataset.": [
+     124
+    ],
+    "Several": [
+     125
+    ],
+    "architectures": [
+     126,
+     153
+    ],
+    "comprising": [
+     127
+    ],
+    "various": [
+     129
+    ],
+    "ML": [
+     130
+    ],
+    "DL": [
+     132
+    ],
+    "classifiers,": [
+     133
+    ],
+    "transformer": [
+     135
+    ],
+    "models": [
+     136
+    ],
+    "BERT": [
+     138,
+     141,
+     150
+    ],
+    "Multimodal": [
+     140,
+     149
+    ],
+    "experimented": [
+     143
+    ],
+    "with.": [
+     144
+    ],
+    "outperformed": [
+     151
+    ],
+    "other": [
+     152
+    ],
+    "tested": [
+     154
+    ],
+    "achieved": [
+     156
+    ],
+    "an": [
+     157
+    ],
+    "F1-score": [
+     158
+    ],
+    "30.71%.": [
+     160
+    ],
+    "The": [
+     161
+    ],
+    "key": [
+     162
+    ],
+    "takeaway": [
+     163
+    ],
+    "study": [
+     166
+    ],
+    "texts": [
+     170
+    ],
+    "are": [
+     171,
+     181
+    ],
+    "usually": [
+     172
+    ],
+    "positive": [
+     173,
+     179
+    ],
+    "sentences.": [
+     174
+    ],
+    "general": [
+     176
+    ],
+    "with": [
+     178,
+     186
+    ],
+    "more": [
+     183
+    ],
+    "than": [
+     184
+    ],
+    "negative": [
+     187
+    ],
+    "texts.": [
+     191
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2022,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-07-29T14:22:42.915294",
+   "created_date": "2025-10-10T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W7125418306",
+   "doi": "https://doi.org/10.1016/j.array.2026.100689",
+   "title": "Multilingual multimodal cyberbullying detection through adaptive and hierarchical fusion",
+   "display_name": "Multilingual multimodal cyberbullying detection through adaptive and hierarchical fusion",
+   "relevance_score": 38.8041,
+   "publication_year": 2026,
+   "publication_date": "2026-01-22",
+   "ids": {
+    "openalex": "https://openalex.org/W7125418306",
+    "doi": "https://doi.org/10.1016/j.array.2026.100689"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1016/j.array.2026.100689",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.array.2026.100689",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210194039",
+     "display_name": "Array",
+     "issn_l": "2590-0056",
+     "issn": [
+      "2590-0056"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Array",
+    "raw_type": "journal-article"
+   },
+   "type": "article",
+   "indexed_in": [
+    "crossref",
+    "doaj"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1016/j.array.2026.100689",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5017554386",
+      "display_name": "Walaa Saber Ismail",
+      "orcid": "https://orcid.org/0000-0002-4074-0156"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I117222138",
+       "display_name": "Abu Dhabi University",
+       "ror": "https://ror.org/01r3kjq03",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I117222138"
+       ]
+      }
+     ],
+     "countries": [
+      "AE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Walaa Saber Ismail",
+     "raw_affiliation_strings": [
+      "Department of Business Information Technology, Liwa University, Abu Dhabi, United Arab Emirates"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Business Information Technology, Liwa University, Abu Dhabi, United Arab Emirates",
+       "institution_ids": [
+        "https://openalex.org/I117222138"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5123585787",
+      "display_name": "Hikmat Ullah",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I117222138",
+       "display_name": "Abu Dhabi University",
+       "ror": "https://ror.org/01r3kjq03",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I117222138"
+       ]
+      }
+     ],
+     "countries": [
+      "AE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Hikmat Ullah",
+     "raw_affiliation_strings": [
+      "Department of Business Information Technology, Liwa University, Abu Dhabi, United Arab Emirates"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Business Information Technology, Liwa University, Abu Dhabi, United Arab Emirates",
+       "institution_ids": [
+        "https://openalex.org/I117222138"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5123580508",
+      "display_name": "Muhammad Adnan",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I119744171",
+       "display_name": "Higher Colleges of Technology",
+       "ror": "https://ror.org/00qmy9z88",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I119744171"
+       ]
+      }
+     ],
+     "countries": [
+      "AE"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Muhammad Adnan",
+     "raw_affiliation_strings": [
+      "Faculty of Computer Information Systems, Higher Colleges of Technology, Al Ain, United Arab Emirates"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Faculty of Computer Information Systems, Higher Colleges of Technology, Al Ain, United Arab Emirates",
+       "institution_ids": [
+        "https://openalex.org/I119744171"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5123615109",
+      "display_name": "Farman Ullah",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I201726411",
+       "display_name": "United Arab Emirates University",
+       "ror": "https://ror.org/01km6p862",
+       "country_code": "AE",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ],
+     "countries": [
+      "AE"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Farman Ullah",
+     "raw_affiliation_strings": [
+      "Department of Computer and Network Engineering, College of Information Technology, United Arab Emirates University, Al Ain, United Arab Emirates"
+     ],
+     "raw_orcid": "https://orcid.org/0000-0002-2488-8353",
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Department of Computer and Network Engineering, College of Information Technology, United Arab Emirates University, Al Ain, United Arab Emirates",
+       "institution_ids": [
+        "https://openalex.org/I201726411"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 3,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5123615109"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I201726411"
+   ],
+   "apc_list": {
+    "value": 1420,
+    "currency": "USD",
+    "value_usd": 1420
+   },
+   "apc_paid": {
+    "value": 1420,
+    "currency": "USD",
+    "value_usd": 1420
+   },
+   "fwci": 19.4693,
+   "has_fulltext": false,
+   "cited_by_count": 2,
+   "citation_normalized_percentile": {
+    "value": 0.98543729,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+   },
+   "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+   },
+   "biblio": {
+    "volume": "29",
+    "issue": null,
+    "first_page": "100689",
+    "last_page": "100689"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T12262",
+    "display_name": "Hate Speech and Cyberbullying Detection",
+    "score": 0.9632999897003174,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T12262",
+     "display_name": "Hate Speech and Cyberbullying Detection",
+     "score": 0.9632999897003174,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10664",
+     "display_name": "Sentiment Analysis and Opinion Mining",
+     "score": 0.008999999612569809,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T11147",
+     "display_name": "Misinformation and Its Impacts",
+     "score": 0.0035000001080334187,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3312",
+      "display_name": "Sociology and Political Science"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/key",
+     "display_name": "Key (lock)",
+     "score": 0.5990999937057495
+    },
+    {
+     "id": "https://openalex.org/keywords/context",
+     "display_name": "Context (archaeology)",
+     "score": 0.5691999793052673
+    },
+    {
+     "id": "https://openalex.org/keywords/benchmark",
+     "display_name": "Benchmark (surveying)",
+     "score": 0.5551000237464905
+    },
+    {
+     "id": "https://openalex.org/keywords/sarcasm",
+     "display_name": "Sarcasm",
+     "score": 0.5476999878883362
+    },
+    {
+     "id": "https://openalex.org/keywords/security-token",
+     "display_name": "Security token",
+     "score": 0.4426000118255615
+    },
+    {
+     "id": "https://openalex.org/keywords/sensor-fusion",
+     "display_name": "Sensor fusion",
+     "score": 0.3714999854564667
+    },
+    {
+     "id": "https://openalex.org/keywords/hierarchical-database-model",
+     "display_name": "Hierarchical database model",
+     "score": 0.36239999532699585
+    },
+    {
+     "id": "https://openalex.org/keywords/fusion",
+     "display_name": "Fusion",
+     "score": 0.3278000056743622
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.7890999913215637
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.6323999762535095
+    },
+    {
+     "id": "https://openalex.org/C26517878",
+     "wikidata": "https://www.wikidata.org/wiki/Q228039",
+     "display_name": "Key (lock)",
+     "level": 2,
+     "score": 0.5990999937057495
+    },
+    {
+     "id": "https://openalex.org/C2779343474",
+     "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+     "display_name": "Context (archaeology)",
+     "level": 2,
+     "score": 0.5691999793052673
+    },
+    {
+     "id": "https://openalex.org/C185798385",
+     "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+     "display_name": "Benchmark (surveying)",
+     "level": 2,
+     "score": 0.5551000237464905
+    },
+    {
+     "id": "https://openalex.org/C2776207355",
+     "wikidata": "https://www.wikidata.org/wiki/Q191035",
+     "display_name": "Sarcasm",
+     "level": 3,
+     "score": 0.5476999878883362
+    },
+    {
+     "id": "https://openalex.org/C119857082",
+     "wikidata": "https://www.wikidata.org/wiki/Q2539",
+     "display_name": "Machine learning",
+     "level": 1,
+     "score": 0.4925000071525574
+    },
+    {
+     "id": "https://openalex.org/C48145219",
+     "wikidata": "https://www.wikidata.org/wiki/Q1335365",
+     "display_name": "Security token",
+     "level": 2,
+     "score": 0.4426000118255615
+    },
+    {
+     "id": "https://openalex.org/C33954974",
+     "wikidata": "https://www.wikidata.org/wiki/Q486494",
+     "display_name": "Sensor fusion",
+     "level": 2,
+     "score": 0.3714999854564667
+    },
+    {
+     "id": "https://openalex.org/C144986985",
+     "wikidata": "https://www.wikidata.org/wiki/Q871236",
+     "display_name": "Hierarchical database model",
+     "level": 2,
+     "score": 0.36239999532699585
+    },
+    {
+     "id": "https://openalex.org/C158525013",
+     "wikidata": "https://www.wikidata.org/wiki/Q2593739",
+     "display_name": "Fusion",
+     "level": 2,
+     "score": 0.3278000056743622
+    },
+    {
+     "id": "https://openalex.org/C183322885",
+     "wikidata": "https://www.wikidata.org/wiki/Q17007702",
+     "display_name": "Context model",
+     "level": 3,
+     "score": 0.32739999890327454
+    },
+    {
+     "id": "https://openalex.org/C97931131",
+     "wikidata": "https://www.wikidata.org/wiki/Q5282087",
+     "display_name": "Discriminative model",
+     "level": 2,
+     "score": 0.29269999265670776
+    },
+    {
+     "id": "https://openalex.org/C204321447",
+     "wikidata": "https://www.wikidata.org/wiki/Q30642",
+     "display_name": "Natural language processing",
+     "level": 1,
+     "score": 0.28439998626708984
+    },
+    {
+     "id": "https://openalex.org/C50644808",
+     "wikidata": "https://www.wikidata.org/wiki/Q192776",
+     "display_name": "Artificial neural network",
+     "level": 2,
+     "score": 0.27649998664855957
+    },
+    {
+     "id": "https://openalex.org/C108583219",
+     "wikidata": "https://www.wikidata.org/wiki/Q197536",
+     "display_name": "Deep learning",
+     "level": 2,
+     "score": 0.27160000801086426
+    },
+    {
+     "id": "https://openalex.org/C518677369",
+     "wikidata": "https://www.wikidata.org/wiki/Q202833",
+     "display_name": "Social media",
+     "level": 2,
+     "score": 0.26980000734329224
+    },
+    {
+     "id": "https://openalex.org/C152565575",
+     "wikidata": "https://www.wikidata.org/wiki/Q1124538",
+     "display_name": "Conditional random field",
+     "level": 2,
+     "score": 0.2676999866962433
+    },
+    {
+     "id": "https://openalex.org/C147168706",
+     "wikidata": "https://www.wikidata.org/wiki/Q1457734",
+     "display_name": "Recurrent neural network",
+     "level": 3,
+     "score": 0.26499998569488525
+    },
+    {
+     "id": "https://openalex.org/C66402592",
+     "wikidata": "https://www.wikidata.org/wiki/Q2271421",
+     "display_name": "Sentiment analysis",
+     "level": 2,
+     "score": 0.26420000195503235
+    },
+    {
+     "id": "https://openalex.org/C2776214188",
+     "wikidata": "https://www.wikidata.org/wiki/Q408386",
+     "display_name": "Inference",
+     "level": 2,
+     "score": 0.2639999985694885
+    },
+    {
+     "id": "https://openalex.org/C61797465",
+     "wikidata": "https://www.wikidata.org/wiki/Q1188986",
+     "display_name": "Term (time)",
+     "level": 2,
+     "score": 0.2623000144958496
+    },
+    {
+     "id": "https://openalex.org/C2780910867",
+     "wikidata": "https://www.wikidata.org/wiki/Q1952416",
+     "display_name": "Multimodality",
+     "level": 2,
+     "score": 0.25220000743865967
+    },
+    {
+     "id": "https://openalex.org/C45942800",
+     "wikidata": "https://www.wikidata.org/wiki/Q245652",
+     "display_name": "Ensemble learning",
+     "level": 2,
+     "score": 0.25040000677108765
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "doi:10.1016/j.array.2026.100689",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.1016/j.array.2026.100689",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4210194039",
+      "display_name": "Array",
+      "issn_l": "2590-0056",
+      "issn": [
+       "2590-0056"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+       "Elsevier BV"
+      ],
+      "type": "journal"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Array",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:doaj.org/article:f3f15ad7b5f244eab9f28b51427cbda8",
+     "is_oa": true,
+     "landing_page_url": "https://doaj.org/article/f3f15ad7b5f244eab9f28b51427cbda8",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306401280",
+      "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by-sa",
+     "license_id": "https://openalex.org/licenses/cc-by-sa",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": "Array, Vol 29, Iss , Pp 100689- (2026)",
+     "raw_type": "article"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.1016/j.array.2026.100689",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.array.2026.100689",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4210194039",
+     "display_name": "Array",
+     "issn_l": "2590-0056",
+     "issn": [
+      "2590-0056"
+     ],
+     "is_oa": true,
+     "is_in_doaj": true,
+     "is_core": true,
+     "host_organization": "https://openalex.org/P4310320990",
+     "host_organization_name": "Elsevier BV",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310320990"
+     ],
+     "host_organization_lineage_names": [
+      "Elsevier BV"
+     ],
+     "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Array",
+    "raw_type": "journal-article"
+   },
+   "sustainable_development_goals": [
+    {
+     "id": "https://metadata.un.org/sdg/16",
+     "score": 0.5495417714118958,
+     "display_name": "Peace, Justice and strong institutions"
+    }
+   ],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 23,
+   "referenced_works": [
+    "https://openalex.org/W2111112238",
+    "https://openalex.org/W2619383789",
+    "https://openalex.org/W2745461083",
+    "https://openalex.org/W2762029282",
+    "https://openalex.org/W2888471892",
+    "https://openalex.org/W2951937667",
+    "https://openalex.org/W2963954913",
+    "https://openalex.org/W3009899658",
+    "https://openalex.org/W3035390927",
+    "https://openalex.org/W3190941513",
+    "https://openalex.org/W4224320265",
+    "https://openalex.org/W4224926219",
+    "https://openalex.org/W4255779515",
+    "https://openalex.org/W4295425581",
+    "https://openalex.org/W4313164293",
+    "https://openalex.org/W4377042727",
+    "https://openalex.org/W4395676281",
+    "https://openalex.org/W4400071533",
+    "https://openalex.org/W4400642152",
+    "https://openalex.org/W4400644584",
+    "https://openalex.org/W4404782631",
+    "https://openalex.org/W4405316059",
+    "https://openalex.org/W4416037824"
+   ],
+   "related_works": [],
+   "abstract_inverted_index": {
+    "Detecting": [
+     0
+    ],
+    "cyberbullying": [
+     1,
+     34,
+     216,
+     247
+    ],
+    "in": [
+     2
+    ],
+    "multimodal": [
+     3,
+     33,
+     171,
+     215,
+     246
+    ],
+    "content": [
+     4
+    ],
+    "(such": [
+     5
+    ],
+    "as": [
+     6
+    ],
+    "memes)": [
+     7
+    ],
+    "is": [
+     8
+    ],
+    "challenging": [
+     9
+    ],
+    "due": [
+     10
+    ],
+    "to": [
+     11,
+     115,
+     129
+    ],
+    "complex": [
+     12
+    ],
+    "interactions": [
+     13
+    ],
+    "between": [
+     14
+    ],
+    "images": [
+     15,
+     110
+    ],
+    "and": [
+     16,
+     23,
+     43,
+     80,
+     111,
+     125,
+     148,
+     167,
+     177,
+     192,
+     213,
+     240,
+     266,
+     285
+    ],
+    "text,": [
+     17
+    ],
+    "often": [
+     18
+    ],
+    "involving": [
+     19
+    ],
+    "sarcasm,": [
+     20
+    ],
+    "multilingual": [
+     21,
+     32,
+     281
+    ],
+    "usage,": [
+     22
+    ],
+    "other": [
+     24
+    ],
+    "noisy": [
+     25,
+     133
+    ],
+    "real-world": [
+     26
+    ],
+    "factors.": [
+     27
+    ],
+    "This": [
+     28
+    ],
+    "paper": [
+     29
+    ],
+    "presents": [
+     30
+    ],
+    "a": [
+     31,
+     48,
+     81,
+     168,
+     206,
+     228,
+     252,
+     280
+    ],
+    "detection": [
+     35,
+     217
+    ],
+    "framework": [
+     36,
+     52,
+     204,
+     231
+    ],
+    "that": [
+     37,
+     87,
+     158,
+     232,
+     261,
+     287,
+     305
+    ],
+    "combines": [
+     38
+    ],
+    "early": [
+     39,
+     64,
+     89,
+     235
+    ],
+    "fusion,": [
+     40,
+     42,
+     65
+    ],
+    "late": [
+     41,
+     74,
+     241
+    ],
+    "hierarchical": [
+     44,
+     229,
+     238
+    ],
+    "fusion": [
+     45,
+     75,
+     200,
+     230,
+     243
+    ],
+    "strategies": [
+     46,
+     244
+    ],
+    "within": [
+     47
+    ],
+    "unified": [
+     49
+    ],
+    "architecture.": [
+     50
+    ],
+    "The": [
+     51,
+     202
+    ],
+    "introduces": [
+     53
+    ],
+    "three": [
+     54
+    ],
+    "key": [
+     55
+    ],
+    "modules:": [
+     56
+    ],
+    "Adaptive": [
+     57
+    ],
+    "Cross-Modal": [
+     58
+    ],
+    "Token": [
+     59
+    ],
+    "Integration": [
+     60
+    ],
+    "(ACTI)": [
+     61
+    ],
+    "for": [
+     62,
+     72,
+     97,
+     109,
+     113,
+     219,
+     245
+    ],
+    "iterative": [
+     63
+    ],
+    "Context-Adaptive": [
+     66,
+     254
+    ],
+    "Ensemble": [
+     67,
+     255
+    ],
+    "with": [
+     68,
+     256
+    ],
+    "Uncertainty-Aware": [
+     69,
+     257
+    ],
+    "Gating": [
+     70,
+     258
+    ],
+    "(CAE-UAG)": [
+     71,
+     242,
+     259
+    ],
+    "dynamic": [
+     73
+    ],
+    "based": [
+     76
+    ],
+    "on": [
+     77,
+     139,
+     195
+    ],
+    "input": [
+     78
+    ],
+    "reliability,": [
+     79
+    ],
+    "Hierarchical": [
+     82
+    ],
+    "Contextual": [
+     83
+    ],
+    "Fusion": [
+     84
+    ],
+    "Network": [
+     85
+    ],
+    "(HCFN)": [
+     86
+    ],
+    "feeds": [
+     88
+    ],
+    "fused": [
+     90
+    ],
+    "context": [
+     91
+    ],
+    "back": [
+     92
+    ],
+    "into": [
+     93
+    ],
+    "later": [
+     94
+    ],
+    "unimodal": [
+     95
+    ],
+    "processing": [
+     96
+    ],
+    "refined": [
+     98
+    ],
+    "predictions.": [
+     99
+    ],
+    "Our": [
+     100
+    ],
+    "system": [
+     101
+    ],
+    "leverages": [
+     102
+    ],
+    "state-of-the-art": [
+     103,
+     187
+    ],
+    "pretrained": [
+     104
+    ],
+    "vision-language": [
+     105
+    ],
+    "models": [
+     106,
+     166,
+     263
+    ],
+    "(e.g.,": [
+     107,
+     120,
+     189
+    ],
+    "CLIP": [
+     108,
+     286
+    ],
+    "XLM-RoBERTa": [
+     112,
+     284
+    ],
+    "text)": [
+     114
+    ],
+    "learn": [
+     116
+    ],
+    "subtle": [
+     117
+    ],
+    "cross-modal": [
+     118
+    ],
+    "representations": [
+     119
+    ],
+    "sarcasm": [
+     121
+    ],
+    "or": [
+     122,
+     132
+    ],
+    "image–text": [
+     123
+    ],
+    "irony)": [
+     124
+    ],
+    "uses": [
+     126
+    ],
+    "uncertainty": [
+     127,
+     265
+    ],
+    "modeling": [
+     128
+    ],
+    "handle": [
+     130
+    ],
+    "ambiguous": [
+     131
+    ],
+    "inputs.": [
+     134
+    ],
+    "We": [
+     135,
+     250,
+     296
+    ],
+    "evaluate": [
+     136
+    ],
+    "the": [
+     137,
+     143,
+     149
+    ],
+    "approach": [
+     138
+    ],
+    "two": [
+     140
+    ],
+    "benchmark": [
+     141
+    ],
+    "datasets:": [
+     142
+    ],
+    "English-language": [
+     144
+    ],
+    "Facebook": [
+     145
+    ],
+    "Hateful": [
+     146,
+     196
+    ],
+    "Memes": [
+     147
+    ],
+    "ArMeme": [
+     150
+    ],
+    "dataset": [
+     151
+    ],
+    "of": [
+     152
+    ],
+    "Arabic": [
+     153
+    ],
+    "memes.": [
+     154
+    ],
+    "Experimental": [
+     155
+    ],
+    "results": [
+     156
+    ],
+    "show": [
+     157
+    ],
+    "our": [
+     159
+    ],
+    "model": [
+     160
+    ],
+    "outperforms": [
+     161
+    ],
+    "multiple": [
+     162
+    ],
+    "baselines": [
+     163
+    ],
+    "(including": [
+     164
+    ],
+    "single-modality": [
+     165
+    ],
+    "strong": [
+     169,
+     289
+    ],
+    "CLIP-based": [
+     170
+    ],
+    "baseline),": [
+     172
+    ],
+    "achieving": [
+     173
+    ],
+    "high": [
+     174
+    ],
+    "accuracy,": [
+     175
+    ],
+    "F1-scores,": [
+     176
+    ],
+    "area": [
+     178
+    ],
+    "under": [
+     179
+    ],
+    "ROC": [
+     180
+    ],
+    "(AUROC)": [
+     181
+    ],
+    "across": [
+     182,
+     221
+    ],
+    "languages.": [
+     183
+    ],
+    "Notably,": [
+     184
+    ],
+    "it": [
+     185
+    ],
+    "achieves": [
+     186,
+     288
+    ],
+    "performance": [
+     188,
+     291
+    ],
+    "0.85": [
+     190
+    ],
+    "F1": [
+     191
+    ],
+    "0.88": [
+     193
+    ],
+    "AUROC": [
+     194
+    ],
+    "Memes),": [
+     197
+    ],
+    "surpassing": [
+     198
+    ],
+    "prior": [
+     199
+    ],
+    "methods.": [
+     201
+    ],
+    "proposed": [
+     203
+    ],
+    "represents": [
+     205
+    ],
+    "significant": [
+     207
+    ],
+    "step": [
+     208
+    ],
+    "toward": [
+     209
+    ],
+    "generalizable,": [
+     210
+    ],
+    "culturally": [
+     211
+    ],
+    "aware,": [
+     212
+    ],
+    "robust": [
+     214
+    ],
+    "suitable": [
+     218
+    ],
+    "deployment": [
+     220
+    ],
+    "diverse": [
+     222
+    ],
+    "social": [
+     223
+    ],
+    "media": [
+     224
+    ],
+    "contexts.": [
+     225
+    ],
+    "•": [
+     226,
+     249,
+     278,
+     295
+    ],
+    "Propose": [
+     227
+    ],
+    "systematically": [
+     233
+    ],
+    "integrates": [
+     234
+    ],
+    "(ACTI),": [
+     236
+    ],
+    "intermediate": [
+     237
+    ],
+    "(HCFN),": [
+     239
+    ],
+    "detection.": [
+     248
+    ],
+    "introduce": [
+     251
+    ],
+    "novel": [
+     253
+    ],
+    "module": [
+     260
+    ],
+    "explicitly": [
+     262
+    ],
+    "prediction": [
+     264
+    ],
+    "incorporates": [
+     267
+    ],
+    "contextual": [
+     268
+    ],
+    "quality": [
+     269,
+     274
+    ],
+    "signals": [
+     270
+    ],
+    "(OCR": [
+     271
+    ],
+    "confidence,": [
+     272
+    ],
+    "image": [
+     273
+    ],
+    "scores,": [
+     275
+    ],
+    "language": [
+     276
+    ],
+    "indicators).": [
+     277
+    ],
+    "Design": [
+     279
+    ],
+    "architecture": [
+     282
+    ],
+    "leveraging": [
+     283
+    ],
+    "cross-lingual": [
+     290
+    ],
+    "without": [
+     292
+    ],
+    "language-specific": [
+     293
+    ],
+    "modifications.": [
+     294
+    ],
+    "conduct": [
+     297
+    ],
+    "extensive": [
+     298
+    ],
+    "experimental": [
+     299
+    ],
+    "validation": [
+     300
+    ],
+    "including": [
+     301
+    ],
+    "comprehensive": [
+     302
+    ],
+    "ablation": [
+     303
+    ],
+    "studies": [
+     304
+    ],
+    "quantify": [
+     306
+    ],
+    "each": [
+     307
+    ],
+    "component’s": [
+     308
+    ],
+    "contribution.": [
+     309
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 2
+    }
+   ],
+   "updated_date": "2026-07-23T08:03:31.855105",
+   "created_date": "2026-01-23T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W4415969181",
+   "doi": "https://doi.org/10.1109/iceem66692.2025.11225196",
+   "title": "Integrating Sarcasm-Rich Arabic Street Slang (Lughat al-Sarsagiyya) into GPT Models: A Cognitive-Pragmatic Approach to Sarcasm Detection and Sentiment Analysis",
+   "display_name": "Integrating Sarcasm-Rich Arabic Street Slang (Lughat al-Sarsagiyya) into GPT Models: A Cognitive-Pragmatic Approach to Sarcasm Detection and Sentiment Analysis",
+   "relevance_score": 12.134385,
+   "publication_year": 2025,
+   "publication_date": "2025-10-04",
+   "ids": {
+    "openalex": "https://openalex.org/W4415969181",
+    "doi": "https://doi.org/10.1109/iceem66692.2025.11225196"
+   },
+   "language": null,
+   "primary_location": {
+    "id": "doi:10.1109/iceem66692.2025.11225196",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/iceem66692.2025.11225196",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "2025 4th International Conference on Electronic Engineering (ICEEM)",
+    "raw_type": "proceedings-article"
+   },
+   "type": "conference-paper",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5004601413",
+      "display_name": "Wael Badawy",
+      "orcid": "https://orcid.org/0000-0003-0251-9124"
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I67337280",
+       "display_name": "Egyptian Russian University",
+       "ror": "https://ror.org/029me2q51",
+       "country_code": "EG",
+       "type": "education",
+       "lineage": [
+        "https://openalex.org/I67337280"
+       ]
+      }
+     ],
+     "countries": [
+      "EG"
+     ],
+     "is_corresponding": true,
+     "raw_author_name": "Wael Badawy",
+     "raw_affiliation_strings": [
+      "Egyptian Russian University,School of Artificial Intelligence,Department of Data Science,Cairo,Egypt"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Egyptian Russian University,School of Artificial Intelligence,Department of Data Science,Cairo,Egypt",
+       "institution_ids": [
+        "https://openalex.org/I67337280"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 1,
+   "institutions_distinct_count": 1,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5004601413"
+   ],
+   "corresponding_institution_ids": [
+    "https://openalex.org/I67337280"
+   ],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 0.0,
+   "has_fulltext": false,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": {
+    "value": 0.28933343,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+   },
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "6"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10664",
+    "display_name": "Sentiment Analysis and Opinion Mining",
+    "score": 0.47769999504089355,
+    "subfield": {
+     "id": "https://openalex.org/subfields/1702",
+     "display_name": "Artificial Intelligence"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/17",
+     "display_name": "Computer Science"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/3",
+     "display_name": "Physical Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10664",
+     "display_name": "Sentiment Analysis and Opinion Mining",
+     "score": 0.47769999504089355,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12262",
+     "display_name": "Hate Speech and Cyberbullying Detection",
+     "score": 0.12240000069141388,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T10028",
+     "display_name": "Topic Modeling",
+     "score": 0.054499998688697815,
+     "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/sarcasm",
+     "display_name": "Sarcasm",
+     "score": 0.9807000160217285
+    },
+    {
+     "id": "https://openalex.org/keywords/slang",
+     "display_name": "Slang",
+     "score": 0.8641999959945679
+    },
+    {
+     "id": "https://openalex.org/keywords/sentiment-analysis",
+     "display_name": "Sentiment analysis",
+     "score": 0.498199999332428
+    },
+    {
+     "id": "https://openalex.org/keywords/variety",
+     "display_name": "Variety (cybernetics)",
+     "score": 0.45750001072883606
+    },
+    {
+     "id": "https://openalex.org/keywords/modern-standard-arabic",
+     "display_name": "Modern Standard Arabic",
+     "score": 0.4442000091075897
+    },
+    {
+     "id": "https://openalex.org/keywords/social-media",
+     "display_name": "Social media",
+     "score": 0.42890000343322754
+    },
+    {
+     "id": "https://openalex.org/keywords/arabic",
+     "display_name": "Arabic",
+     "score": 0.42829999327659607
+    },
+    {
+     "id": "https://openalex.org/keywords/pragmatics",
+     "display_name": "Pragmatics",
+     "score": 0.40459999442100525
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2776207355",
+     "wikidata": "https://www.wikidata.org/wiki/Q191035",
+     "display_name": "Sarcasm",
+     "level": 3,
+     "score": 0.9807000160217285
+    },
+    {
+     "id": "https://openalex.org/C2779901982",
+     "wikidata": "https://www.wikidata.org/wiki/Q8102",
+     "display_name": "Slang",
+     "level": 2,
+     "score": 0.8641999959945679
+    },
+    {
+     "id": "https://openalex.org/C41895202",
+     "wikidata": "https://www.wikidata.org/wiki/Q8162",
+     "display_name": "Linguistics",
+     "level": 1,
+     "score": 0.574999988079071
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.5236999988555908
+    },
+    {
+     "id": "https://openalex.org/C204321447",
+     "wikidata": "https://www.wikidata.org/wiki/Q30642",
+     "display_name": "Natural language processing",
+     "level": 1,
+     "score": 0.5127999782562256
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.49900001287460327
+    },
+    {
+     "id": "https://openalex.org/C66402592",
+     "wikidata": "https://www.wikidata.org/wiki/Q2271421",
+     "display_name": "Sentiment analysis",
+     "level": 2,
+     "score": 0.498199999332428
+    },
+    {
+     "id": "https://openalex.org/C136197465",
+     "wikidata": "https://www.wikidata.org/wiki/Q1729295",
+     "display_name": "Variety (cybernetics)",
+     "level": 2,
+     "score": 0.45750001072883606
+    },
+    {
+     "id": "https://openalex.org/C2778243841",
+     "wikidata": "https://www.wikidata.org/wiki/Q56467",
+     "display_name": "Modern Standard Arabic",
+     "level": 3,
+     "score": 0.4442000091075897
+    },
+    {
+     "id": "https://openalex.org/C518677369",
+     "wikidata": "https://www.wikidata.org/wiki/Q202833",
+     "display_name": "Social media",
+     "level": 2,
+     "score": 0.42890000343322754
+    },
+    {
+     "id": "https://openalex.org/C96455323",
+     "wikidata": "https://www.wikidata.org/wiki/Q13955",
+     "display_name": "Arabic",
+     "level": 2,
+     "score": 0.42829999327659607
+    },
+    {
+     "id": "https://openalex.org/C11693617",
+     "wikidata": "https://www.wikidata.org/wiki/Q181839",
+     "display_name": "Pragmatics",
+     "level": 2,
+     "score": 0.40459999442100525
+    },
+    {
+     "id": "https://openalex.org/C313442",
+     "wikidata": "https://www.wikidata.org/wiki/Q778556",
+     "display_name": "Persona",
+     "level": 2,
+     "score": 0.38519999384880066
+    },
+    {
+     "id": "https://openalex.org/C2779975665",
+     "wikidata": "https://www.wikidata.org/wiki/Q131361",
+     "display_name": "Irony",
+     "level": 2,
+     "score": 0.37229999899864197
+    },
+    {
+     "id": "https://openalex.org/C29185921",
+     "wikidata": "https://www.wikidata.org/wiki/Q41966",
+     "display_name": "Metonymy",
+     "level": 3,
+     "score": 0.367900013923645
+    },
+    {
+     "id": "https://openalex.org/C61123122",
+     "wikidata": "https://www.wikidata.org/wiki/Q281287",
+     "display_name": "Politeness",
+     "level": 2,
+     "score": 0.3603000044822693
+    },
+    {
+     "id": "https://openalex.org/C2185349",
+     "wikidata": "https://www.wikidata.org/wiki/Q190558",
+     "display_name": "Negation",
+     "level": 2,
+     "score": 0.3490999937057495
+    },
+    {
+     "id": "https://openalex.org/C15744967",
+     "wikidata": "https://www.wikidata.org/wiki/Q9418",
+     "display_name": "Psychology",
+     "level": 0,
+     "score": 0.31139999628067017
+    },
+    {
+     "id": "https://openalex.org/C125496544",
+     "wikidata": "https://www.wikidata.org/wiki/Q1422423",
+     "display_name": "Arabic languages",
+     "level": 3,
+     "score": 0.2867000102996826
+    },
+    {
+     "id": "https://openalex.org/C2776608160",
+     "wikidata": "https://www.wikidata.org/wiki/Q4785462",
+     "display_name": "Natural (archaeology)",
+     "level": 2,
+     "score": 0.2799000144004822
+    },
+    {
+     "id": "https://openalex.org/C542774811",
+     "wikidata": "https://www.wikidata.org/wiki/Q10880526",
+     "display_name": "Prosody",
+     "level": 2,
+     "score": 0.271699994802475
+    },
+    {
+     "id": "https://openalex.org/C169900460",
+     "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+     "display_name": "Cognition",
+     "level": 2,
+     "score": 0.2632000148296356
+    },
+    {
+     "id": "https://openalex.org/C144024400",
+     "wikidata": "https://www.wikidata.org/wiki/Q21201",
+     "display_name": "Sociology",
+     "level": 0,
+     "score": 0.2540999948978424
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.1109/iceem66692.2025.11225196",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1109/iceem66692.2025.11225196",
+     "pdf_url": null,
+     "source": null,
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "2025 4th International Conference on Electronic Engineering (ICEEM)",
+     "raw_type": "proceedings-article"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 7,
+   "referenced_works": [
+    "https://openalex.org/W2024011160",
+    "https://openalex.org/W2098437222",
+    "https://openalex.org/W2147272182",
+    "https://openalex.org/W2264742718",
+    "https://openalex.org/W2512532697",
+    "https://openalex.org/W2747187574",
+    "https://openalex.org/W4293206760"
+   ],
+   "related_works": [],
+   "abstract_inverted_index": {
+    "The": [
+     0,
+     108
+    ],
+    "emergence": [
+     1
+    ],
+    "of": [
+     2,
+     169
+    ],
+    "transformer-based": [
+     3
+    ],
+    "models": [
+     4,
+     18
+    ],
+    "such": [
+     5,
+     101
+    ],
+    "as": [
+     6,
+     102
+    ],
+    "GPT": [
+     7,
+     135
+    ],
+    "has": [
+     8
+    ],
+    "transformed": [
+     9
+    ],
+    "Natural": [
+     10
+    ],
+    "Language": [
+     11
+    ],
+    "Processing": [
+     12
+    ],
+    "(NLP)": [
+     13
+    ],
+    "for": [
+     14,
+     67,
+     176
+    ],
+    "Arabic,": [
+     15
+    ],
+    "yet": [
+     16
+    ],
+    "most": [
+     17
+    ],
+    "remain": [
+     19
+    ],
+    "ill-equipped": [
+     20
+    ],
+    "to": [
+     21,
+     89
+    ],
+    "handle": [
+     22
+    ],
+    "informal,": [
+     23
+    ],
+    "culturally": [
+     24
+    ],
+    "embedded": [
+     25
+    ],
+    "dialects.": [
+     26
+    ],
+    "One": [
+     27
+    ],
+    "underexplored": [
+     28
+    ],
+    "variety": [
+     29
+    ],
+    "is": [
+     30
+    ],
+    "Lughat": [
+     31
+    ],
+    "al-Sarsagiyya—a": [
+     32
+    ],
+    "rapidly": [
+     33
+    ],
+    "evolving,": [
+     34
+    ],
+    "sarcasm-rich": [
+     35
+    ],
+    "street": [
+     36
+    ],
+    "slang": [
+     37
+    ],
+    "used": [
+     38
+    ],
+    "across": [
+     39
+    ],
+    "Egyptian,": [
+     40
+    ],
+    "Levantine,": [
+     41
+    ],
+    "and": [
+     42,
+     60,
+     70,
+     82,
+     93,
+     105,
+     120,
+     126,
+     146,
+     172
+    ],
+    "Gulf": [
+     43
+    ],
+    "contexts.": [
+     44
+    ],
+    "This": [
+     45
+    ],
+    "paper": [
+     46
+    ],
+    "introduces": [
+     47
+    ],
+    "a": [
+     48,
+     64,
+     75
+    ],
+    "Cognitive-Pragmatic": [
+     49
+    ],
+    "Sarcasm": [
+     50
+    ],
+    "Model": [
+     51
+    ],
+    "(CPSM)": [
+     52
+    ],
+    "that": [
+     53,
+     157
+    ],
+    "integrates": [
+     54
+    ],
+    "linguistic": [
+     55
+    ],
+    "pragmatics,": [
+     56
+    ],
+    "cognitive": [
+     57
+    ],
+    "irony": [
+     58
+    ],
+    "theories,": [
+     59
+    ],
+    "cultural": [
+     61,
+     99,
+     121,
+     165
+    ],
+    "signals": [
+     62
+    ],
+    "into": [
+     63,
+     161
+    ],
+    "GPT-based": [
+     65
+    ],
+    "architecture": [
+     66
+    ],
+    "sarcasm": [
+     68,
+     128
+    ],
+    "detection": [
+     69
+    ],
+    "sentiment": [
+     71
+    ],
+    "analysis.": [
+     72
+    ],
+    "We": [
+     73
+    ],
+    "constructed": [
+     74
+    ],
+    "novel": [
+     76
+    ],
+    "52,000-utterance": [
+     77
+    ],
+    "corpus": [
+     78,
+     139
+    ],
+    "from": [
+     79
+    ],
+    "social": [
+     80
+    ],
+    "media": [
+     81
+    ],
+    "online": [
+     83
+    ],
+    "discussions,": [
+     84
+    ],
+    "using": [
+     85
+    ],
+    "transparent,": [
+     86
+    ],
+    "multi-stage": [
+     87
+    ],
+    "filtering": [
+     88
+    ],
+    "remove": [
+     90
+    ],
+    "spam,": [
+     91
+    ],
+    "noise,": [
+     92
+    ],
+    "ironic": [
+     94,
+     170
+    ],
+    "hate": [
+     95
+    ],
+    "speech": [
+     96
+    ],
+    "while": [
+     97
+    ],
+    "preserving": [
+     98
+    ],
+    "markers": [
+     100
+    ],
+    "idioms,": [
+     103
+    ],
+    "emojis,": [
+     104
+    ],
+    "phonetic": [
+     106
+    ],
+    "stylization.": [
+     107
+    ],
+    "CPSM’s": [
+     109
+    ],
+    "layered": [
+     110
+    ],
+    "design—comprising": [
+     111
+    ],
+    "pragmatic": [
+     112
+    ],
+    "violation": [
+     113
+    ],
+    "detection,": [
+     114
+    ],
+    "persona": [
+     115
+    ],
+    "simulation,": [
+     116
+    ],
+    "echoic": [
+     117
+    ],
+    "reference": [
+     118
+    ],
+    "tracking,": [
+     119
+    ],
+    "signal": [
+     122
+    ],
+    "encoding—enables": [
+     123
+    ],
+    "contextually": [
+     124
+    ],
+    "dense": [
+     125
+    ],
+    "multimodal": [
+     127
+    ],
+    "recognition.": [
+     129
+    ],
+    "Fine-tuning": [
+     130
+    ],
+    "the": [
+     131
+    ],
+    "JAIS": [
+     132
+    ],
+    "13B": [
+     133
+    ],
+    "Arabic": [
+     134,
+     179
+    ],
+    "model": [
+     136,
+     162
+    ],
+    "on": [
+     137
+    ],
+    "this": [
+     138
+    ],
+    "improved": [
+     140
+    ],
+    "F1-score": [
+     141
+    ],
+    "by": [
+     142
+    ],
+    "8%": [
+     143
+    ],
+    "over": [
+     144,
+     148
+    ],
+    "MARBERT": [
+     145
+    ],
+    "20%": [
+     147
+    ],
+    "AraBERT,": [
+     149
+    ],
+    "approaching": [
+     150
+    ],
+    "human": [
+     151
+    ],
+    "annotator": [
+     152
+    ],
+    "performance.": [
+     153
+    ],
+    "Our": [
+     154
+    ],
+    "results": [
+     155
+    ],
+    "demonstrate": [
+     156
+    ],
+    "integrating": [
+     158
+    ],
+    "socio-pragmatic": [
+     159
+    ],
+    "theory": [
+     160
+    ],
+    "design": [
+     163
+    ],
+    "enhances": [
+     164
+    ],
+    "adaptability,": [
+     166
+    ],
+    "reduces": [
+     167
+    ],
+    "misinterpretation": [
+     168
+    ],
+    "content,": [
+     171
+    ],
+    "opens": [
+     173
+    ],
+    "new": [
+     174
+    ],
+    "avenues": [
+     175
+    ],
+    "socially": [
+     177
+    ],
+    "intelligent": [
+     178
+    ],
+    "NLP": [
+     180
+    ],
+    "systems.": [
+     181
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-07-29T14:22:42.915294",
+   "created_date": "2025-11-06T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W7130624974",
+   "doi": null,
+   "title": "DUCS at SemEval-2022 Task 6: Exploring Emojis and Sentiments for Sarcasm Detection",
+   "display_name": "DUCS at SemEval-2022 Task 6: Exploring Emojis and Sentiments for Sarcasm Detection",
+   "relevance_score": 9.763909,
+   "publication_year": 2022,
+   "publication_date": "2022-01-01",
+   "ids": {
+    "openalex": "https://openalex.org/W7130624974"
+   },
+   "language": null,
+   "primary_location": {
+    "id": "pmh:doi:10.48448/enr4-dn14",
+    "is_oa": false,
+    "landing_page_url": null,
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4406922384",
+     "display_name": "Open MIND",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Conference talk"
+   },
+   "type": "other",
+   "indexed_in": [],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5126426331",
+      "display_name": "Association for Computational Linguistics 2022",
+      "orcid": null
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Association for Computational Linguistics 2022",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5126375040",
+      "display_name": "Vandita Grover",
+      "orcid": null
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": false,
+     "raw_author_name": "Grover, Vandita",
+     "raw_affiliation_strings": [],
+     "raw_orcid": null,
+     "affiliations": []
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 0,
+   "institutions_distinct_count": 2,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": null,
+   "has_fulltext": false,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": null,
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": null,
+   "topics": [],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/sarcasm",
+     "display_name": "Sarcasm",
+     "score": 0.9804999828338623
+    },
+    {
+     "id": "https://openalex.org/keywords/semeval",
+     "display_name": "SemEval",
+     "score": 0.6570000052452087
+    },
+    {
+     "id": "https://openalex.org/keywords/task",
+     "display_name": "Task (project management)",
+     "score": 0.6455000042915344
+    },
+    {
+     "id": "https://openalex.org/keywords/punctuation",
+     "display_name": "Punctuation",
+     "score": 0.5799999833106995
+    },
+    {
+     "id": "https://openalex.org/keywords/polarity",
+     "display_name": "Polarity (international relations)",
+     "score": 0.5523999929428101
+    },
+    {
+     "id": "https://openalex.org/keywords/sentiment-analysis",
+     "display_name": "Sentiment analysis",
+     "score": 0.48159998655319214
+    },
+    {
+     "id": "https://openalex.org/keywords/transformer",
+     "display_name": "Transformer",
+     "score": 0.39660000801086426
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C2776207355",
+     "wikidata": "https://www.wikidata.org/wiki/Q191035",
+     "display_name": "Sarcasm",
+     "level": 3,
+     "score": 0.9804999828338623
+    },
+    {
+     "id": "https://openalex.org/C44572571",
+     "wikidata": "https://www.wikidata.org/wiki/Q7448970",
+     "display_name": "SemEval",
+     "level": 3,
+     "score": 0.6570000052452087
+    },
+    {
+     "id": "https://openalex.org/C2780451532",
+     "wikidata": "https://www.wikidata.org/wiki/Q759676",
+     "display_name": "Task (project management)",
+     "level": 2,
+     "score": 0.6455000042915344
+    },
+    {
+     "id": "https://openalex.org/C204321447",
+     "wikidata": "https://www.wikidata.org/wiki/Q30642",
+     "display_name": "Natural language processing",
+     "level": 1,
+     "score": 0.605400025844574
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.5845999717712402
+    },
+    {
+     "id": "https://openalex.org/C540372491",
+     "wikidata": "https://www.wikidata.org/wiki/Q82622",
+     "display_name": "Punctuation",
+     "level": 2,
+     "score": 0.5799999833106995
+    },
+    {
+     "id": "https://openalex.org/C2777361361",
+     "wikidata": "https://www.wikidata.org/wiki/Q1112585",
+     "display_name": "Polarity (international relations)",
+     "level": 3,
+     "score": 0.5523999929428101
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.5310999751091003
+    },
+    {
+     "id": "https://openalex.org/C66402592",
+     "wikidata": "https://www.wikidata.org/wiki/Q2271421",
+     "display_name": "Sentiment analysis",
+     "level": 2,
+     "score": 0.48159998655319214
+    },
+    {
+     "id": "https://openalex.org/C15744967",
+     "wikidata": "https://www.wikidata.org/wiki/Q9418",
+     "display_name": "Psychology",
+     "level": 0,
+     "score": 0.4296000003814697
+    },
+    {
+     "id": "https://openalex.org/C66322947",
+     "wikidata": "https://www.wikidata.org/wiki/Q11658",
+     "display_name": "Transformer",
+     "level": 3,
+     "score": 0.39660000801086426
+    },
+    {
+     "id": "https://openalex.org/C180747234",
+     "wikidata": "https://www.wikidata.org/wiki/Q23373",
+     "display_name": "Cognitive psychology",
+     "level": 1,
+     "score": 0.33820000290870667
+    },
+    {
+     "id": "https://openalex.org/C175154964",
+     "wikidata": "https://www.wikidata.org/wiki/Q380077",
+     "display_name": "Task analysis",
+     "level": 3,
+     "score": 0.33559998869895935
+    },
+    {
+     "id": "https://openalex.org/C90805587",
+     "wikidata": "https://www.wikidata.org/wiki/Q10944557",
+     "display_name": "Word (group theory)",
+     "level": 2,
+     "score": 0.32339999079704285
+    },
+    {
+     "id": "https://openalex.org/C26517878",
+     "wikidata": "https://www.wikidata.org/wiki/Q228039",
+     "display_name": "Key (lock)",
+     "level": 2,
+     "score": 0.31940001249313354
+    },
+    {
+     "id": "https://openalex.org/C41895202",
+     "wikidata": "https://www.wikidata.org/wiki/Q8162",
+     "display_name": "Linguistics",
+     "level": 1,
+     "score": 0.31310001015663147
+    },
+    {
+     "id": "https://openalex.org/C518677369",
+     "wikidata": "https://www.wikidata.org/wiki/Q202833",
+     "display_name": "Social media",
+     "level": 2,
+     "score": 0.27219998836517334
+    },
+    {
+     "id": "https://openalex.org/C2185349",
+     "wikidata": "https://www.wikidata.org/wiki/Q190558",
+     "display_name": "Negation",
+     "level": 2,
+     "score": 0.2694999873638153
+    },
+    {
+     "id": "https://openalex.org/C2779975665",
+     "wikidata": "https://www.wikidata.org/wiki/Q131361",
+     "display_name": "Irony",
+     "level": 2,
+     "score": 0.25279998779296875
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "pmh:doi:10.48448/enr4-dn14",
+     "is_oa": false,
+     "landing_page_url": null,
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4406922384",
+      "display_name": "Open MIND",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": "Conference talk"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 0,
+   "referenced_works": [],
+   "related_works": [],
+   "abstract_inverted_index": {
+    "This": [
+     0
+    ],
+    "paper": [
+     1
+    ],
+    "describes": [
+     2
+    ],
+    "the": [
+     3,
+     35,
+     55,
+     70,
+     119,
+     123
+    ],
+    "participation": [
+     4
+    ],
+    "of": [
+     5,
+     28,
+     58,
+     72,
+     81,
+     87,
+     95,
+     101,
+     122,
+     129,
+     160,
+     165
+    ],
+    "team": [
+     6
+    ],
+    "DUCS": [
+     7,
+     23
+    ],
+    "at": [
+     8
+    ],
+    "SemEval": [
+     9
+    ],
+    "2022": [
+     10
+    ],
+    "Task": [
+     11
+    ],
+    "6:": [
+     12
+    ],
+    "iSarcasmEval": [
+     13,
+     29
+    ],
+    "-": [
+     14
+    ],
+    "Intended": [
+     15
+    ],
+    "Sarcasm": [
+     16
+    ],
+    "Detection": [
+     17
+    ],
+    "in": [
+     18,
+     25,
+     108,
+     190
+    ],
+    "English": [
+     19,
+     37
+    ],
+    "and": [
+     20,
+     79,
+     99,
+     132,
+     135,
+     140,
+     156
+    ],
+    "Arabic.": [
+     21
+    ],
+    "Team": [
+     22
+    ],
+    "participated": [
+     24
+    ],
+    "SubTask": [
+     26
+    ],
+    "A": [
+     27
+    ],
+    "which": [
+     30
+    ],
+    "was": [
+     31,
+     39,
+     115,
+     147,
+     168
+    ],
+    "to": [
+     32,
+     49,
+     54,
+     91,
+     117
+    ],
+    "determine": [
+     33,
+     92
+    ],
+    "if": [
+     34
+    ],
+    "given": [
+     36,
+     74
+    ],
+    "text": [
+     38
+    ],
+    "sarcastic": [
+     40,
+     56,
+     170,
+     191
+    ],
+    "or": [
+     41,
+     68
+    ],
+    "not.": [
+     42
+    ],
+    "In": [
+     43,
+     176
+    ],
+    "this": [
+     44,
+     166
+    ],
+    "work,": [
+     45
+    ],
+    "emojis": [
+     46,
+     65,
+     178
+    ],
+    "were": [
+     47,
+     89,
+     106,
+     143
+    ],
+    "utilized": [
+     48
+    ],
+    "capture": [
+     50
+    ],
+    "how": [
+     51
+    ],
+    "they": [
+     52
+    ],
+    "contributed": [
+     53
+    ],
+    "nature": [
+     57,
+     121
+    ],
+    "a": [
+     59,
+     73
+    ],
+    "text.": [
+     60
+    ],
+    "It": [
+     61,
+     146
+    ],
+    "is": [
+     62
+    ],
+    "observed": [
+     63,
+     148
+    ],
+    "that": [
+     64,
+     149,
+     169
+    ],
+    "can": [
+     66
+    ],
+    "augment": [
+     67
+    ],
+    "reverse": [
+     69
+    ],
+    "polarity": [
+     71,
+     181
+    ],
+    "statement.": [
+     75
+    ],
+    "Thus": [
+     76
+    ],
+    "sentiment": [
+     77,
+     110
+    ],
+    "polarities": [
+     78,
+     189
+    ],
+    "intensities": [
+     80
+    ],
+    "emojis,": [
+     82
+    ],
+    "as": [
+     83,
+     85,
+     109
+    ],
+    "well": [
+     84
+    ],
+    "those": [
+     86,
+     186
+    ],
+    "text,": [
+     88
+    ],
+    "computed": [
+     90
+    ],
+    "sarcasm.": [
+     93
+    ],
+    "Use": [
+     94
+    ],
+    "capitalization,": [
+     96
+    ],
+    "word": [
+     97
+    ],
+    "repetition,": [
+     98
+    ],
+    "use": [
+     100
+    ],
+    "punctuation": [
+     102
+    ],
+    "marks": [
+     103
+    ],
+    "like": [
+     104,
+     138
+    ],
+    "'!'": [
+     105
+    ],
+    "factored": [
+     107
+    ],
+    "intensifiers.": [
+     111
+    ],
+    "An": [
+     112
+    ],
+    "NLP": [
+     113
+    ],
+    "augmenter": [
+     114
+    ],
+    "used": [
+     116,
+     183
+    ],
+    "tackle": [
+     118
+    ],
+    "imbalanced": [
+     120
+    ],
+    "sarcasm": [
+     124
+    ],
+    "dataset.": [
+     125
+    ],
+    "Several": [
+     126
+    ],
+    "architectures": [
+     127,
+     154
+    ],
+    "comprising": [
+     128
+    ],
+    "various": [
+     130
+    ],
+    "ML": [
+     131
+    ],
+    "DL": [
+     133
+    ],
+    "classifiers,": [
+     134
+    ],
+    "transformer": [
+     136
+    ],
+    "models": [
+     137
+    ],
+    "BERT": [
+     139,
+     142,
+     151
+    ],
+    "Multimodal": [
+     141,
+     150
+    ],
+    "experimented": [
+     144
+    ],
+    "with.": [
+     145
+    ],
+    "outperformed": [
+     152
+    ],
+    "other": [
+     153
+    ],
+    "tested": [
+     155
+    ],
+    "achieved": [
+     157
+    ],
+    "an": [
+     158
+    ],
+    "F1-score": [
+     159
+    ],
+    "30.71%.": [
+     161
+    ],
+    "The": [
+     162
+    ],
+    "key": [
+     163
+    ],
+    "takeaway": [
+     164
+    ],
+    "study": [
+     167
+    ],
+    "texts": [
+     171
+    ],
+    "are": [
+     172,
+     182
+    ],
+    "usually": [
+     173
+    ],
+    "positive": [
+     174,
+     180
+    ],
+    "sentences.": [
+     175
+    ],
+    "general": [
+     177
+    ],
+    "with": [
+     179,
+     187
+    ],
+    "more": [
+     184
+    ],
+    "than": [
+     185
+    ],
+    "negative": [
+     188
+    ],
+    "texts.": [
+     192
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-06-11T09:08:48.828518",
+   "created_date": "2026-02-20T00:00:00"
+  }
+ ],
+ "group_by": []
+}

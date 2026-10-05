@@ -1,0 +1,7072 @@
+{
+ "meta": {
+  "count": 2,
+  "db_response_time_ms": 54,
+  "page": 1,
+  "per_page": 50,
+  "groups_count": null,
+  "x_query": {
+   "oql": "works where date >= (2015-01-01)\n  and title/abstract has (late fusion versus early fusion multimodal emotion)\n  and date <= (2026-07-31)",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "from_publication_date",
+      "value": "2015-01-01"
+     },
+     {
+      "column_id": "title_and_abstract.search",
+      "value": "late fusion versus early fusion multimodal emotion",
+      "operator": "has"
+     },
+     {
+      "column_id": "to_publication_date",
+      "value": "2026-07-31"
+     }
+    ]
+   },
+   "url": "/works?filter=from_publication_date:2015-01-01,title_and_abstract.search:late fusion versus early fusion multimodal emotion,to_publication_date:2026-07-31&per_page=50"
+  },
+  "cost_usd": 0.001
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W7153730770",
+   "doi": "https://doi.org/10.5281/zenodo.19542424",
+   "title": "Why Voice Agents Feel Awkward (And How to Fix It)",
+   "display_name": "Why Voice Agents Feel Awkward (And How to Fix It)",
+   "relevance_score": 1.2968464,
+   "publication_year": 2026,
+   "publication_date": "2026-04-12",
+   "ids": {
+    "openalex": "https://openalex.org/W7153730770",
+    "doi": "https://doi.org/10.5281/zenodo.19542424"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "pmh:doi:10.5281/zenodo.19542424",
+    "is_oa": true,
+    "landing_page_url": "https://myweirdprompts.com/episode/voice-agent-conversation-dynamics",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4406922384",
+     "display_name": "Open MIND",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Audiovisual"
+   },
+   "type": "other",
+   "indexed_in": [
+    "datacite"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://myweirdprompts.com/episode/voice-agent-conversation-dynamics",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5128325680",
+      "display_name": "Daniel Rosehill",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210127384",
+       "display_name": "Prompt (Canada)",
+       "ror": "https://ror.org/02p0fq023",
+       "country_code": "CA",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210127384"
+       ]
+      }
+     ],
+     "countries": [
+      "CA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Rosehill, Daniel",
+     "raw_affiliation_strings": [
+      "My Weird Prompts"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "My Weird Prompts",
+       "institution_ids": [
+        "https://openalex.org/I4210127384"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5128791034",
+      "display_name": "Gemini 3.1 (Flash)",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1291425158",
+       "display_name": "Google (United States)",
+       "ror": "https://ror.org/00njsd438",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210090411",
+       "display_name": "Google DeepMind (United Kingdom)",
+       "ror": "https://ror.org/00971b260",
+       "country_code": "GB",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210090411",
+        "https://openalex.org/I4210128969"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Gemini 3.1 (Flash)",
+     "raw_affiliation_strings": [
+      "Google DeepMind"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Google DeepMind",
+       "institution_ids": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210090411"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5128778162",
+      "display_name": "Chatterbox TTS",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210137149",
+       "display_name": "Renewable Energy Systems (United States)",
+       "ror": "https://ror.org/036gc1b60",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210090535",
+        "https://openalex.org/I4210137149"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Chatterbox TTS",
+     "raw_affiliation_strings": [
+      "Resemble AI"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Resemble AI",
+       "institution_ids": [
+        "https://openalex.org/I4210137149"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 3,
+   "institutions_distinct_count": 4,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": null,
+   "has_fulltext": false,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": null,
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": null,
+   "topics": [],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/nothing",
+     "display_name": "Nothing",
+     "score": 0.614799976348877
+    },
+    {
+     "id": "https://openalex.org/keywords/natural",
+     "display_name": "Natural (archaeology)",
+     "score": 0.5385000109672546
+    },
+    {
+     "id": "https://openalex.org/keywords/transcription",
+     "display_name": "Transcription (linguistics)",
+     "score": 0.5049999952316284
+    },
+    {
+     "id": "https://openalex.org/keywords/conversation",
+     "display_name": "Conversation",
+     "score": 0.45559999346733093
+    },
+    {
+     "id": "https://openalex.org/keywords/human-voice",
+     "display_name": "Human voice",
+     "score": 0.3831999897956848
+    },
+    {
+     "id": "https://openalex.org/keywords/happening",
+     "display_name": "Happening",
+     "score": 0.3515999913215637
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C136815107",
+     "wikidata": "https://www.wikidata.org/wiki/Q154242",
+     "display_name": "Nothing",
+     "level": 2,
+     "score": 0.614799976348877
+    },
+    {
+     "id": "https://openalex.org/C2776608160",
+     "wikidata": "https://www.wikidata.org/wiki/Q4785462",
+     "display_name": "Natural (archaeology)",
+     "level": 2,
+     "score": 0.5385000109672546
+    },
+    {
+     "id": "https://openalex.org/C179926584",
+     "wikidata": "https://www.wikidata.org/wiki/Q207714",
+     "display_name": "Transcription (linguistics)",
+     "level": 2,
+     "score": 0.5049999952316284
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.49380001425743103
+    },
+    {
+     "id": "https://openalex.org/C2777200299",
+     "wikidata": "https://www.wikidata.org/wiki/Q52943",
+     "display_name": "Conversation",
+     "level": 2,
+     "score": 0.45559999346733093
+    },
+    {
+     "id": "https://openalex.org/C20766975",
+     "wikidata": "https://www.wikidata.org/wiki/Q7390",
+     "display_name": "Human voice",
+     "level": 2,
+     "score": 0.3831999897956848
+    },
+    {
+     "id": "https://openalex.org/C2779527642",
+     "wikidata": "https://www.wikidata.org/wiki/Q108874",
+     "display_name": "Happening",
+     "level": 3,
+     "score": 0.3515999913215637
+    },
+    {
+     "id": "https://openalex.org/C15744967",
+     "wikidata": "https://www.wikidata.org/wiki/Q9418",
+     "display_name": "Psychology",
+     "level": 0,
+     "score": 0.3422999978065491
+    },
+    {
+     "id": "https://openalex.org/C82876162",
+     "wikidata": "https://www.wikidata.org/wiki/Q17096504",
+     "display_name": "Latency (audio)",
+     "level": 2,
+     "score": 0.3249000012874603
+    },
+    {
+     "id": "https://openalex.org/C186370098",
+     "wikidata": "https://www.wikidata.org/wiki/Q442787",
+     "display_name": "Energy (signal processing)",
+     "level": 2,
+     "score": 0.31690001487731934
+    },
+    {
+     "id": "https://openalex.org/C107457646",
+     "wikidata": "https://www.wikidata.org/wiki/Q207434",
+     "display_name": "Human–computer interaction",
+     "level": 1,
+     "score": 0.3091000020503998
+    },
+    {
+     "id": "https://openalex.org/C178718744",
+     "wikidata": "https://www.wikidata.org/wiki/Q2350070",
+     "display_name": "Voice command device",
+     "level": 2,
+     "score": 0.3059000074863434
+    },
+    {
+     "id": "https://openalex.org/C108827166",
+     "wikidata": "https://www.wikidata.org/wiki/Q175975",
+     "display_name": "Internet privacy",
+     "level": 1,
+     "score": 0.287200003862381
+    },
+    {
+     "id": "https://openalex.org/C46312422",
+     "wikidata": "https://www.wikidata.org/wiki/Q11024",
+     "display_name": "Communication",
+     "level": 1,
+     "score": 0.28529998660087585
+    },
+    {
+     "id": "https://openalex.org/C28490314",
+     "wikidata": "https://www.wikidata.org/wiki/Q189436",
+     "display_name": "Speech recognition",
+     "level": 1,
+     "score": 0.27869999408721924
+    },
+    {
+     "id": "https://openalex.org/C2780646970",
+     "wikidata": "https://www.wikidata.org/wiki/Q6980787",
+     "display_name": "Natural sounds",
+     "level": 2,
+     "score": 0.2565000057220459
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "pmh:doi:10.5281/zenodo.19542424",
+     "is_oa": true,
+     "landing_page_url": "https://myweirdprompts.com/episode/voice-agent-conversation-dynamics",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4406922384",
+      "display_name": "Open MIND",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": "submittedVersion",
+     "is_accepted": false,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": "Audiovisual"
+    },
+    {
+     "id": "doi:10.5281/zenodo.19542424",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.5281/zenodo.19542424",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306400562",
+      "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I67311998",
+      "host_organization_name": "European Organization for Nuclear Research",
+      "host_organization_lineage": [
+       "https://openalex.org/I67311998"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": null,
+     "is_accepted": false,
+     "is_published": null,
+     "raw_source_name": null,
+     "raw_type": "Audiovisual"
+    }
+   ],
+   "best_oa_location": {
+    "id": "pmh:doi:10.5281/zenodo.19542424",
+    "is_oa": true,
+    "landing_page_url": "https://myweirdprompts.com/episode/voice-agent-conversation-dynamics",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4406922384",
+     "display_name": "Open MIND",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": null,
+     "host_organization_name": null,
+     "host_organization_lineage": [],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Audiovisual"
+   },
+   "sustainable_development_goals": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 0,
+   "referenced_works": [],
+   "related_works": [],
+   "abstract_inverted_index": {
+    "Episode": [
+     0
+    ],
+    "summary:": [
+     1
+    ],
+    "Voice": [
+     2,
+     106,
+     108,
+     202
+    ],
+    "transcription": [
+     3
+    ],
+    "and": [
+     4,
+     53,
+     87,
+     176,
+     217,
+     323,
+     367,
+     380,
+     399,
+     522,
+     581,
+     644,
+     739,
+     791,
+     851,
+     951,
+     1060,
+     1194,
+     1218,
+     1259,
+     1316,
+     1344,
+     1397,
+     1410
+    ],
+    "synthesis": [
+     5
+    ],
+    "sound": [
+     6
+    ],
+    "great,": [
+     7
+    ],
+    "but": [
+     8,
+     308,
+     744,
+     762,
+     909,
+     1332
+    ],
+    "talking": [
+     9,
+     127,
+     159,
+     1322
+    ],
+    "to": [
+     10,
+     36,
+     128,
+     138,
+     239,
+     252,
+     265,
+     282,
+     321,
+     327,
+     362,
+     385,
+     441,
+     482,
+     728,
+     830,
+     860,
+     865,
+     878,
+     880,
+     964,
+     1057,
+     1119,
+     1220,
+     1245,
+     1323,
+     1330,
+     1353
+    ],
+    "a": [
+     11,
+     233,
+     242,
+     298,
+     314,
+     409,
+     445,
+     449,
+     469,
+     517,
+     561,
+     648,
+     698,
+     717,
+     802,
+     853,
+     938,
+     1158,
+     1173,
+     1179,
+     1272,
+     1310,
+     1324
+    ],
+    "voice": [
+     12,
+     68,
+     129,
+     141,
+     971,
+     1055,
+     1198,
+     1214,
+     1311,
+     1416
+    ],
+    "agent": [
+     13,
+     157,
+     258,
+     334,
+     549,
+     689,
+     823,
+     1247,
+     1312
+    ],
+    "still": [
+     14,
+     1138,
+     1418
+    ],
+    "feels": [
+     15,
+     110,
+     131,
+     1314,
+     1319,
+     1419
+    ],
+    "slightly": [
+     16,
+     1420
+    ],
+    "off.": [
+     17,
+     1421
+    ],
+    "Why?": [
+     18
+    ],
+    "Because": [
+     19
+    ],
+    "the": [
+     20,
+     64,
+     78,
+     114,
+     134,
+     150,
+     191,
+     207,
+     215,
+     253,
+     257,
+     295,
+     324,
+     333,
+     360,
+     372,
+     377,
+     428,
+     456,
+     538,
+     548,
+     555,
+     595,
+     620,
+     623,
+     632,
+     654,
+     673,
+     781,
+     810,
+     895,
+     958,
+     975,
+     1005,
+     1011,
+     1033,
+     1105,
+     1110,
+     1130,
+     1135,
+     1202,
+     1283,
+     1307,
+     1333,
+     1339,
+     1384
+    ],
+    "hard": [
+     21
+    ],
+    "problems": [
+     22
+    ],
+    "are": [
+     23,
+     189,
+     675,
+     949,
+     1341,
+     1358,
+     1364
+    ],
+    "invisible:": [
+     24
+    ],
+    "how": [
+     25,
+     38,
+     170
+    ],
+    "agents": [
+     26,
+     130,
+     1199
+    ],
+    "detect": [
+     27,
+     221
+    ],
+    "when": [
+     28,
+     49,
+     160,
+     219
+    ],
+    "you've": [
+     29,
+     955
+    ],
+    "actually": [
+     30,
+     96,
+     1200,
+     1402
+    ],
+    "finished": [
+     31
+    ],
+    "speaking": [
+     32,
+     500
+    ],
+    "versus": [
+     33,
+     578,
+     589
+    ],
+    "just": [
+     34,
+     503,
+     619
+    ],
+    "pausing": [
+     35,
+     646
+    ],
+    "think,": [
+     37
+    ],
+    "they": [
+     39,
+     55,
+     375,
+     652,
+     1122,
+     1398
+    ],
+    "handle": [
+     40,
+     290
+    ],
+    "interruptions": [
+     41,
+     365,
+     835
+    ],
+    "without": [
+     42,
+     1275
+    ],
+    "cutting": [
+     43,
+     873
+    ],
+    "you": [
+     44,
+     161,
+     167,
+     220,
+     262,
+     267,
+     278,
+     432,
+     452,
+     545
+    ],
+    "off": [
+     45,
+     168,
+     692
+    ],
+    "mid-sentence,": [
+     46
+    ],
+    "what": [
+     47,
+     93,
+     629
+    ],
+    "happens": [
+     48,
+     808
+    ],
+    "latency": [
+     50,
+     825,
+     841,
+     978,
+     1180,
+     1277,
+     1284
+    ],
+    "budgets": [
+     51,
+     1357
+    ],
+    "blow,": [
+     52
+    ],
+    "whether": [
+     54,
+     155,
+     164,
+     177,
+     516
+    ],
+    "can": [
+     56,
+     179,
+     390,
+     453,
+     863
+    ],
+    "read": [
+     57,
+     1201
+    ],
+    "emotional": [
+     58,
+     1193
+    ],
+    "tone.": [
+     59,
+     184
+    ],
+    "This": [
+     60,
+     336,
+     922,
+     1300
+    ],
+    "episode": [
+     61
+    ],
+    "digs": [
+     62
+    ],
+    "into": [
+     63
+    ],
+    "conversational": [
+     65,
+     148,
+     789,
+     1315
+    ],
+    "dynamics": [
+     66,
+     1412
+    ],
+    "underneath": [
+     67
+    ],
+    "AI—the": [
+     69
+    ],
+    "failure": [
+     70,
+     187,
+     1385
+    ],
+    "modes": [
+     71,
+     188
+    ],
+    "most": [
+     72,
+     1012,
+     1289,
+     1373,
+     1415
+    ],
+    "developers": [
+     73,
+     382,
+     1290,
+     1374
+    ],
+    "don't": [
+     74,
+     546,
+     1226,
+     1381,
+     1399
+    ],
+    "fully": [
+     75,
+     1382
+    ],
+    "understand—and": [
+     76
+    ],
+    "maps": [
+     77
+    ],
+    "engineering": [
+     79,
+     193,
+     925,
+     1327
+    ],
+    "solutions": [
+     80,
+     1340
+    ],
+    "emerging": [
+     81
+    ],
+    "across": [
+     82,
+     1090
+    ],
+    "Vapi,": [
+     83
+    ],
+    "LiveKit,": [
+     84
+    ],
+    "Pipecat,": [
+     85
+    ],
+    "Deepgram,": [
+     86
+    ],
+    "others.": [
+     88
+    ],
+    "Turn-taking": [
+     89
+    ],
+    "isn't": [
+     90
+    ],
+    "solved.": [
+     91
+    ],
+    "Here's": [
+     92
+    ],
+    "solving": [
+     94
+    ],
+    "it": [
+     95,
+     165,
+     172,
+     178,
+     271,
+     281,
+     320,
+     487,
+     494,
+     528,
+     536
+    ],
+    "requires.": [
+     97
+    ],
+    "Show": [
+     98
+    ],
+    "Notes": [
+     99
+    ],
+    "#": [
+     100
+    ],
+    "The": [
+     101,
+     143,
+     199,
+     223,
+     255,
+     286,
+     304,
+     310,
+     477,
+     611,
+     625,
+     721,
+     902,
+     919,
+     929,
+     977,
+     1007,
+     1045,
+     1050,
+     1086,
+     1188,
+     1206,
+     1252,
+     1326,
+     1336,
+     1370
+    ],
+    "Invisible": [
+     102
+    ],
+    "Engineering": [
+     103
+    ],
+    "Behind": [
+     104
+    ],
+    "Natural": [
+     105
+    ],
+    "Conversations": [
+     107
+    ],
+    "AI": [
+     109,
+     1417
+    ],
+    "almost": [
+     111
+    ],
+    "solved": [
+     112
+    ],
+    "on": [
+     113,
+     422,
+     725,
+     1376
+    ],
+    "surface.": [
+     115
+    ],
+    "Transcription": [
+     116
+    ],
+    "is": [
+     117,
+     194,
+     206,
+     225,
+     227,
+     306,
+     480,
+     492,
+     525,
+     543,
+     618,
+     628,
+     767,
+     779,
+     786,
+     904,
+     923,
+     932,
+     1048,
+     1068,
+     1137,
+     1215,
+     1255,
+     1286,
+     1328,
+     1349,
+     1413
+    ],
+    "accurate.": [
+     118
+    ],
+    "Synthesis": [
+     119
+    ],
+    "sounds": [
+     120
+    ],
+    "natural.": [
+     121
+    ],
+    "But": [
+     122,
+     615
+    ],
+    "users": [
+     123,
+     874
+    ],
+    "consistently": [
+     124
+    ],
+    "report": [
+     125
+    ],
+    "that": [
+     126,
+     153,
+     300,
+     358,
+     415,
+     493,
+     660,
+     913,
+     967,
+     1182,
+     1243,
+     1256,
+     1282,
+     1313,
+     1318
+    ],
+    "\"slightly": [
+     132
+    ],
+    "wrong\"—and": [
+     133
+    ],
+    "reason": [
+     135
+    ],
+    "has": [
+     136,
+     326,
+     430,
+     723,
+     937
+    ],
+    "nothing": [
+     137
+    ],
+    "do": [
+     139
+    ],
+    "with": [
+     140,
+     297,
+     468,
+     557,
+     1394
+    ],
+    "quality.": [
+     142
+    ],
+    "real": [
+     144
+    ],
+    "problem": [
+     145,
+     224,
+     296
+    ],
+    "lives": [
+     146
+    ],
+    "in": [
+     147,
+     182,
+     196,
+     397,
+     419,
+     742,
+     809,
+     1100,
+     1170,
+     1176,
+     1204,
+     1237
+    ],
+    "dynamics:": [
+     149
+    ],
+    "split-second": [
+     151
+    ],
+    "decisions": [
+     152
+    ],
+    "determine": [
+     154
+    ],
+    "an": [
+     156,
+     349,
+     661
+    ],
+    "keeps": [
+     158,
+     669
+    ],
+    "say": [
+     162,
+     328
+    ],
+    "\"uh-huh,\"": [
+     163,
+     354
+    ],
+    "cuts": [
+     166,
+     690,
+     822
+    ],
+    "mid-thought,": [
+     169
+    ],
+    "long": [
+     171
+    ],
+    "waits": [
+     173,
+     272,
+     312,
+     507
+    ],
+    "before": [
+     174,
+     332,
+     1109,
+     1295
+    ],
+    "responding,": [
+     175
+    ],
+    "sense": [
+     180
+    ],
+    "frustration": [
+     181
+    ],
+    "your": [
+     183,
+     274,
+     641
+    ],
+    "These": [
+     185,
+     1302
+    ],
+    "invisible": [
+     186,
+     1329
+    ],
+    "where": [
+     190,
+     768,
+     924,
+     1414
+    ],
+    "actual": [
+     192
+    ],
+    "happening": [
+     195,
+     1403
+    ],
+    "2026.": [
+     197
+    ],
+    "##": [
+     198,
+     610,
+     918,
+     1187,
+     1298
+    ],
+    "Backchannel": [
+     200
+    ],
+    "Problem": [
+     201,
+     614
+    ],
+    "Activity": [
+     203
+    ],
+    "Detection": [
+     204
+    ],
+    "(VAD)": [
+     205
+    ],
+    "naive": [
+     208,
+     1071
+    ],
+    "solution:": [
+     209
+    ],
+    "listen": [
+     210
+    ],
+    "for": [
+     211,
+     273,
+     280,
+     313,
+     340,
+     508,
+     533,
+     567,
+     592,
+     647,
+     753,
+     867,
+     910,
+     1054,
+     1074
+    ],
+    "audio": [
+     212,
+     504,
+     1102,
+     1128
+    ],
+    "energy": [
+     213
+    ],
+    "from": [
+     214,
+     489,
+     512,
+     701,
+     962,
+     981,
+     1129,
+     1213,
+     1351
+    ],
+    "user": [
+     216,
+     236,
+     325,
+     429,
+     1111,
+     1169
+    ],
+    "stop": [
+     218
+    ],
+    "it.": [
+     222,
+     1228
+    ],
+    "VAD": [
+     226,
+     491
+    ],
+    "completely": [
+     228
+    ],
+    "dumb.": [
+     229
+    ],
+    "It": [
+     230,
+     506
+    ],
+    "cannot": [
+     231
+    ],
+    "distinguish": [
+     232
+    ],
+    "genuine": [
+     234
+    ],
+    "interruption—the": [
+     235
+    ],
+    "actively": [
+     237
+    ],
+    "trying": [
+     238
+    ],
+    "take": [
+     240
+    ],
+    "over—from": [
+     241
+    ],
+    "backchannel": [
+     243,
+     616
+    ],
+    "acknowledgment": [
+     244
+    ],
+    "like": [
+     245,
+     1320
+    ],
+    "\"mm-hmm\"": [
+     246
+    ],
+    "or": [
+     247,
+     876,
+     1240,
+     1278,
+     1390,
+     1392
+    ],
+    "\"right.\"": [
+     248
+    ],
+    "Both": [
+     249
+    ],
+    "look": [
+     250
+    ],
+    "identical": [
+     251
+    ],
+    "system.": [
+     254,
+     1325
+    ],
+    "result:": [
+     256
+    ],
+    "stops": [
+     259
+    ],
+    "mid-sentence": [
+     260
+    ],
+    "because": [
+     261,
+     714
+    ],
+    "said": [
+     263
+    ],
+    "\"okay\"": [
+     264
+    ],
+    "show": [
+     266
+    ],
+    "were": [
+     268
+    ],
+    "listening.": [
+     269
+    ],
+    "Then": [
+     270
+    ],
+    "next": [
+     275,
+     655
+    ],
+    "input": [
+     276
+    ],
+    "while": [
+     277,
+     606,
+     651,
+     1134
+    ],
+    "wait": [
+     279,
+     411,
+     417,
+     434,
+     881
+    ],
+    "continue.": [
+     283
+    ],
+    "Awkward": [
+     284
+    ],
+    "silence.": [
+     285
+    ],
+    "three": [
+     287,
+     726,
+     1092
+    ],
+    "major": [
+     288
+    ],
+    "platforms": [
+     289,
+     1230,
+     1380
+    ],
+    "this": [
+     291
+    ],
+    "differently:": [
+     292
+    ],
+    "**Vapi**": [
+     293
+    ],
+    "abstracts": [
+     294
+    ],
+    "`stopSpeakingPlan`": [
+     299
+    ],
+    "offers": [
+     301
+    ],
+    "two": [
+     302,
+     329,
+     847
+    ],
+    "modes.": [
+     303,
+     1386
+    ],
+    "first": [
+     305,
+     1131
+    ],
+    "VAD-based": [
+     307
+    ],
+    "fast.": [
+     309
+    ],
+    "second": [
+     311,
+     650
+    ],
+    "configurable": [
+     315,
+     854
+    ],
+    "number": [
+     316,
+     931
+    ],
+    "of": [
+     317,
+     510,
+     622,
+     663,
+     842,
+     872,
+     942,
+     1084,
+     1155,
+     1378
+    ],
+    "transcribed": [
+     318,
+     751
+    ],
+    "words—set": [
+     319
+    ],
+    "two,": [
+     322
+    ],
+    "recognizable": [
+     330
+    ],
+    "words": [
+     331
+    ],
+    "yields.": [
+     335
+    ],
+    "trades": [
+     337
+    ],
+    "response": [
+     338,
+     824,
+     869
+    ],
+    "speed": [
+     339
+    ],
+    "accuracy,": [
+     341
+    ],
+    "reducing": [
+     342
+    ],
+    "false": [
+     343,
+     597,
+     834,
+     1221
+    ],
+    "positives": [
+     344
+    ],
+    "dramatically.": [
+     345
+    ],
+    "Vapi": [
+     346,
+     1389
+    ],
+    "also": [
+     347,
+     708,
+     787,
+     884,
+     1149
+    ],
+    "maintains": [
+     348
+    ],
+    "`acknowledgementPhrases`": [
+     350
+    ],
+    "list": [
+     351
+    ],
+    "(\"okay,\"": [
+     352
+    ],
+    "\"right,\"": [
+     353
+    ],
+    "\"got": [
+     355
+    ],
+    "it,\"": [
+     356
+    ],
+    "\"mm-hmm\")": [
+     357
+    ],
+    "tells": [
+     359
+    ],
+    "system": [
+     361,
+     1174
+    ],
+    "ignore": [
+     363
+    ],
+    "those": [
+     364
+    ],
+    "entirely": [
+     366
+    ],
+    "keep": [
+     368
+    ],
+    "talking.": [
+     369
+    ],
+    "**LiveKit**": [
+     370
+    ],
+    "takes": [
+     371
+    ],
+    "opposite": [
+     373
+    ],
+    "approach:": [
+     374
+    ],
+    "expose": [
+     376
+    ],
+    "full": [
+     378,
+     649,
+     1075
+    ],
+    "framework": [
+     379
+    ],
+    "let": [
+     381
+    ],
+    "configure": [
+     383
+    ],
+    "turn-taking": [
+     384,
+     564,
+     1260,
+     1293
+    ],
+    "their": [
+     386,
+     558
+    ],
+    "specific": [
+     387
+    ],
+    "needs.": [
+     388
+    ],
+    "You": [
+     389,
+     862,
+     1265
+    ],
+    "set": [
+     391,
+     1396
+    ],
+    "`allow_interruptions`": [
+     392
+    ],
+    "directly,": [
+     393
+    ],
+    "call": [
+     394,
+     659
+    ],
+    "`interrupt()`": [
+     395
+    ],
+    "explicitly": [
+     396
+    ],
+    "code,": [
+     398
+    ],
+    "build": [
+     400
+    ],
+    "custom": [
+     401
+    ],
+    "logic": [
+     402
+    ],
+    "around": [
+     403
+    ],
+    "handoffs.": [
+     404
+    ],
+    "Their": [
+     405
+    ],
+    "smart": [
+     406
+    ],
+    "endpointing": [
+     407
+    ],
+    "uses": [
+     408,
+     461
+    ],
+    "sigmoid-curve": [
+     410
+    ],
+    "function—a": [
+     412
+    ],
+    "mathematical": [
+     413
+    ],
+    "formula": [
+     414
+    ],
+    "returns": [
+     416
+    ],
+    "time": [
+     418,
+     588
+    ],
+    "milliseconds": [
+     420,
+     828,
+     892
+    ],
+    "based": [
+     421
+    ],
+    "speech-completion": [
+     423
+    ],
+    "probability.": [
+     424
+    ],
+    "At": [
+     425,
+     436
+    ],
+    "50%": [
+     426
+    ],
+    "confidence": [
+     427,
+     524,
+     855
+    ],
+    "finished,": [
+     431
+    ],
+    "might": [
+     433
+    ],
+    "200ms.": [
+     435
+    ],
+    "90%": [
+     437
+    ],
+    "confidence,": [
+     438
+    ],
+    "you're": [
+     439,
+     715,
+     1321
+    ],
+    "down": [
+     440
+    ],
+    "50ms.": [
+     442
+    ],
+    "It's": [
+     443
+    ],
+    "not": [
+     444,
+     795,
+     1209
+    ],
+    "fixed": [
+     446
+    ],
+    "threshold;": [
+     447
+    ],
+    "it's": [
+     448
+    ],
+    "continuous": [
+     450
+    ],
+    "function": [
+     451
+    ],
+    "tune.": [
+     454
+    ],
+    "**Pipecat**,": [
+     455
+    ],
+    "open-source": [
+     457
+    ],
+    "option": [
+     458
+    ],
+    "(BSD-2-clause": [
+     459
+    ],
+    "license),": [
+     460
+    ],
+    "SmartTurn": [
+     462,
+     593
+    ],
+    "version": [
+     463,
+     479
+    ],
+    "3.2—a": [
+     464
+    ],
+    "Whisper": [
+     465
+    ],
+    "Tiny": [
+     466
+    ],
+    "backbone": [
+     467
+    ],
+    "linear": [
+     470
+    ],
+    "classifier": [
+     471
+    ],
+    "layer,": [
+     472
+    ],
+    "about": [
+     473,
+     837,
+     1192
+    ],
+    "8": [
+     474,
+     483
+    ],
+    "million": [
+     475
+    ],
+    "parameters.": [
+     476
+    ],
+    "CPU": [
+     478,
+     568
+    ],
+    "quantized": [
+     481
+    ],
+    "megabytes.": [
+     484
+    ],
+    "What": [
+     485,
+     1191
+    ],
+    "makes": [
+     486,
+     916
+    ],
+    "different": [
+     488,
+     1262
+    ],
+    "pure": [
+     490
+    ],
+    "looks": [
+     495
+    ],
+    "at": [
+     496,
+     594,
+     603,
+     1032,
+     1063
+    ],
+    "prosodic": [
+     497,
+     734,
+     1195
+    ],
+    "cues—pitch,": [
+     498
+    ],
+    "intonation,": [
+     499
+    ],
+    "rate—rather": [
+     501
+    ],
+    "than": [
+     502,
+     677,
+     894,
+     1368
+    ],
+    "energy.": [
+     505
+    ],
+    "200ms": [
+     509
+    ],
+    "silence": [
+     511,
+     531
+    ],
+    "Silero": [
+     513
+    ],
+    "VAD,": [
+     514
+    ],
+    "evaluates": [
+     515
+    ],
+    "turn": [
+     518,
+     729,
+     792
+    ],
+    "shift": [
+     519,
+     587,
+     968
+    ],
+    "should": [
+     520
+    ],
+    "occur,": [
+     521
+    ],
+    "if": [
+     523
+    ],
+    "too": [
+     526
+    ],
+    "low,": [
+     527
+    ],
+    "defers.": [
+     529
+    ],
+    "If": [
+     530
+    ],
+    "persists": [
+     532
+    ],
+    "3": [
+     534
+    ],
+    "seconds,": [
+     535
+    ],
+    "forces": [
+     537
+    ],
+    "transition": [
+     539
+    ],
+    "anyway.": [
+     540
+    ],
+    "That": [
+     541,
+     1405
+    ],
+    "fallback": [
+     542
+    ],
+    "critical:": [
+     544
+    ],
+    "want": [
+     547
+    ],
+    "waiting": [
+     550
+    ],
+    "forever.": [
+     551
+    ],
+    "Krisp": [
+     552,
+     573
+    ],
+    "recently": [
+     553
+    ],
+    "entered": [
+     554
+    ],
+    "space": [
+     556
+    ],
+    "VIVA": [
+     559
+    ],
+    "SDK,": [
+     560
+    ],
+    "6-million-parameter": [
+     562
+    ],
+    "audio-only": [
+     563
+    ],
+    "model": [
+     565,
+     771,
+     783,
+     961,
+     1015,
+     1161,
+     1263
+    ],
+    "optimized": [
+     566
+    ],
+    "inference.": [
+     569
+    ],
+    "Benchmarked": [
+     570
+    ],
+    "against": [
+     571
+    ],
+    "SmartTurn,": [
+     572
+    ],
+    "achieves": [
+     574,
+     839
+    ],
+    "0.82": [
+     575
+    ],
+    "balanced": [
+     576
+    ],
+    "accuracy": [
+     577,
+     605
+    ],
+    "SmartTurn's": [
+     579
+    ],
+    "0.78,": [
+     580
+    ],
+    "more": [
+     582,
+     906,
+     1345
+    ],
+    "importantly,": [
+     583
+    ],
+    "0.9": [
+     584
+    ],
+    "seconds": [
+     585,
+     591,
+     954,
+     1044
+    ],
+    "mean": [
+     586
+    ],
+    "1.3": [
+     590
+    ],
+    "same": [
+     596,
+     782,
+     811
+    ],
+    "positive": [
+     598
+    ],
+    "rate.": [
+     599
+    ],
+    "Thirty": [
+     600
+    ],
+    "percent": [
+     601
+    ],
+    "faster": [
+     602
+    ],
+    "equivalent": [
+     604
+    ],
+    "being": [
+     607
+    ],
+    "5-10x": [
+     608
+    ],
+    "smaller.": [
+     609
+    ],
+    "Thinking": [
+     612
+    ],
+    "Pause": [
+     613
+    ],
+    "confusion": [
+     617
+    ],
+    "tip": [
+     621
+    ],
+    "iceberg.": [
+     624
+    ],
+    "deeper": [
+     626,
+     1253
+    ],
+    "issue": [
+     627,
+     1254
+    ],
+    "Speechmatics": [
+     630
+    ],
+    "calls": [
+     631
+    ],
+    "\"thinking": [
+     633
+    ],
+    "pause\"": [
+     634
+    ],
+    "problem.": [
+     635,
+     704
+    ],
+    "Consider": [
+     636
+    ],
+    "someone": [
+     637
+    ],
+    "saying": [
+     638
+    ],
+    "\"I": [
+     639
+    ],
+    "understand": [
+     640,
+     1383
+    ],
+    "point,": [
+     642
+    ],
+    "but...\"": [
+     643
+    ],
+    "then": [
+     645,
+     800,
+     1077,
+     1080
+    ],
+    "formulate": [
+     653
+    ],
+    "thought.": [
+     656
+    ],
+    "VAD-only": [
+     657
+    ],
+    "systems": [
+     658,
+     1225
+    ],
+    "end": [
+     662
+    ],
+    "turn.": [
+     664
+    ],
+    "A": [
+     665,
+     1070,
+     1168
+    ],
+    "human": [
+     666
+    ],
+    "listener": [
+     667
+    ],
+    "intuitively": [
+     668
+    ],
+    "waiting.": [
+     670
+    ],
+    "In": [
+     671,
+     679,
+     694
+    ],
+    "production,": [
+     672
+    ],
+    "consequences": [
+     674
+    ],
+    "worse": [
+     676
+    ],
+    "awkwardness.": [
+     678
+    ],
+    "finance,": [
+     680
+    ],
+    "customers": [
+     681
+    ],
+    "spelling": [
+     682
+    ],
+    "out": [
+     683
+    ],
+    "account": [
+     684
+    ],
+    "numbers": [
+     685
+    ],
+    "pause": [
+     686,
+     941
+    ],
+    "between": [
+     687,
+     1309,
+     1407
+    ],
+    "digits—the": [
+     688
+    ],
+    "them": [
+     691
+    ],
+    "mid-sequence.": [
+     693
+    ],
+    "healthcare,": [
+     695
+    ],
+    "patients": [
+     696
+    ],
+    "recalling": [
+     697
+    ],
+    "patient": [
+     699
+    ],
+    "ID": [
+     700
+    ],
+    "memory": [
+     702
+    ],
+    "pause—same": [
+     703
+    ],
+    "Every": [
+     705
+    ],
+    "premature": [
+     706
+    ],
+    "interruption": [
+     707
+    ],
+    "drives": [
+     709
+    ],
+    "up": [
+     710
+    ],
+    "LLM": [
+     711,
+     900,
+     907,
+     990,
+     1008,
+     1106,
+     1116,
+     1136
+    ],
+    "API": [
+     712
+    ],
+    "costs": [
+     713
+    ],
+    "reprocessing": [
+     716
+    ],
+    "misinterpreted": [
+     718
+    ],
+    "partial": [
+     719,
+     1098
+    ],
+    "utterance.": [
+     720
+    ],
+    "field": [
+     722
+    ],
+    "converged": [
+     724
+    ],
+    "approaches": [
+     727,
+     732,
+     749
+    ],
+    "detection:": [
+     730
+    ],
+    "**Audio-based**": [
+     731
+    ],
+    "analyze": [
+     733,
+     750
+    ],
+    "features—pitch,": [
+     735
+    ],
+    "energy,": [
+     736
+    ],
+    "intonation.": [
+     737
+    ],
+    "Fast": [
+     738
+    ],
+    "lightweight,": [
+     740
+    ],
+    "works": [
+     741
+    ],
+    "real-time,": [
+     743
+    ],
+    "misses": [
+     745
+    ],
+    "semantic": [
+     746
+    ],
+    "context.": [
+     747
+    ],
+    "**Text-based**": [
+     748
+    ],
+    "content": [
+     752
+    ],
+    "sentence": [
+     754,
+     1132
+    ],
+    "boundaries,": [
+     755
+    ],
+    "discourse": [
+     756
+    ],
+    "markers,": [
+     757
+    ],
+    "question": [
+     758
+    ],
+    "markers.": [
+     759
+    ],
+    "More": [
+     760
+    ],
+    "accurate": [
+     761
+    ],
+    "adds": [
+     763
+    ],
+    "latency.": [
+     764,
+     1085
+    ],
+    "**Multimodal": [
+     765
+    ],
+    "fusion**": [
+     766
+    ],
+    "Deepgram's": [
+     769,
+     818
+    ],
+    "Flux": [
+     770,
+     821
+    ],
+    "lives.": [
+     772
+    ],
+    "Launched": [
+     773
+    ],
+    "late": [
+     774
+    ],
+    "2025,": [
+     775
+    ],
+    "Flux's": [
+     776
+    ],
+    "key": [
+     777
+    ],
+    "innovation": [
+     778
+    ],
+    "architectural:": [
+     780
+    ],
+    "producing": [
+     784
+    ],
+    "transcripts": [
+     785,
+     1099
+    ],
+    "modeling": [
+     788
+    ],
+    "flow": [
+     790
+    ],
+    "detection.": [
+     793
+    ],
+    "You're": [
+     794
+    ],
+    "running": [
+     796,
+     801
+    ],
+    "ASR,": [
+     797
+    ],
+    "getting": [
+     798,
+     1292,
+     1342
+    ],
+    "text,": [
+     799
+    ],
+    "separate": [
+     803
+    ],
+    "turn-detection": [
+     804,
+     1273
+    ],
+    "model.": [
+     805
+    ],
+    "Turn": [
+     806,
+     1347
+    ],
+    "detection": [
+     807,
+     1258,
+     1348
+    ],
+    "forward": [
+     812
+    ],
+    "pass,": [
+     813
+    ],
+    "eliminating": [
+     814
+    ],
+    "significant": [
+     815
+    ],
+    "sequential": [
+     816,
+     1072
+    ],
+    "delay.": [
+     817
+    ],
+    "benchmark": [
+     819
+    ],
+    "numbers:": [
+     820
+    ],
+    "by": [
+     826,
+     836,
+     1014
+    ],
+    "200-600": [
+     827
+    ],
+    "compared": [
+     829
+    ],
+    "pipeline": [
+     831,
+     1274
+    ],
+    "approaches,": [
+     832
+    ],
+    "reduces": [
+     833
+    ],
+    "30%,": [
+     838
+    ],
+    "p90": [
+     840
+    ],
+    "1": [
+     843
+    ],
+    "second.": [
+     844
+    ],
+    "They": [
+     845,
+     883
+    ],
+    "define": [
+     846
+    ],
+    "core": [
+     848
+    ],
+    "conversation-native": [
+     849
+    ],
+    "events—`StartOfTurn`": [
+     850
+    ],
+    "`EndOfTurn`—with": [
+     852
+    ],
+    "threshold": [
+     856
+    ],
+    "called": [
+     857
+    ],
+    "`eot_threshold`,": [
+     858
+    ],
+    "defaulting": [
+     859
+    ],
+    "0.7.": [
+     861
+    ],
+    "drop": [
+     864
+    ],
+    "0.5-0.6": [
+     866
+    ],
+    "aggressive": [
+     868
+    ],
+    "(higher": [
+     870
+    ],
+    "risk": [
+     871
+    ],
+    "off)": [
+     875
+    ],
+    "raise": [
+     877
+    ],
+    "0.9-1.0": [
+     879
+    ],
+    "longer.": [
+     882
+    ],
+    "offer": [
+     885,
+     1231
+    ],
+    "eager": [
+     886
+    ],
+    "end-of-turn": [
+     887
+    ],
+    "detection,": [
+     888
+    ],
+    "which": [
+     889
+    ],
+    "fires": [
+     890
+    ],
+    "150-250": [
+     891
+    ],
+    "earlier": [
+     893
+    ],
+    "standard": [
+     896
+    ],
+    "event,": [
+     897
+    ],
+    "allowing": [
+     898
+    ],
+    "speculative": [
+     899
+    ],
+    "calls.": [
+     901
+    ],
+    "cost": [
+     903
+    ],
+    "50-70%": [
+     905
+    ],
+    "calls,": [
+     908
+    ],
+    "latency-critical": [
+     911
+    ],
+    "applications,": [
+     912
+    ],
+    "tradeoff": [
+     914,
+     1047
+    ],
+    "often": [
+     915
+    ],
+    "sense.": [
+     917
+    ],
+    "Latency": [
+     920,
+     1356
+    ],
+    "Budget": [
+     921
+    ],
+    "becomes": [
+     926
+    ],
+    "genuinely": [
+     927
+    ],
+    "unforgiving.": [
+     928
+    ],
+    "magic": [
+     930
+    ],
+    "300": [
+     933
+    ],
+    "milliseconds.": [
+     934
+    ],
+    "Human": [
+     935
+    ],
+    "conversation": [
+     936
+    ],
+    "natural": [
+     939
+    ],
+    "inter-turn": [
+     940
+    ],
+    "200-300ms.": [
+     943
+    ],
+    "Research": [
+     944
+    ],
+    "shows": [
+     945,
+     1010
+    ],
+    "pauses": [
+     946
+    ],
+    "above": [
+     947
+    ],
+    "400ms": [
+     948
+    ],
+    "perceptible,": [
+     950
+    ],
+    "beyond": [
+     952
+    ],
+    "1.5": [
+     953
+    ],
+    "fundamentally": [
+     956
+    ],
+    "shifted": [
+     957
+    ],
+    "user's": [
+     959
+    ],
+    "mental": [
+     960
+    ],
+    "\"conversation\"": [
+     963
+    ],
+    "\"query-response.\"": [
+     965
+    ],
+    "Once": [
+     966
+    ],
+    "happens,": [
+     969
+    ],
+    "no": [
+     970,
+     1160
+    ],
+    "quality": [
+     972,
+     1409
+    ],
+    "improvement": [
+     973
+    ],
+    "rescues": [
+     974
+    ],
+    "experience.": [
+     976
+    ],
+    "budget": [
+     979,
+     1285
+    ],
+    "breakdown": [
+     980
+    ],
+    "current": [
+     982
+    ],
+    "production": [
+     983,
+     1087,
+     1224
+    ],
+    "engineering:": [
+     984
+    ],
+    "-": [
+     985,
+     989,
+     993,
+     997,
+     1017,
+     1023,
+     1026,
+     1035,
+     1038
+    ],
+    "STT": [
+     986,
+     1096
+    ],
+    "finalization:": [
+     987
+    ],
+    "50-100ms": [
+     988,
+     1021
+    ],
+    "time-to-first-token:": [
+     991
+    ],
+    "100-200ms": [
+     992
+    ],
+    "TTS": [
+     994,
+     1120,
+     1125
+    ],
+    "time-to-first-byte:": [
+     995
+    ],
+    "50-80ms": [
+     996
+    ],
+    "WebRTC": [
+     998
+    ],
+    "transport:": [
+     999
+    ],
+    "20-50ms": [
+     1000
+    ],
+    "**Total:": [
+     1001
+    ],
+    "220-380": [
+     1002
+    ],
+    "milliseconds.**": [
+     1003
+    ],
+    "That's": [
+     1004
+    ],
+    "window.": [
+     1006
+    ],
+    "piece": [
+     1009
+    ],
+    "variance": [
+     1013
+    ],
+    "choice:": [
+     1016
+    ],
+    "Groq-hosted": [
+     1018
+    ],
+    "Llama": [
+     1019
+    ],
+    "variants:": [
+     1020
+    ],
+    "time-to-first-token": [
+     1022
+    ],
+    "GPT-4o-mini:": [
+     1024
+    ],
+    "120-200ms": [
+     1025
+    ],
+    "Gemini": [
+     1027
+    ],
+    "Flash": [
+     1028
+    ],
+    "1.5:": [
+     1029
+    ],
+    "~300ms": [
+     1030
+    ],
+    "(already": [
+     1031
+    ],
+    "edge)": [
+     1034
+    ],
+    "GPT-4o:": [
+     1036
+    ],
+    "~700ms": [
+     1037
+    ],
+    "Frontier": [
+     1039,
+     1190
+    ],
+    "reasoning": [
+     1040
+    ],
+    "models": [
+     1041,
+     1051
+    ],
+    "(extended": [
+     1042
+    ],
+    "thinking):": [
+     1043
+    ],
+    "capability-latency": [
+     1046
+    ],
+    "brutal.": [
+     1049
+    ],
+    "fast": [
+     1052
+    ],
+    "enough": [
+     1053
+    ],
+    "tend": [
+     1056
+    ],
+    "be": [
+     1058,
+     1184
+    ],
+    "smaller": [
+     1059
+    ],
+    "less": [
+     1061
+    ],
+    "capable": [
+     1062
+    ],
+    "complex": [
+     1064
+    ],
+    "reasoning.": [
+     1065
+    ],
+    "**Streaming": [
+     1066
+    ],
+    "architecture": [
+     1067
+    ],
+    "non-negotiable.**": [
+     1069
+    ],
+    "pipeline—wait": [
+     1073
+    ],
+    "STT,": [
+     1076
+    ],
+    "run": [
+     1078,
+     1081
+    ],
+    "LLM,": [
+     1079
+    ],
+    "TTS—produces": [
+     1082
+    ],
+    "600-2000ms": [
+     1083
+    ],
+    "solution": [
+     1088
+    ],
+    "streams": [
+     1089
+    ],
+    "all": [
+     1091
+    ],
+    "stages": [
+     1093
+    ],
+    "simultaneously.": [
+     1094
+    ],
+    "Streaming": [
+     1095,
+     1115,
+     1124,
+     1362
+    ],
+    "emits": [
+     1097
+    ],
+    "20ms": [
+     1101
+    ],
+    "chunks,": [
+     1103
+    ],
+    "so": [
+     1104
+    ],
+    "starts": [
+     1107
+    ],
+    "processing": [
+     1108
+    ],
+    "even": [
+     1112
+    ],
+    "finishes": [
+     1113
+    ],
+    "speaking.": [
+     1114
+    ],
+    "sends": [
+     1117
+    ],
+    "tokens": [
+     1118
+    ],
+    "as": [
+     1121
+    ],
+    "arrive.": [
+     1123
+    ],
+    "begins": [
+     1126
+    ],
+    "synthesizing": [
+     1127
+    ],
+    "fragment": [
+     1133
+    ],
+    "generating": [
+     1139
+    ],
+    "later": [
+     1140
+    ],
+    "paragraphs.": [
+     1141
+    ],
+    "Combined": [
+     1142
+    ],
+    "savings:": [
+     1143
+    ],
+    "300-600ms": [
+     1144
+    ],
+    "over": [
+     1145
+    ],
+    "batch": [
+     1146
+    ],
+    "processing.": [
+     1147
+    ],
+    "Transport": [
+     1148
+    ],
+    "matters.": [
+     1150
+    ],
+    "PSTN—traditional": [
+     1151
+    ],
+    "phone": [
+     1152
+    ],
+    "calls—adds": [
+     1153
+    ],
+    "150-700ms": [
+     1154
+    ],
+    "network": [
+     1156
+    ],
+    "transit,": [
+     1157
+    ],
+    "penalty": [
+     1159
+    ],
+    "optimization": [
+     1162
+    ],
+    "recovers.": [
+     1163
+    ],
+    "Geographic": [
+     1164
+    ],
+    "co-location": [
+     1165
+    ],
+    "matters": [
+     1166
+    ],
+    "too.": [
+     1167
+    ],
+    "Australia": [
+     1171
+    ],
+    "calling": [
+     1172
+    ],
+    "hosted": [
+     1175
+    ],
+    "Virginia": [
+     1177
+    ],
+    "pays": [
+     1178
+    ],
+    "tax": [
+     1181
+    ],
+    "can't": [
+     1183,
+     1266
+    ],
+    "engineered": [
+     1185
+    ],
+    "away.": [
+     1186
+    ],
+    "Remaining": [
+     1189
+    ],
+    "awareness?": [
+     1196
+    ],
+    "Can": [
+     1197
+    ],
+    "room": [
+     1203
+    ],
+    "2026?": [
+     1205
+    ],
+    "short": [
+     1207
+    ],
+    "answer:": [
+     1208
+    ],
+    "reliably.": [
+     1210
+    ],
+    "Emotion": [
+     1211
+    ],
+    "recognition": [
+     1212,
+     1270
+    ],
+    "notoriously": [
+     1216
+    ],
+    "difficult": [
+     1217
+    ],
+    "prone": [
+     1219
+    ],
+    "positives.": [
+     1222
+    ],
+    "Most": [
+     1223
+    ],
+    "attempt": [
+     1227
+    ],
+    "Some": [
+     1229
+    ],
+    "basic": [
+     1232
+    ],
+    "sentiment": [
+     1233
+    ],
+    "detection—flagging": [
+     1234
+    ],
+    "high-stress": [
+     1235
+    ],
+    "indicators": [
+     1236
+    ],
+    "speech": [
+     1238
+    ],
+    "rate": [
+     1239
+    ],
+    "pitch—but": [
+     1241
+    ],
+    "using": [
+     1242,
+     1388
+    ],
+    "signal": [
+     1244
+    ],
+    "adjust": [
+     1246
+    ],
+    "behavior": [
+     1248
+    ],
+    "remains": [
+     1249
+    ],
+    "mostly": [
+     1250
+    ],
+    "experimental.": [
+     1251
+    ],
+    "emotion": [
+     1257,
+     1269
+    ],
+    "require": [
+     1261
+    ],
+    "architectures.": [
+     1264
+    ],
+    "easily": [
+     1267
+    ],
+    "bolt": [
+     1268
+    ],
+    "onto": [
+     1271
+    ],
+    "adding": [
+     1276
+    ],
+    "complexity.": [
+     1279
+    ],
+    "And": [
+     1280
+    ],
+    "given": [
+     1281
+    ],
+    "already": [
+     1287
+    ],
+    "razor-thin,": [
+     1288
+    ],
+    "prioritize": [
+     1291
+    ],
+    "right": [
+     1294
+    ],
+    "attempting": [
+     1296
+    ],
+    "emotion.": [
+     1297
+    ],
+    "Why": [
+     1299
+    ],
+    "Matters": [
+     1301
+    ],
+    "aren't": [
+     1303
+    ],
+    "theoretical": [
+     1304
+    ],
+    "problems.": [
+     1305
+    ],
+    "They're": [
+     1306,
+     1387
+    ],
+    "difference": [
+     1308
+    ],
+    "one": [
+     1317
+    ],
+    "users,": [
+     1331
+    ],
+    "experience": [
+     1334
+    ],
+    "isn't.": [
+     1335
+    ],
+    "good": [
+     1337
+    ],
+    "news:": [
+     1338,
+     1372
+    ],
+    "better": [
+     1343,
+     1360
+    ],
+    "standardized.": [
+     1346
+    ],
+    "moving": [
+     1350
+    ],
+    "heuristics": [
+     1352
+    ],
+    "learned": [
+     1354
+    ],
+    "models.": [
+     1355
+    ],
+    "becoming": [
+     1359,
+     1365
+    ],
+    "understood.": [
+     1361
+    ],
+    "architectures": [
+     1363
+    ],
+    "default": [
+     1366
+    ],
+    "rather": [
+     1367
+    ],
+    "optimization.": [
+     1369
+    ],
+    "bad": [
+     1371
+    ],
+    "building": [
+     1375
+    ],
+    "top": [
+     1377
+    ],
+    "these": [
+     1379
+    ],
+    "LiveKit": [
+     1391
+    ],
+    "Pipecat": [
+     1393
+    ],
+    "defaults": [
+     1395
+    ],
+    "know": [
+     1400
+    ],
+    "what's": [
+     1401
+    ],
+    "underneath.": [
+     1404
+    ],
+    "gap": [
+     1406
+    ],
+    "surface": [
+     1408
+    ],
+    "underlying": [
+     1411
+    ],
+    "Listen": [
+     1422
+    ],
+    "online:": [
+     1423
+    ],
+    "https://myweirdprompts.com/episode/voice-agent-conversat": [
+     1424
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-07-01T06:00:48.157686",
+   "created_date": "2026-04-13T00:00:00"
+  },
+  {
+   "id": "https://openalex.org/W7153833348",
+   "doi": "https://doi.org/10.5281/zenodo.19542425",
+   "title": "Why Voice Agents Feel Awkward (And How to Fix It)",
+   "display_name": "Why Voice Agents Feel Awkward (And How to Fix It)",
+   "relevance_score": 1.2932968,
+   "publication_year": 2026,
+   "publication_date": "2026-04-12",
+   "ids": {
+    "openalex": "https://openalex.org/W7153833348",
+    "doi": "https://doi.org/10.5281/zenodo.19542425"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.5281/zenodo.19542425",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5281/zenodo.19542425",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306400562",
+     "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": "https://openalex.org/I67311998",
+     "host_organization_name": "European Organization for Nuclear Research",
+     "host_organization_lineage": [
+      "https://openalex.org/I67311998"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Audiovisual"
+   },
+   "type": "other",
+   "indexed_in": [
+    "datacite"
+   ],
+   "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.5281/zenodo.19542425",
+    "any_repository_has_fulltext": true
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5128325680",
+      "display_name": "Daniel Rosehill",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210127384",
+       "display_name": "Prompt (Canada)",
+       "ror": "https://ror.org/02p0fq023",
+       "country_code": "CA",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210127384"
+       ]
+      }
+     ],
+     "countries": [
+      "CA"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Rosehill, Daniel",
+     "raw_affiliation_strings": [
+      "My Weird Prompts"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "My Weird Prompts",
+       "institution_ids": [
+        "https://openalex.org/I4210127384"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "middle",
+     "author": {
+      "id": "https://openalex.org/A5128791034",
+      "display_name": "Gemini 3.1 (Flash)",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I1291425158",
+       "display_name": "Google (United States)",
+       "ror": "https://ror.org/00njsd438",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210128969"
+       ]
+      },
+      {
+       "id": "https://openalex.org/I4210090411",
+       "display_name": "Google DeepMind (United Kingdom)",
+       "ror": "https://ror.org/00971b260",
+       "country_code": "GB",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210090411",
+        "https://openalex.org/I4210128969"
+       ]
+      }
+     ],
+     "countries": [
+      "GB",
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Gemini 3.1 (Flash)",
+     "raw_affiliation_strings": [
+      "Google DeepMind"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Google DeepMind",
+       "institution_ids": [
+        "https://openalex.org/I1291425158",
+        "https://openalex.org/I4210090411"
+       ]
+      }
+     ]
+    },
+    {
+     "author_position": "last",
+     "author": {
+      "id": "https://openalex.org/A5128778162",
+      "display_name": "Chatterbox TTS",
+      "orcid": null
+     },
+     "institutions": [
+      {
+       "id": "https://openalex.org/I4210137149",
+       "display_name": "Renewable Energy Systems (United States)",
+       "ror": "https://ror.org/036gc1b60",
+       "country_code": "US",
+       "type": "company",
+       "lineage": [
+        "https://openalex.org/I4210090535",
+        "https://openalex.org/I4210137149"
+       ]
+      }
+     ],
+     "countries": [
+      "US"
+     ],
+     "is_corresponding": false,
+     "raw_author_name": "Chatterbox TTS",
+     "raw_affiliation_strings": [
+      "Resemble AI"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "Resemble AI",
+       "institution_ids": [
+        "https://openalex.org/I4210137149"
+       ]
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 3,
+   "institutions_distinct_count": 4,
+   "corresponding_author_ids": [],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": null,
+   "has_fulltext": false,
+   "cited_by_count": 0,
+   "citation_normalized_percentile": null,
+   "cited_by_percentile_year": null,
+   "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": null,
+   "topics": [],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/nothing",
+     "display_name": "Nothing",
+     "score": 0.614799976348877
+    },
+    {
+     "id": "https://openalex.org/keywords/natural",
+     "display_name": "Natural (archaeology)",
+     "score": 0.5385000109672546
+    },
+    {
+     "id": "https://openalex.org/keywords/transcription",
+     "display_name": "Transcription (linguistics)",
+     "score": 0.5049999952316284
+    },
+    {
+     "id": "https://openalex.org/keywords/conversation",
+     "display_name": "Conversation",
+     "score": 0.45559999346733093
+    },
+    {
+     "id": "https://openalex.org/keywords/human-voice",
+     "display_name": "Human voice",
+     "score": 0.3831999897956848
+    },
+    {
+     "id": "https://openalex.org/keywords/happening",
+     "display_name": "Happening",
+     "score": 0.3515999913215637
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C136815107",
+     "wikidata": "https://www.wikidata.org/wiki/Q154242",
+     "display_name": "Nothing",
+     "level": 2,
+     "score": 0.614799976348877
+    },
+    {
+     "id": "https://openalex.org/C2776608160",
+     "wikidata": "https://www.wikidata.org/wiki/Q4785462",
+     "display_name": "Natural (archaeology)",
+     "level": 2,
+     "score": 0.5385000109672546
+    },
+    {
+     "id": "https://openalex.org/C179926584",
+     "wikidata": "https://www.wikidata.org/wiki/Q207714",
+     "display_name": "Transcription (linguistics)",
+     "level": 2,
+     "score": 0.5049999952316284
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.49380001425743103
+    },
+    {
+     "id": "https://openalex.org/C2777200299",
+     "wikidata": "https://www.wikidata.org/wiki/Q52943",
+     "display_name": "Conversation",
+     "level": 2,
+     "score": 0.45559999346733093
+    },
+    {
+     "id": "https://openalex.org/C20766975",
+     "wikidata": "https://www.wikidata.org/wiki/Q7390",
+     "display_name": "Human voice",
+     "level": 2,
+     "score": 0.3831999897956848
+    },
+    {
+     "id": "https://openalex.org/C2779527642",
+     "wikidata": "https://www.wikidata.org/wiki/Q108874",
+     "display_name": "Happening",
+     "level": 3,
+     "score": 0.3515999913215637
+    },
+    {
+     "id": "https://openalex.org/C15744967",
+     "wikidata": "https://www.wikidata.org/wiki/Q9418",
+     "display_name": "Psychology",
+     "level": 0,
+     "score": 0.3422999978065491
+    },
+    {
+     "id": "https://openalex.org/C82876162",
+     "wikidata": "https://www.wikidata.org/wiki/Q17096504",
+     "display_name": "Latency (audio)",
+     "level": 2,
+     "score": 0.3249000012874603
+    },
+    {
+     "id": "https://openalex.org/C186370098",
+     "wikidata": "https://www.wikidata.org/wiki/Q442787",
+     "display_name": "Energy (signal processing)",
+     "level": 2,
+     "score": 0.31690001487731934
+    },
+    {
+     "id": "https://openalex.org/C107457646",
+     "wikidata": "https://www.wikidata.org/wiki/Q207434",
+     "display_name": "Human–computer interaction",
+     "level": 1,
+     "score": 0.3091000020503998
+    },
+    {
+     "id": "https://openalex.org/C178718744",
+     "wikidata": "https://www.wikidata.org/wiki/Q2350070",
+     "display_name": "Voice command device",
+     "level": 2,
+     "score": 0.3059000074863434
+    },
+    {
+     "id": "https://openalex.org/C108827166",
+     "wikidata": "https://www.wikidata.org/wiki/Q175975",
+     "display_name": "Internet privacy",
+     "level": 1,
+     "score": 0.287200003862381
+    },
+    {
+     "id": "https://openalex.org/C46312422",
+     "wikidata": "https://www.wikidata.org/wiki/Q11024",
+     "display_name": "Communication",
+     "level": 1,
+     "score": 0.28529998660087585
+    },
+    {
+     "id": "https://openalex.org/C28490314",
+     "wikidata": "https://www.wikidata.org/wiki/Q189436",
+     "display_name": "Speech recognition",
+     "level": 1,
+     "score": 0.27869999408721924
+    },
+    {
+     "id": "https://openalex.org/C2780646970",
+     "wikidata": "https://www.wikidata.org/wiki/Q6980787",
+     "display_name": "Natural sounds",
+     "level": 2,
+     "score": 0.2565000057220459
+    }
+   ],
+   "mesh": [],
+   "locations_count": 1,
+   "locations": [
+    {
+     "id": "doi:10.5281/zenodo.19542425",
+     "is_oa": true,
+     "landing_page_url": "https://doi.org/10.5281/zenodo.19542425",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S4306400562",
+      "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I67311998",
+      "host_organization_name": "European Organization for Nuclear Research",
+      "host_organization_lineage": [
+       "https://openalex.org/I67311998"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": "cc-by",
+     "license_id": "https://openalex.org/licenses/cc-by",
+     "version": null,
+     "is_accepted": false,
+     "is_published": null,
+     "raw_source_name": null,
+     "raw_type": "Audiovisual"
+    }
+   ],
+   "best_oa_location": {
+    "id": "doi:10.5281/zenodo.19542425",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5281/zenodo.19542425",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S4306400562",
+     "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+     "issn_l": null,
+     "issn": null,
+     "is_oa": true,
+     "is_in_doaj": false,
+     "is_core": false,
+     "host_organization": "https://openalex.org/I67311998",
+     "host_organization_name": "European Organization for Nuclear Research",
+     "host_organization_lineage": [
+      "https://openalex.org/I67311998"
+     ],
+     "host_organization_lineage_names": [],
+     "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "Audiovisual"
+   },
+   "sustainable_development_goals": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 0,
+   "referenced_works": [],
+   "related_works": [],
+   "abstract_inverted_index": {
+    "Episode": [
+     0
+    ],
+    "summary:": [
+     1
+    ],
+    "Voice": [
+     2,
+     106,
+     108,
+     202
+    ],
+    "transcription": [
+     3
+    ],
+    "and": [
+     4,
+     53,
+     87,
+     176,
+     217,
+     323,
+     367,
+     380,
+     399,
+     522,
+     581,
+     644,
+     739,
+     791,
+     851,
+     951,
+     1060,
+     1194,
+     1218,
+     1259,
+     1316,
+     1344,
+     1397,
+     1410
+    ],
+    "synthesis": [
+     5
+    ],
+    "sound": [
+     6
+    ],
+    "great,": [
+     7
+    ],
+    "but": [
+     8,
+     308,
+     744,
+     762,
+     909,
+     1332
+    ],
+    "talking": [
+     9,
+     127,
+     159,
+     1322
+    ],
+    "to": [
+     10,
+     36,
+     128,
+     138,
+     239,
+     252,
+     265,
+     282,
+     321,
+     327,
+     362,
+     385,
+     441,
+     482,
+     728,
+     830,
+     860,
+     865,
+     878,
+     880,
+     964,
+     1057,
+     1119,
+     1220,
+     1245,
+     1323,
+     1330,
+     1353
+    ],
+    "a": [
+     11,
+     233,
+     242,
+     298,
+     314,
+     409,
+     445,
+     449,
+     469,
+     517,
+     561,
+     648,
+     698,
+     717,
+     802,
+     853,
+     938,
+     1158,
+     1173,
+     1179,
+     1272,
+     1310,
+     1324
+    ],
+    "voice": [
+     12,
+     68,
+     129,
+     141,
+     971,
+     1055,
+     1198,
+     1214,
+     1311,
+     1416
+    ],
+    "agent": [
+     13,
+     157,
+     258,
+     334,
+     549,
+     689,
+     823,
+     1247,
+     1312
+    ],
+    "still": [
+     14,
+     1138,
+     1418
+    ],
+    "feels": [
+     15,
+     110,
+     131,
+     1314,
+     1319,
+     1419
+    ],
+    "slightly": [
+     16,
+     1420
+    ],
+    "off.": [
+     17,
+     1421
+    ],
+    "Why?": [
+     18
+    ],
+    "Because": [
+     19
+    ],
+    "the": [
+     20,
+     64,
+     78,
+     114,
+     134,
+     150,
+     191,
+     207,
+     215,
+     253,
+     257,
+     295,
+     324,
+     333,
+     360,
+     372,
+     377,
+     428,
+     456,
+     538,
+     548,
+     555,
+     595,
+     620,
+     623,
+     632,
+     654,
+     673,
+     781,
+     810,
+     895,
+     958,
+     975,
+     1005,
+     1011,
+     1033,
+     1105,
+     1110,
+     1130,
+     1135,
+     1202,
+     1283,
+     1307,
+     1333,
+     1339,
+     1384
+    ],
+    "hard": [
+     21
+    ],
+    "problems": [
+     22
+    ],
+    "are": [
+     23,
+     189,
+     675,
+     949,
+     1341,
+     1358,
+     1364
+    ],
+    "invisible:": [
+     24
+    ],
+    "how": [
+     25,
+     38,
+     170
+    ],
+    "agents": [
+     26,
+     130,
+     1199
+    ],
+    "detect": [
+     27,
+     221
+    ],
+    "when": [
+     28,
+     49,
+     160,
+     219
+    ],
+    "you've": [
+     29,
+     955
+    ],
+    "actually": [
+     30,
+     96,
+     1200,
+     1402
+    ],
+    "finished": [
+     31
+    ],
+    "speaking": [
+     32,
+     500
+    ],
+    "versus": [
+     33,
+     578,
+     589
+    ],
+    "just": [
+     34,
+     503,
+     619
+    ],
+    "pausing": [
+     35,
+     646
+    ],
+    "think,": [
+     37
+    ],
+    "they": [
+     39,
+     55,
+     375,
+     652,
+     1122,
+     1398
+    ],
+    "handle": [
+     40,
+     290
+    ],
+    "interruptions": [
+     41,
+     365,
+     835
+    ],
+    "without": [
+     42,
+     1275
+    ],
+    "cutting": [
+     43,
+     873
+    ],
+    "you": [
+     44,
+     161,
+     167,
+     220,
+     262,
+     267,
+     278,
+     432,
+     452,
+     545
+    ],
+    "off": [
+     45,
+     168,
+     692
+    ],
+    "mid-sentence,": [
+     46
+    ],
+    "what": [
+     47,
+     93,
+     629
+    ],
+    "happens": [
+     48,
+     808
+    ],
+    "latency": [
+     50,
+     825,
+     841,
+     978,
+     1180,
+     1277,
+     1284
+    ],
+    "budgets": [
+     51,
+     1357
+    ],
+    "blow,": [
+     52
+    ],
+    "whether": [
+     54,
+     155,
+     164,
+     177,
+     516
+    ],
+    "can": [
+     56,
+     179,
+     390,
+     453,
+     863
+    ],
+    "read": [
+     57,
+     1201
+    ],
+    "emotional": [
+     58,
+     1193
+    ],
+    "tone.": [
+     59,
+     184
+    ],
+    "This": [
+     60,
+     336,
+     922,
+     1300
+    ],
+    "episode": [
+     61
+    ],
+    "digs": [
+     62
+    ],
+    "into": [
+     63
+    ],
+    "conversational": [
+     65,
+     148,
+     789,
+     1315
+    ],
+    "dynamics": [
+     66,
+     1412
+    ],
+    "underneath": [
+     67
+    ],
+    "AI—the": [
+     69
+    ],
+    "failure": [
+     70,
+     187,
+     1385
+    ],
+    "modes": [
+     71,
+     188
+    ],
+    "most": [
+     72,
+     1012,
+     1289,
+     1373,
+     1415
+    ],
+    "developers": [
+     73,
+     382,
+     1290,
+     1374
+    ],
+    "don't": [
+     74,
+     546,
+     1226,
+     1381,
+     1399
+    ],
+    "fully": [
+     75,
+     1382
+    ],
+    "understand—and": [
+     76
+    ],
+    "maps": [
+     77
+    ],
+    "engineering": [
+     79,
+     193,
+     925,
+     1327
+    ],
+    "solutions": [
+     80,
+     1340
+    ],
+    "emerging": [
+     81
+    ],
+    "across": [
+     82,
+     1090
+    ],
+    "Vapi,": [
+     83
+    ],
+    "LiveKit,": [
+     84
+    ],
+    "Pipecat,": [
+     85
+    ],
+    "Deepgram,": [
+     86
+    ],
+    "others.": [
+     88
+    ],
+    "Turn-taking": [
+     89
+    ],
+    "isn't": [
+     90
+    ],
+    "solved.": [
+     91
+    ],
+    "Here's": [
+     92
+    ],
+    "solving": [
+     94
+    ],
+    "it": [
+     95,
+     165,
+     172,
+     178,
+     271,
+     281,
+     320,
+     487,
+     494,
+     528,
+     536
+    ],
+    "requires.": [
+     97
+    ],
+    "Show": [
+     98
+    ],
+    "Notes": [
+     99
+    ],
+    "#": [
+     100
+    ],
+    "The": [
+     101,
+     143,
+     199,
+     223,
+     255,
+     286,
+     304,
+     310,
+     477,
+     611,
+     625,
+     721,
+     902,
+     919,
+     929,
+     977,
+     1007,
+     1045,
+     1050,
+     1086,
+     1188,
+     1206,
+     1252,
+     1326,
+     1336,
+     1370
+    ],
+    "Invisible": [
+     102
+    ],
+    "Engineering": [
+     103
+    ],
+    "Behind": [
+     104
+    ],
+    "Natural": [
+     105
+    ],
+    "Conversations": [
+     107
+    ],
+    "AI": [
+     109,
+     1417
+    ],
+    "almost": [
+     111
+    ],
+    "solved": [
+     112
+    ],
+    "on": [
+     113,
+     422,
+     725,
+     1376
+    ],
+    "surface.": [
+     115
+    ],
+    "Transcription": [
+     116
+    ],
+    "is": [
+     117,
+     194,
+     206,
+     225,
+     227,
+     306,
+     480,
+     492,
+     525,
+     543,
+     618,
+     628,
+     767,
+     779,
+     786,
+     904,
+     923,
+     932,
+     1048,
+     1068,
+     1137,
+     1215,
+     1255,
+     1286,
+     1328,
+     1349,
+     1413
+    ],
+    "accurate.": [
+     118
+    ],
+    "Synthesis": [
+     119
+    ],
+    "sounds": [
+     120
+    ],
+    "natural.": [
+     121
+    ],
+    "But": [
+     122,
+     615
+    ],
+    "users": [
+     123,
+     874
+    ],
+    "consistently": [
+     124
+    ],
+    "report": [
+     125
+    ],
+    "that": [
+     126,
+     153,
+     300,
+     358,
+     415,
+     493,
+     660,
+     913,
+     967,
+     1182,
+     1243,
+     1256,
+     1282,
+     1313,
+     1318
+    ],
+    "\"slightly": [
+     132
+    ],
+    "wrong\"—and": [
+     133
+    ],
+    "reason": [
+     135
+    ],
+    "has": [
+     136,
+     326,
+     430,
+     723,
+     937
+    ],
+    "nothing": [
+     137
+    ],
+    "do": [
+     139
+    ],
+    "with": [
+     140,
+     297,
+     468,
+     557,
+     1394
+    ],
+    "quality.": [
+     142
+    ],
+    "real": [
+     144
+    ],
+    "problem": [
+     145,
+     224,
+     296
+    ],
+    "lives": [
+     146
+    ],
+    "in": [
+     147,
+     182,
+     196,
+     397,
+     419,
+     742,
+     809,
+     1100,
+     1170,
+     1176,
+     1204,
+     1237
+    ],
+    "dynamics:": [
+     149
+    ],
+    "split-second": [
+     151
+    ],
+    "decisions": [
+     152
+    ],
+    "determine": [
+     154
+    ],
+    "an": [
+     156,
+     349,
+     661
+    ],
+    "keeps": [
+     158,
+     669
+    ],
+    "say": [
+     162,
+     328
+    ],
+    "\"uh-huh,\"": [
+     163,
+     354
+    ],
+    "cuts": [
+     166,
+     690,
+     822
+    ],
+    "mid-thought,": [
+     169
+    ],
+    "long": [
+     171
+    ],
+    "waits": [
+     173,
+     272,
+     312,
+     507
+    ],
+    "before": [
+     174,
+     332,
+     1109,
+     1295
+    ],
+    "responding,": [
+     175
+    ],
+    "sense": [
+     180
+    ],
+    "frustration": [
+     181
+    ],
+    "your": [
+     183,
+     274,
+     641
+    ],
+    "These": [
+     185,
+     1302
+    ],
+    "invisible": [
+     186,
+     1329
+    ],
+    "where": [
+     190,
+     768,
+     924,
+     1414
+    ],
+    "actual": [
+     192
+    ],
+    "happening": [
+     195,
+     1403
+    ],
+    "2026.": [
+     197
+    ],
+    "##": [
+     198,
+     610,
+     918,
+     1187,
+     1298
+    ],
+    "Backchannel": [
+     200
+    ],
+    "Problem": [
+     201,
+     614
+    ],
+    "Activity": [
+     203
+    ],
+    "Detection": [
+     204
+    ],
+    "(VAD)": [
+     205
+    ],
+    "naive": [
+     208,
+     1071
+    ],
+    "solution:": [
+     209
+    ],
+    "listen": [
+     210
+    ],
+    "for": [
+     211,
+     273,
+     280,
+     313,
+     340,
+     508,
+     533,
+     567,
+     592,
+     647,
+     753,
+     867,
+     910,
+     1054,
+     1074
+    ],
+    "audio": [
+     212,
+     504,
+     1102,
+     1128
+    ],
+    "energy": [
+     213
+    ],
+    "from": [
+     214,
+     489,
+     512,
+     701,
+     962,
+     981,
+     1129,
+     1213,
+     1351
+    ],
+    "user": [
+     216,
+     236,
+     325,
+     429,
+     1111,
+     1169
+    ],
+    "stop": [
+     218
+    ],
+    "it.": [
+     222,
+     1228
+    ],
+    "VAD": [
+     226,
+     491
+    ],
+    "completely": [
+     228
+    ],
+    "dumb.": [
+     229
+    ],
+    "It": [
+     230,
+     506
+    ],
+    "cannot": [
+     231
+    ],
+    "distinguish": [
+     232
+    ],
+    "genuine": [
+     234
+    ],
+    "interruption—the": [
+     235
+    ],
+    "actively": [
+     237
+    ],
+    "trying": [
+     238
+    ],
+    "take": [
+     240
+    ],
+    "over—from": [
+     241
+    ],
+    "backchannel": [
+     243,
+     616
+    ],
+    "acknowledgment": [
+     244
+    ],
+    "like": [
+     245,
+     1320
+    ],
+    "\"mm-hmm\"": [
+     246
+    ],
+    "or": [
+     247,
+     876,
+     1240,
+     1278,
+     1390,
+     1392
+    ],
+    "\"right.\"": [
+     248
+    ],
+    "Both": [
+     249
+    ],
+    "look": [
+     250
+    ],
+    "identical": [
+     251
+    ],
+    "system.": [
+     254,
+     1325
+    ],
+    "result:": [
+     256
+    ],
+    "stops": [
+     259
+    ],
+    "mid-sentence": [
+     260
+    ],
+    "because": [
+     261,
+     714
+    ],
+    "said": [
+     263
+    ],
+    "\"okay\"": [
+     264
+    ],
+    "show": [
+     266
+    ],
+    "were": [
+     268
+    ],
+    "listening.": [
+     269
+    ],
+    "Then": [
+     270
+    ],
+    "next": [
+     275,
+     655
+    ],
+    "input": [
+     276
+    ],
+    "while": [
+     277,
+     606,
+     651,
+     1134
+    ],
+    "wait": [
+     279,
+     411,
+     417,
+     434,
+     881
+    ],
+    "continue.": [
+     283
+    ],
+    "Awkward": [
+     284
+    ],
+    "silence.": [
+     285
+    ],
+    "three": [
+     287,
+     726,
+     1092
+    ],
+    "major": [
+     288
+    ],
+    "platforms": [
+     289,
+     1230,
+     1380
+    ],
+    "this": [
+     291
+    ],
+    "differently:": [
+     292
+    ],
+    "**Vapi**": [
+     293
+    ],
+    "abstracts": [
+     294
+    ],
+    "`stopSpeakingPlan`": [
+     299
+    ],
+    "offers": [
+     301
+    ],
+    "two": [
+     302,
+     329,
+     847
+    ],
+    "modes.": [
+     303,
+     1386
+    ],
+    "first": [
+     305,
+     1131
+    ],
+    "VAD-based": [
+     307
+    ],
+    "fast.": [
+     309
+    ],
+    "second": [
+     311,
+     650
+    ],
+    "configurable": [
+     315,
+     854
+    ],
+    "number": [
+     316,
+     931
+    ],
+    "of": [
+     317,
+     510,
+     622,
+     663,
+     842,
+     872,
+     942,
+     1084,
+     1155,
+     1378
+    ],
+    "transcribed": [
+     318,
+     751
+    ],
+    "words—set": [
+     319
+    ],
+    "two,": [
+     322
+    ],
+    "recognizable": [
+     330
+    ],
+    "words": [
+     331
+    ],
+    "yields.": [
+     335
+    ],
+    "trades": [
+     337
+    ],
+    "response": [
+     338,
+     824,
+     869
+    ],
+    "speed": [
+     339
+    ],
+    "accuracy,": [
+     341
+    ],
+    "reducing": [
+     342
+    ],
+    "false": [
+     343,
+     597,
+     834,
+     1221
+    ],
+    "positives": [
+     344
+    ],
+    "dramatically.": [
+     345
+    ],
+    "Vapi": [
+     346,
+     1389
+    ],
+    "also": [
+     347,
+     708,
+     787,
+     884,
+     1149
+    ],
+    "maintains": [
+     348
+    ],
+    "`acknowledgementPhrases`": [
+     350
+    ],
+    "list": [
+     351
+    ],
+    "(\"okay,\"": [
+     352
+    ],
+    "\"right,\"": [
+     353
+    ],
+    "\"got": [
+     355
+    ],
+    "it,\"": [
+     356
+    ],
+    "\"mm-hmm\")": [
+     357
+    ],
+    "tells": [
+     359
+    ],
+    "system": [
+     361,
+     1174
+    ],
+    "ignore": [
+     363
+    ],
+    "those": [
+     364
+    ],
+    "entirely": [
+     366
+    ],
+    "keep": [
+     368
+    ],
+    "talking.": [
+     369
+    ],
+    "**LiveKit**": [
+     370
+    ],
+    "takes": [
+     371
+    ],
+    "opposite": [
+     373
+    ],
+    "approach:": [
+     374
+    ],
+    "expose": [
+     376
+    ],
+    "full": [
+     378,
+     649,
+     1075
+    ],
+    "framework": [
+     379
+    ],
+    "let": [
+     381
+    ],
+    "configure": [
+     383
+    ],
+    "turn-taking": [
+     384,
+     564,
+     1260,
+     1293
+    ],
+    "their": [
+     386,
+     558
+    ],
+    "specific": [
+     387
+    ],
+    "needs.": [
+     388
+    ],
+    "You": [
+     389,
+     862,
+     1265
+    ],
+    "set": [
+     391,
+     1396
+    ],
+    "`allow_interruptions`": [
+     392
+    ],
+    "directly,": [
+     393
+    ],
+    "call": [
+     394,
+     659
+    ],
+    "`interrupt()`": [
+     395
+    ],
+    "explicitly": [
+     396
+    ],
+    "code,": [
+     398
+    ],
+    "build": [
+     400
+    ],
+    "custom": [
+     401
+    ],
+    "logic": [
+     402
+    ],
+    "around": [
+     403
+    ],
+    "handoffs.": [
+     404
+    ],
+    "Their": [
+     405
+    ],
+    "smart": [
+     406
+    ],
+    "endpointing": [
+     407
+    ],
+    "uses": [
+     408,
+     461
+    ],
+    "sigmoid-curve": [
+     410
+    ],
+    "function—a": [
+     412
+    ],
+    "mathematical": [
+     413
+    ],
+    "formula": [
+     414
+    ],
+    "returns": [
+     416
+    ],
+    "time": [
+     418,
+     588
+    ],
+    "milliseconds": [
+     420,
+     828,
+     892
+    ],
+    "based": [
+     421
+    ],
+    "speech-completion": [
+     423
+    ],
+    "probability.": [
+     424
+    ],
+    "At": [
+     425,
+     436
+    ],
+    "50%": [
+     426
+    ],
+    "confidence": [
+     427,
+     524,
+     855
+    ],
+    "finished,": [
+     431
+    ],
+    "might": [
+     433
+    ],
+    "200ms.": [
+     435
+    ],
+    "90%": [
+     437
+    ],
+    "confidence,": [
+     438
+    ],
+    "you're": [
+     439,
+     715,
+     1321
+    ],
+    "down": [
+     440
+    ],
+    "50ms.": [
+     442
+    ],
+    "It's": [
+     443
+    ],
+    "not": [
+     444,
+     795,
+     1209
+    ],
+    "fixed": [
+     446
+    ],
+    "threshold;": [
+     447
+    ],
+    "it's": [
+     448
+    ],
+    "continuous": [
+     450
+    ],
+    "function": [
+     451
+    ],
+    "tune.": [
+     454
+    ],
+    "**Pipecat**,": [
+     455
+    ],
+    "open-source": [
+     457
+    ],
+    "option": [
+     458
+    ],
+    "(BSD-2-clause": [
+     459
+    ],
+    "license),": [
+     460
+    ],
+    "SmartTurn": [
+     462,
+     593
+    ],
+    "version": [
+     463,
+     479
+    ],
+    "3.2—a": [
+     464
+    ],
+    "Whisper": [
+     465
+    ],
+    "Tiny": [
+     466
+    ],
+    "backbone": [
+     467
+    ],
+    "linear": [
+     470
+    ],
+    "classifier": [
+     471
+    ],
+    "layer,": [
+     472
+    ],
+    "about": [
+     473,
+     837,
+     1192
+    ],
+    "8": [
+     474,
+     483
+    ],
+    "million": [
+     475
+    ],
+    "parameters.": [
+     476
+    ],
+    "CPU": [
+     478,
+     568
+    ],
+    "quantized": [
+     481
+    ],
+    "megabytes.": [
+     484
+    ],
+    "What": [
+     485,
+     1191
+    ],
+    "makes": [
+     486,
+     916
+    ],
+    "different": [
+     488,
+     1262
+    ],
+    "pure": [
+     490
+    ],
+    "looks": [
+     495
+    ],
+    "at": [
+     496,
+     594,
+     603,
+     1032,
+     1063
+    ],
+    "prosodic": [
+     497,
+     734,
+     1195
+    ],
+    "cues—pitch,": [
+     498
+    ],
+    "intonation,": [
+     499
+    ],
+    "rate—rather": [
+     501
+    ],
+    "than": [
+     502,
+     677,
+     894,
+     1368
+    ],
+    "energy.": [
+     505
+    ],
+    "200ms": [
+     509
+    ],
+    "silence": [
+     511,
+     531
+    ],
+    "Silero": [
+     513
+    ],
+    "VAD,": [
+     514
+    ],
+    "evaluates": [
+     515
+    ],
+    "turn": [
+     518,
+     729,
+     792
+    ],
+    "shift": [
+     519,
+     587,
+     968
+    ],
+    "should": [
+     520
+    ],
+    "occur,": [
+     521
+    ],
+    "if": [
+     523
+    ],
+    "too": [
+     526
+    ],
+    "low,": [
+     527
+    ],
+    "defers.": [
+     529
+    ],
+    "If": [
+     530
+    ],
+    "persists": [
+     532
+    ],
+    "3": [
+     534
+    ],
+    "seconds,": [
+     535
+    ],
+    "forces": [
+     537
+    ],
+    "transition": [
+     539
+    ],
+    "anyway.": [
+     540
+    ],
+    "That": [
+     541,
+     1405
+    ],
+    "fallback": [
+     542
+    ],
+    "critical:": [
+     544
+    ],
+    "want": [
+     547
+    ],
+    "waiting": [
+     550
+    ],
+    "forever.": [
+     551
+    ],
+    "Krisp": [
+     552,
+     573
+    ],
+    "recently": [
+     553
+    ],
+    "entered": [
+     554
+    ],
+    "space": [
+     556
+    ],
+    "VIVA": [
+     559
+    ],
+    "SDK,": [
+     560
+    ],
+    "6-million-parameter": [
+     562
+    ],
+    "audio-only": [
+     563
+    ],
+    "model": [
+     565,
+     771,
+     783,
+     961,
+     1015,
+     1161,
+     1263
+    ],
+    "optimized": [
+     566
+    ],
+    "inference.": [
+     569
+    ],
+    "Benchmarked": [
+     570
+    ],
+    "against": [
+     571
+    ],
+    "SmartTurn,": [
+     572
+    ],
+    "achieves": [
+     574,
+     839
+    ],
+    "0.82": [
+     575
+    ],
+    "balanced": [
+     576
+    ],
+    "accuracy": [
+     577,
+     605
+    ],
+    "SmartTurn's": [
+     579
+    ],
+    "0.78,": [
+     580
+    ],
+    "more": [
+     582,
+     906,
+     1345
+    ],
+    "importantly,": [
+     583
+    ],
+    "0.9": [
+     584
+    ],
+    "seconds": [
+     585,
+     591,
+     954,
+     1044
+    ],
+    "mean": [
+     586
+    ],
+    "1.3": [
+     590
+    ],
+    "same": [
+     596,
+     782,
+     811
+    ],
+    "positive": [
+     598
+    ],
+    "rate.": [
+     599
+    ],
+    "Thirty": [
+     600
+    ],
+    "percent": [
+     601
+    ],
+    "faster": [
+     602
+    ],
+    "equivalent": [
+     604
+    ],
+    "being": [
+     607
+    ],
+    "5-10x": [
+     608
+    ],
+    "smaller.": [
+     609
+    ],
+    "Thinking": [
+     612
+    ],
+    "Pause": [
+     613
+    ],
+    "confusion": [
+     617
+    ],
+    "tip": [
+     621
+    ],
+    "iceberg.": [
+     624
+    ],
+    "deeper": [
+     626,
+     1253
+    ],
+    "issue": [
+     627,
+     1254
+    ],
+    "Speechmatics": [
+     630
+    ],
+    "calls": [
+     631
+    ],
+    "\"thinking": [
+     633
+    ],
+    "pause\"": [
+     634
+    ],
+    "problem.": [
+     635,
+     704
+    ],
+    "Consider": [
+     636
+    ],
+    "someone": [
+     637
+    ],
+    "saying": [
+     638
+    ],
+    "\"I": [
+     639
+    ],
+    "understand": [
+     640,
+     1383
+    ],
+    "point,": [
+     642
+    ],
+    "but...\"": [
+     643
+    ],
+    "then": [
+     645,
+     800,
+     1077,
+     1080
+    ],
+    "formulate": [
+     653
+    ],
+    "thought.": [
+     656
+    ],
+    "VAD-only": [
+     657
+    ],
+    "systems": [
+     658,
+     1225
+    ],
+    "end": [
+     662
+    ],
+    "turn.": [
+     664
+    ],
+    "A": [
+     665,
+     1070,
+     1168
+    ],
+    "human": [
+     666
+    ],
+    "listener": [
+     667
+    ],
+    "intuitively": [
+     668
+    ],
+    "waiting.": [
+     670
+    ],
+    "In": [
+     671,
+     679,
+     694
+    ],
+    "production,": [
+     672
+    ],
+    "consequences": [
+     674
+    ],
+    "worse": [
+     676
+    ],
+    "awkwardness.": [
+     678
+    ],
+    "finance,": [
+     680
+    ],
+    "customers": [
+     681
+    ],
+    "spelling": [
+     682
+    ],
+    "out": [
+     683
+    ],
+    "account": [
+     684
+    ],
+    "numbers": [
+     685
+    ],
+    "pause": [
+     686,
+     941
+    ],
+    "between": [
+     687,
+     1309,
+     1407
+    ],
+    "digits—the": [
+     688
+    ],
+    "them": [
+     691
+    ],
+    "mid-sequence.": [
+     693
+    ],
+    "healthcare,": [
+     695
+    ],
+    "patients": [
+     696
+    ],
+    "recalling": [
+     697
+    ],
+    "patient": [
+     699
+    ],
+    "ID": [
+     700
+    ],
+    "memory": [
+     702
+    ],
+    "pause—same": [
+     703
+    ],
+    "Every": [
+     705
+    ],
+    "premature": [
+     706
+    ],
+    "interruption": [
+     707
+    ],
+    "drives": [
+     709
+    ],
+    "up": [
+     710
+    ],
+    "LLM": [
+     711,
+     900,
+     907,
+     990,
+     1008,
+     1106,
+     1116,
+     1136
+    ],
+    "API": [
+     712
+    ],
+    "costs": [
+     713
+    ],
+    "reprocessing": [
+     716
+    ],
+    "misinterpreted": [
+     718
+    ],
+    "partial": [
+     719,
+     1098
+    ],
+    "utterance.": [
+     720
+    ],
+    "field": [
+     722
+    ],
+    "converged": [
+     724
+    ],
+    "approaches": [
+     727,
+     732,
+     749
+    ],
+    "detection:": [
+     730
+    ],
+    "**Audio-based**": [
+     731
+    ],
+    "analyze": [
+     733,
+     750
+    ],
+    "features—pitch,": [
+     735
+    ],
+    "energy,": [
+     736
+    ],
+    "intonation.": [
+     737
+    ],
+    "Fast": [
+     738
+    ],
+    "lightweight,": [
+     740
+    ],
+    "works": [
+     741
+    ],
+    "real-time,": [
+     743
+    ],
+    "misses": [
+     745
+    ],
+    "semantic": [
+     746
+    ],
+    "context.": [
+     747
+    ],
+    "**Text-based**": [
+     748
+    ],
+    "content": [
+     752
+    ],
+    "sentence": [
+     754,
+     1132
+    ],
+    "boundaries,": [
+     755
+    ],
+    "discourse": [
+     756
+    ],
+    "markers,": [
+     757
+    ],
+    "question": [
+     758
+    ],
+    "markers.": [
+     759
+    ],
+    "More": [
+     760
+    ],
+    "accurate": [
+     761
+    ],
+    "adds": [
+     763
+    ],
+    "latency.": [
+     764,
+     1085
+    ],
+    "**Multimodal": [
+     765
+    ],
+    "fusion**": [
+     766
+    ],
+    "Deepgram's": [
+     769,
+     818
+    ],
+    "Flux": [
+     770,
+     821
+    ],
+    "lives.": [
+     772
+    ],
+    "Launched": [
+     773
+    ],
+    "late": [
+     774
+    ],
+    "2025,": [
+     775
+    ],
+    "Flux's": [
+     776
+    ],
+    "key": [
+     777
+    ],
+    "innovation": [
+     778
+    ],
+    "architectural:": [
+     780
+    ],
+    "producing": [
+     784
+    ],
+    "transcripts": [
+     785,
+     1099
+    ],
+    "modeling": [
+     788
+    ],
+    "flow": [
+     790
+    ],
+    "detection.": [
+     793
+    ],
+    "You're": [
+     794
+    ],
+    "running": [
+     796,
+     801
+    ],
+    "ASR,": [
+     797
+    ],
+    "getting": [
+     798,
+     1292,
+     1342
+    ],
+    "text,": [
+     799
+    ],
+    "separate": [
+     803
+    ],
+    "turn-detection": [
+     804,
+     1273
+    ],
+    "model.": [
+     805
+    ],
+    "Turn": [
+     806,
+     1347
+    ],
+    "detection": [
+     807,
+     1258,
+     1348
+    ],
+    "forward": [
+     812
+    ],
+    "pass,": [
+     813
+    ],
+    "eliminating": [
+     814
+    ],
+    "significant": [
+     815
+    ],
+    "sequential": [
+     816,
+     1072
+    ],
+    "delay.": [
+     817
+    ],
+    "benchmark": [
+     819
+    ],
+    "numbers:": [
+     820
+    ],
+    "by": [
+     826,
+     836,
+     1014
+    ],
+    "200-600": [
+     827
+    ],
+    "compared": [
+     829
+    ],
+    "pipeline": [
+     831,
+     1274
+    ],
+    "approaches,": [
+     832
+    ],
+    "reduces": [
+     833
+    ],
+    "30%,": [
+     838
+    ],
+    "p90": [
+     840
+    ],
+    "1": [
+     843
+    ],
+    "second.": [
+     844
+    ],
+    "They": [
+     845,
+     883
+    ],
+    "define": [
+     846
+    ],
+    "core": [
+     848
+    ],
+    "conversation-native": [
+     849
+    ],
+    "events—`StartOfTurn`": [
+     850
+    ],
+    "`EndOfTurn`—with": [
+     852
+    ],
+    "threshold": [
+     856
+    ],
+    "called": [
+     857
+    ],
+    "`eot_threshold`,": [
+     858
+    ],
+    "defaulting": [
+     859
+    ],
+    "0.7.": [
+     861
+    ],
+    "drop": [
+     864
+    ],
+    "0.5-0.6": [
+     866
+    ],
+    "aggressive": [
+     868
+    ],
+    "(higher": [
+     870
+    ],
+    "risk": [
+     871
+    ],
+    "off)": [
+     875
+    ],
+    "raise": [
+     877
+    ],
+    "0.9-1.0": [
+     879
+    ],
+    "longer.": [
+     882
+    ],
+    "offer": [
+     885,
+     1231
+    ],
+    "eager": [
+     886
+    ],
+    "end-of-turn": [
+     887
+    ],
+    "detection,": [
+     888
+    ],
+    "which": [
+     889
+    ],
+    "fires": [
+     890
+    ],
+    "150-250": [
+     891
+    ],
+    "earlier": [
+     893
+    ],
+    "standard": [
+     896
+    ],
+    "event,": [
+     897
+    ],
+    "allowing": [
+     898
+    ],
+    "speculative": [
+     899
+    ],
+    "calls.": [
+     901
+    ],
+    "cost": [
+     903
+    ],
+    "50-70%": [
+     905
+    ],
+    "calls,": [
+     908
+    ],
+    "latency-critical": [
+     911
+    ],
+    "applications,": [
+     912
+    ],
+    "tradeoff": [
+     914,
+     1047
+    ],
+    "often": [
+     915
+    ],
+    "sense.": [
+     917
+    ],
+    "Latency": [
+     920,
+     1356
+    ],
+    "Budget": [
+     921
+    ],
+    "becomes": [
+     926
+    ],
+    "genuinely": [
+     927
+    ],
+    "unforgiving.": [
+     928
+    ],
+    "magic": [
+     930
+    ],
+    "300": [
+     933
+    ],
+    "milliseconds.": [
+     934
+    ],
+    "Human": [
+     935
+    ],
+    "conversation": [
+     936
+    ],
+    "natural": [
+     939
+    ],
+    "inter-turn": [
+     940
+    ],
+    "200-300ms.": [
+     943
+    ],
+    "Research": [
+     944
+    ],
+    "shows": [
+     945,
+     1010
+    ],
+    "pauses": [
+     946
+    ],
+    "above": [
+     947
+    ],
+    "400ms": [
+     948
+    ],
+    "perceptible,": [
+     950
+    ],
+    "beyond": [
+     952
+    ],
+    "1.5": [
+     953
+    ],
+    "fundamentally": [
+     956
+    ],
+    "shifted": [
+     957
+    ],
+    "user's": [
+     959
+    ],
+    "mental": [
+     960
+    ],
+    "\"conversation\"": [
+     963
+    ],
+    "\"query-response.\"": [
+     965
+    ],
+    "Once": [
+     966
+    ],
+    "happens,": [
+     969
+    ],
+    "no": [
+     970,
+     1160
+    ],
+    "quality": [
+     972,
+     1409
+    ],
+    "improvement": [
+     973
+    ],
+    "rescues": [
+     974
+    ],
+    "experience.": [
+     976
+    ],
+    "budget": [
+     979,
+     1285
+    ],
+    "breakdown": [
+     980
+    ],
+    "current": [
+     982
+    ],
+    "production": [
+     983,
+     1087,
+     1224
+    ],
+    "engineering:": [
+     984
+    ],
+    "-": [
+     985,
+     989,
+     993,
+     997,
+     1017,
+     1023,
+     1026,
+     1035,
+     1038
+    ],
+    "STT": [
+     986,
+     1096
+    ],
+    "finalization:": [
+     987
+    ],
+    "50-100ms": [
+     988,
+     1021
+    ],
+    "time-to-first-token:": [
+     991
+    ],
+    "100-200ms": [
+     992
+    ],
+    "TTS": [
+     994,
+     1120,
+     1125
+    ],
+    "time-to-first-byte:": [
+     995
+    ],
+    "50-80ms": [
+     996
+    ],
+    "WebRTC": [
+     998
+    ],
+    "transport:": [
+     999
+    ],
+    "20-50ms": [
+     1000
+    ],
+    "**Total:": [
+     1001
+    ],
+    "220-380": [
+     1002
+    ],
+    "milliseconds.**": [
+     1003
+    ],
+    "That's": [
+     1004
+    ],
+    "window.": [
+     1006
+    ],
+    "piece": [
+     1009
+    ],
+    "variance": [
+     1013
+    ],
+    "choice:": [
+     1016
+    ],
+    "Groq-hosted": [
+     1018
+    ],
+    "Llama": [
+     1019
+    ],
+    "variants:": [
+     1020
+    ],
+    "time-to-first-token": [
+     1022
+    ],
+    "GPT-4o-mini:": [
+     1024
+    ],
+    "120-200ms": [
+     1025
+    ],
+    "Gemini": [
+     1027
+    ],
+    "Flash": [
+     1028
+    ],
+    "1.5:": [
+     1029
+    ],
+    "~300ms": [
+     1030
+    ],
+    "(already": [
+     1031
+    ],
+    "edge)": [
+     1034
+    ],
+    "GPT-4o:": [
+     1036
+    ],
+    "~700ms": [
+     1037
+    ],
+    "Frontier": [
+     1039,
+     1190
+    ],
+    "reasoning": [
+     1040
+    ],
+    "models": [
+     1041,
+     1051
+    ],
+    "(extended": [
+     1042
+    ],
+    "thinking):": [
+     1043
+    ],
+    "capability-latency": [
+     1046
+    ],
+    "brutal.": [
+     1049
+    ],
+    "fast": [
+     1052
+    ],
+    "enough": [
+     1053
+    ],
+    "tend": [
+     1056
+    ],
+    "be": [
+     1058,
+     1184
+    ],
+    "smaller": [
+     1059
+    ],
+    "less": [
+     1061
+    ],
+    "capable": [
+     1062
+    ],
+    "complex": [
+     1064
+    ],
+    "reasoning.": [
+     1065
+    ],
+    "**Streaming": [
+     1066
+    ],
+    "architecture": [
+     1067
+    ],
+    "non-negotiable.**": [
+     1069
+    ],
+    "pipeline—wait": [
+     1073
+    ],
+    "STT,": [
+     1076
+    ],
+    "run": [
+     1078,
+     1081
+    ],
+    "LLM,": [
+     1079
+    ],
+    "TTS—produces": [
+     1082
+    ],
+    "600-2000ms": [
+     1083
+    ],
+    "solution": [
+     1088
+    ],
+    "streams": [
+     1089
+    ],
+    "all": [
+     1091
+    ],
+    "stages": [
+     1093
+    ],
+    "simultaneously.": [
+     1094
+    ],
+    "Streaming": [
+     1095,
+     1115,
+     1124,
+     1362
+    ],
+    "emits": [
+     1097
+    ],
+    "20ms": [
+     1101
+    ],
+    "chunks,": [
+     1103
+    ],
+    "so": [
+     1104
+    ],
+    "starts": [
+     1107
+    ],
+    "processing": [
+     1108
+    ],
+    "even": [
+     1112
+    ],
+    "finishes": [
+     1113
+    ],
+    "speaking.": [
+     1114
+    ],
+    "sends": [
+     1117
+    ],
+    "tokens": [
+     1118
+    ],
+    "as": [
+     1121
+    ],
+    "arrive.": [
+     1123
+    ],
+    "begins": [
+     1126
+    ],
+    "synthesizing": [
+     1127
+    ],
+    "fragment": [
+     1133
+    ],
+    "generating": [
+     1139
+    ],
+    "later": [
+     1140
+    ],
+    "paragraphs.": [
+     1141
+    ],
+    "Combined": [
+     1142
+    ],
+    "savings:": [
+     1143
+    ],
+    "300-600ms": [
+     1144
+    ],
+    "over": [
+     1145
+    ],
+    "batch": [
+     1146
+    ],
+    "processing.": [
+     1147
+    ],
+    "Transport": [
+     1148
+    ],
+    "matters.": [
+     1150
+    ],
+    "PSTN—traditional": [
+     1151
+    ],
+    "phone": [
+     1152
+    ],
+    "calls—adds": [
+     1153
+    ],
+    "150-700ms": [
+     1154
+    ],
+    "network": [
+     1156
+    ],
+    "transit,": [
+     1157
+    ],
+    "penalty": [
+     1159
+    ],
+    "optimization": [
+     1162
+    ],
+    "recovers.": [
+     1163
+    ],
+    "Geographic": [
+     1164
+    ],
+    "co-location": [
+     1165
+    ],
+    "matters": [
+     1166
+    ],
+    "too.": [
+     1167
+    ],
+    "Australia": [
+     1171
+    ],
+    "calling": [
+     1172
+    ],
+    "hosted": [
+     1175
+    ],
+    "Virginia": [
+     1177
+    ],
+    "pays": [
+     1178
+    ],
+    "tax": [
+     1181
+    ],
+    "can't": [
+     1183,
+     1266
+    ],
+    "engineered": [
+     1185
+    ],
+    "away.": [
+     1186
+    ],
+    "Remaining": [
+     1189
+    ],
+    "awareness?": [
+     1196
+    ],
+    "Can": [
+     1197
+    ],
+    "room": [
+     1203
+    ],
+    "2026?": [
+     1205
+    ],
+    "short": [
+     1207
+    ],
+    "answer:": [
+     1208
+    ],
+    "reliably.": [
+     1210
+    ],
+    "Emotion": [
+     1211
+    ],
+    "recognition": [
+     1212,
+     1270
+    ],
+    "notoriously": [
+     1216
+    ],
+    "difficult": [
+     1217
+    ],
+    "prone": [
+     1219
+    ],
+    "positives.": [
+     1222
+    ],
+    "Most": [
+     1223
+    ],
+    "attempt": [
+     1227
+    ],
+    "Some": [
+     1229
+    ],
+    "basic": [
+     1232
+    ],
+    "sentiment": [
+     1233
+    ],
+    "detection—flagging": [
+     1234
+    ],
+    "high-stress": [
+     1235
+    ],
+    "indicators": [
+     1236
+    ],
+    "speech": [
+     1238
+    ],
+    "rate": [
+     1239
+    ],
+    "pitch—but": [
+     1241
+    ],
+    "using": [
+     1242,
+     1388
+    ],
+    "signal": [
+     1244
+    ],
+    "adjust": [
+     1246
+    ],
+    "behavior": [
+     1248
+    ],
+    "remains": [
+     1249
+    ],
+    "mostly": [
+     1250
+    ],
+    "experimental.": [
+     1251
+    ],
+    "emotion": [
+     1257,
+     1269
+    ],
+    "require": [
+     1261
+    ],
+    "architectures.": [
+     1264
+    ],
+    "easily": [
+     1267
+    ],
+    "bolt": [
+     1268
+    ],
+    "onto": [
+     1271
+    ],
+    "adding": [
+     1276
+    ],
+    "complexity.": [
+     1279
+    ],
+    "And": [
+     1280
+    ],
+    "given": [
+     1281
+    ],
+    "already": [
+     1287
+    ],
+    "razor-thin,": [
+     1288
+    ],
+    "prioritize": [
+     1291
+    ],
+    "right": [
+     1294
+    ],
+    "attempting": [
+     1296
+    ],
+    "emotion.": [
+     1297
+    ],
+    "Why": [
+     1299
+    ],
+    "Matters": [
+     1301
+    ],
+    "aren't": [
+     1303
+    ],
+    "theoretical": [
+     1304
+    ],
+    "problems.": [
+     1305
+    ],
+    "They're": [
+     1306,
+     1387
+    ],
+    "difference": [
+     1308
+    ],
+    "one": [
+     1317
+    ],
+    "users,": [
+     1331
+    ],
+    "experience": [
+     1334
+    ],
+    "isn't.": [
+     1335
+    ],
+    "good": [
+     1337
+    ],
+    "news:": [
+     1338,
+     1372
+    ],
+    "better": [
+     1343,
+     1360
+    ],
+    "standardized.": [
+     1346
+    ],
+    "moving": [
+     1350
+    ],
+    "heuristics": [
+     1352
+    ],
+    "learned": [
+     1354
+    ],
+    "models.": [
+     1355
+    ],
+    "becoming": [
+     1359,
+     1365
+    ],
+    "understood.": [
+     1361
+    ],
+    "architectures": [
+     1363
+    ],
+    "default": [
+     1366
+    ],
+    "rather": [
+     1367
+    ],
+    "optimization.": [
+     1369
+    ],
+    "bad": [
+     1371
+    ],
+    "building": [
+     1375
+    ],
+    "top": [
+     1377
+    ],
+    "these": [
+     1379
+    ],
+    "LiveKit": [
+     1391
+    ],
+    "Pipecat": [
+     1393
+    ],
+    "defaults": [
+     1395
+    ],
+    "know": [
+     1400
+    ],
+    "what's": [
+     1401
+    ],
+    "underneath.": [
+     1404
+    ],
+    "gap": [
+     1406
+    ],
+    "surface": [
+     1408
+    ],
+    "underlying": [
+     1411
+    ],
+    "Listen": [
+     1422
+    ],
+    "online:": [
+     1423
+    ],
+    "https://myweirdprompts.com/episode/voice-agent-conversat": [
+     1424
+    ]
+   },
+   "counts_by_year": [],
+   "updated_date": "2026-07-01T06:00:48.157686",
+   "created_date": "2026-04-13T00:00:00"
+  }
+ ],
+ "group_by": []
+}

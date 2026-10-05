@@ -1,0 +1,1336 @@
+{
+ "id": "https://openalex.org/W2947476638",
+ "doi": "https://doi.org/10.18653/v1/p19-1656",
+ "title": "Multimodal Transformer for Unaligned Multimodal Language Sequences",
+ "display_name": "Multimodal Transformer for Unaligned Multimodal Language Sequences",
+ "publication_year": 2019,
+ "publication_date": "2019-01-01",
+ "ids": {
+  "openalex": "https://openalex.org/W2947476638",
+  "doi": "https://doi.org/10.18653/v1/p19-1656",
+  "mag": "2947476638",
+  "pmid": "https://pubmed.ncbi.nlm.nih.gov/32362720"
+ },
+ "language": "en",
+ "primary_location": {
+  "id": "doi:10.18653/v1/p19-1656",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.18653/v1/p19-1656",
+  "pdf_url": "https://www.aclweb.org/anthology/P19-1656.pdf",
+  "source": null,
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "raw_type": "proceedings-article"
+ },
+ "type": "conference-paper",
+ "indexed_in": [
+  "arxiv",
+  "crossref",
+  "datacite",
+  "pubmed"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "gold",
+  "oa_url": "https://www.aclweb.org/anthology/P19-1656.pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5015826285",
+    "display_name": "Yao-Hung Hubert Tsai",
+    "orcid": "https://orcid.org/0000-0001-5312-1875"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I74973139",
+     "display_name": "Carnegie Mellon University",
+     "ror": "https://ror.org/05x2bcf33",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Yao-Hung Hubert Tsai",
+   "raw_affiliation_strings": [
+    "Carnegie Mellon University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Carnegie Mellon University",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5037832036",
+    "display_name": "Shaojie Bai",
+    "orcid": "https://orcid.org/0009-0006-7526-5216"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I74973139",
+     "display_name": "Carnegie Mellon University",
+     "ror": "https://ror.org/05x2bcf33",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Shaojie Bai",
+   "raw_affiliation_strings": [
+    "Carnegie Mellon University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Carnegie Mellon University",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5086233510",
+    "display_name": "Paul Pu Liang",
+    "orcid": "https://orcid.org/0000-0001-7768-3610"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I74973139",
+     "display_name": "Carnegie Mellon University",
+     "ror": "https://ror.org/05x2bcf33",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Paul Pu Liang",
+   "raw_affiliation_strings": [
+    "Carnegie Mellon University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Carnegie Mellon University",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5075035644",
+    "display_name": "J. Zico Kolter",
+    "orcid": "https://orcid.org/0000-0002-8106-5759"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I4210151956",
+     "display_name": "Robert Bosch (India)",
+     "ror": "https://ror.org/04my8ty22",
+     "country_code": "IN",
+     "type": "company",
+     "lineage": [
+      "https://openalex.org/I4210151956",
+      "https://openalex.org/I889804353"
+     ]
+    },
+    {
+     "id": "https://openalex.org/I74973139",
+     "display_name": "Carnegie Mellon University",
+     "ror": "https://ror.org/05x2bcf33",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ],
+   "countries": [
+    "IN",
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "J. Zico Kolter",
+   "raw_affiliation_strings": [
+    "Bosch Center for AI",
+    "Carnegie Mellon University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Bosch Center for AI",
+     "institution_ids": [
+      "https://openalex.org/I4210151956"
+     ]
+    },
+    {
+     "raw_affiliation_string": "Carnegie Mellon University",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5081398601",
+    "display_name": "Louis‐Philippe Morency",
+    "orcid": "https://orcid.org/0000-0001-6376-7696"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I74973139",
+     "display_name": "Carnegie Mellon University",
+     "ror": "https://ror.org/05x2bcf33",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Louis-Philippe Morency",
+   "raw_affiliation_strings": [
+    "Carnegie Mellon University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Carnegie Mellon University",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5071983998",
+    "display_name": "Ruslan Salakhutdinov",
+    "orcid": "https://orcid.org/0000-0002-3752-2756"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I74973139",
+     "display_name": "Carnegie Mellon University",
+     "ror": "https://ror.org/05x2bcf33",
+     "country_code": "US",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ],
+   "countries": [
+    "US"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ruslan Salakhutdinov",
+   "raw_affiliation_strings": [
+    "Carnegie Mellon University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "Carnegie Mellon University",
+     "institution_ids": [
+      "https://openalex.org/I74973139"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 2,
+ "institutions_distinct_count": 2,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": 6.8814,
+ "has_fulltext": true,
+ "cited_by_count": 137,
+ "citation_normalized_percentile": {
+  "value": 0.97834119,
+  "is_in_top_1_percent": false,
+  "is_in_top_10_percent": true
+ },
+ "cited_by_percentile_year": {
+  "min": 94,
+  "max": 100
+ },
+ "biblio": {
+  "volume": "2019",
+  "issue": null,
+  "first_page": "6558",
+  "last_page": "6569"
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T11309",
+  "display_name": "Music and Audio Processing",
+  "score": 0.9994000196456909,
+  "subfield": {
+   "id": "https://openalex.org/subfields/1711",
+   "display_name": "Signal Processing"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/17",
+   "display_name": "Computer Science"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/3",
+   "display_name": "Physical Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T11309",
+   "display_name": "Music and Audio Processing",
+   "score": 0.9994000196456909,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1711",
+    "display_name": "Signal Processing"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10860",
+   "display_name": "Speech and Audio Processing",
+   "score": 0.9986000061035156,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1711",
+    "display_name": "Signal Processing"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10201",
+   "display_name": "Speech Recognition and Synthesis",
+   "score": 0.9980999827384949,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/crossmodal",
+   "display_name": "Crossmodal",
+   "score": 0.8389158248901367
+  },
+  {
+   "id": "https://openalex.org/keywords/computer-science",
+   "display_name": "Computer science",
+   "score": 0.7412171363830566
+  },
+  {
+   "id": "https://openalex.org/keywords/gesture",
+   "display_name": "Gesture",
+   "score": 0.6198850870132446
+  },
+  {
+   "id": "https://openalex.org/keywords/transformer",
+   "display_name": "Transformer",
+   "score": 0.5565226674079895
+  },
+  {
+   "id": "https://openalex.org/keywords/modalities",
+   "display_name": "Modalities",
+   "score": 0.5390957593917847
+  },
+  {
+   "id": "https://openalex.org/keywords/pairwise-comparison",
+   "display_name": "Pairwise comparison",
+   "score": 0.5021367073059082
+  },
+  {
+   "id": "https://openalex.org/keywords/modality",
+   "display_name": "Modality (human–computer interaction)",
+   "score": 0.4752640128135681
+  },
+  {
+   "id": "https://openalex.org/keywords/artificial-intelligence",
+   "display_name": "Artificial intelligence",
+   "score": 0.4444606900215149
+  },
+  {
+   "id": "https://openalex.org/keywords/speech-recognition",
+   "display_name": "Speech recognition",
+   "score": 0.4279119074344635
+  },
+  {
+   "id": "https://openalex.org/keywords/multimodal-learning",
+   "display_name": "Multimodal learning",
+   "score": 0.4212820827960968
+  },
+  {
+   "id": "https://openalex.org/keywords/natural-language-processing",
+   "display_name": "Natural language processing",
+   "score": 0.3479972183704376
+  },
+  {
+   "id": "https://openalex.org/keywords/perception",
+   "display_name": "Perception",
+   "score": 0.25006216764450073
+  },
+  {
+   "id": "https://openalex.org/keywords/visual-perception",
+   "display_name": "Visual perception",
+   "score": 0.13652822375297546
+  },
+  {
+   "id": "https://openalex.org/keywords/psychology",
+   "display_name": "Psychology",
+   "score": 0.09631741046905518
+  },
+  {
+   "id": "https://openalex.org/keywords/engineering",
+   "display_name": "Engineering",
+   "score": 0.07579445838928223
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C60115397",
+   "wikidata": "https://www.wikidata.org/wiki/Q5188732",
+   "display_name": "Crossmodal",
+   "level": 4,
+   "score": 0.8389158248901367
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.7412171363830566
+  },
+  {
+   "id": "https://openalex.org/C207347870",
+   "wikidata": "https://www.wikidata.org/wiki/Q371174",
+   "display_name": "Gesture",
+   "level": 2,
+   "score": 0.6198850870132446
+  },
+  {
+   "id": "https://openalex.org/C66322947",
+   "wikidata": "https://www.wikidata.org/wiki/Q11658",
+   "display_name": "Transformer",
+   "level": 3,
+   "score": 0.5565226674079895
+  },
+  {
+   "id": "https://openalex.org/C2779903281",
+   "wikidata": "https://www.wikidata.org/wiki/Q6888026",
+   "display_name": "Modalities",
+   "level": 2,
+   "score": 0.5390957593917847
+  },
+  {
+   "id": "https://openalex.org/C184898388",
+   "wikidata": "https://www.wikidata.org/wiki/Q1435712",
+   "display_name": "Pairwise comparison",
+   "level": 2,
+   "score": 0.5021367073059082
+  },
+  {
+   "id": "https://openalex.org/C2780226545",
+   "wikidata": "https://www.wikidata.org/wiki/Q6888030",
+   "display_name": "Modality (human–computer interaction)",
+   "level": 2,
+   "score": 0.4752640128135681
+  },
+  {
+   "id": "https://openalex.org/C154945302",
+   "wikidata": "https://www.wikidata.org/wiki/Q11660",
+   "display_name": "Artificial intelligence",
+   "level": 1,
+   "score": 0.4444606900215149
+  },
+  {
+   "id": "https://openalex.org/C28490314",
+   "wikidata": "https://www.wikidata.org/wiki/Q189436",
+   "display_name": "Speech recognition",
+   "level": 1,
+   "score": 0.4279119074344635
+  },
+  {
+   "id": "https://openalex.org/C2780660688",
+   "wikidata": "https://www.wikidata.org/wiki/Q25052564",
+   "display_name": "Multimodal learning",
+   "level": 2,
+   "score": 0.4212820827960968
+  },
+  {
+   "id": "https://openalex.org/C204321447",
+   "wikidata": "https://www.wikidata.org/wiki/Q30642",
+   "display_name": "Natural language processing",
+   "level": 1,
+   "score": 0.3479972183704376
+  },
+  {
+   "id": "https://openalex.org/C26760741",
+   "wikidata": "https://www.wikidata.org/wiki/Q160402",
+   "display_name": "Perception",
+   "level": 2,
+   "score": 0.25006216764450073
+  },
+  {
+   "id": "https://openalex.org/C178253425",
+   "wikidata": "https://www.wikidata.org/wiki/Q162668",
+   "display_name": "Visual perception",
+   "level": 3,
+   "score": 0.13652822375297546
+  },
+  {
+   "id": "https://openalex.org/C15744967",
+   "wikidata": "https://www.wikidata.org/wiki/Q9418",
+   "display_name": "Psychology",
+   "level": 0,
+   "score": 0.09631741046905518
+  },
+  {
+   "id": "https://openalex.org/C127413603",
+   "wikidata": "https://www.wikidata.org/wiki/Q11023",
+   "display_name": "Engineering",
+   "level": 0,
+   "score": 0.07579445838928223
+  },
+  {
+   "id": "https://openalex.org/C144024400",
+   "wikidata": "https://www.wikidata.org/wiki/Q21201",
+   "display_name": "Sociology",
+   "level": 0,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C165801399",
+   "wikidata": "https://www.wikidata.org/wiki/Q25428",
+   "display_name": "Voltage",
+   "level": 2,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C119599485",
+   "wikidata": "https://www.wikidata.org/wiki/Q43035",
+   "display_name": "Electrical engineering",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C169760540",
+   "wikidata": "https://www.wikidata.org/wiki/Q207011",
+   "display_name": "Neuroscience",
+   "level": 1,
+   "score": 0.0
+  },
+  {
+   "id": "https://openalex.org/C36289849",
+   "wikidata": "https://www.wikidata.org/wiki/Q34749",
+   "display_name": "Social science",
+   "level": 1,
+   "score": 0.0
+  }
+ ],
+ "mesh": [],
+ "locations_count": 6,
+ "locations": [
+  {
+   "id": "doi:10.18653/v1/p19-1656",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.18653/v1/p19-1656",
+   "pdf_url": "https://www.aclweb.org/anthology/P19-1656.pdf",
+   "source": null,
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+   "raw_type": "proceedings-article"
+  },
+  {
+   "id": "pmid:32362720",
+   "is_oa": false,
+   "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/32362720",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306525036",
+    "display_name": "PubMed",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "publishedVersion",
+   "is_accepted": true,
+   "is_published": true,
+   "raw_source_name": "Proceedings of the conference. Association for Computational Linguistics. Meeting",
+   "raw_type": null
+  },
+  {
+   "id": "pmh:oai:arXiv.org:1906.00295",
+   "is_oa": true,
+   "landing_page_url": "http://arxiv.org/abs/1906.00295",
+   "pdf_url": "https://arxiv.org/pdf/1906.00295",
+   "source": {
+    "id": "https://openalex.org/S4306400194",
+    "display_name": "arXiv (Cornell University)",
+    "issn_l": "2331-8422",
+    "issn": [
+     "2331-8422"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I205783295",
+    "host_organization_name": "Cornell University",
+    "host_organization_lineage": [
+     "https://openalex.org/I205783295"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "",
+   "raw_type": "text"
+  },
+  {
+   "id": "pmh:oai:pubmedcentral.nih.gov:7195022",
+   "is_oa": true,
+   "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7195022",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S2764455111",
+    "display_name": "PubMed Central",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I1299303238",
+    "host_organization_name": "National Institutes of Health",
+    "host_organization_lineage": [
+     "https://openalex.org/I1299303238"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": "submittedVersion",
+   "is_accepted": false,
+   "is_published": false,
+   "raw_source_name": "Proc Conf Assoc Comput Linguist Meet",
+   "raw_type": "Text"
+  },
+  {
+   "id": "doi:10.48550/arxiv.1906.00295",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.48550/arxiv.1906.00295",
+   "pdf_url": null,
+   "source": {
+    "id": "https://openalex.org/S4306400194",
+    "display_name": "arXiv (Cornell University)",
+    "issn_l": "2331-8422",
+    "issn": [
+     "2331-8422"
+    ],
+    "is_oa": true,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": "https://openalex.org/I205783295",
+    "host_organization_name": "Cornell University",
+    "host_organization_lineage": [
+     "https://openalex.org/I205783295"
+    ],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": null,
+   "license_id": null,
+   "version": null,
+   "is_accepted": false,
+   "is_published": null,
+   "raw_source_name": null,
+   "raw_type": "Preprint"
+  },
+  {
+   "id": "mag:2947476638",
+   "is_oa": false,
+   "landing_page_url": null,
+   "pdf_url": null,
+   "source": null,
+   "license": null,
+   "license_id": null,
+   "version": null,
+   "is_accepted": false,
+   "is_published": null,
+   "raw_source_name": null,
+   "raw_type": null
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.18653/v1/p19-1656",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.18653/v1/p19-1656",
+  "pdf_url": "https://www.aclweb.org/anthology/P19-1656.pdf",
+  "source": null,
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "publishedVersion",
+  "is_accepted": true,
+  "is_published": true,
+  "raw_source_name": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+  "raw_type": "proceedings-article"
+ },
+ "sustainable_development_goals": [
+  {
+   "id": "https://metadata.un.org/sdg/4",
+   "display_name": "Quality Education",
+   "score": 0.7900000214576721
+  }
+ ],
+ "awards": [
+  {
+   "id": "https://openalex.org/G1133040973",
+   "display_name": null,
+   "funder_award_id": "R01 MH096951",
+   "funder_id": "https://openalex.org/F4320337346",
+   "funder_display_name": "National Institute of Mental Health"
+  },
+  {
+   "id": "https://openalex.org/G2354082385",
+   "display_name": null,
+   "funder_award_id": "FA8750-18-C-0014",
+   "funder_id": "https://openalex.org/F4320338294",
+   "funder_display_name": "Air Force Research Laboratory"
+  },
+  {
+   "id": "https://openalex.org/G4340203621",
+   "display_name": "CAREER: Learning Nonverbal Signatures",
+   "funder_award_id": "1750439",
+   "funder_id": "https://openalex.org/F4320306076",
+   "funder_display_name": "National Science Foundation"
+  },
+  {
+   "id": "https://openalex.org/G4713059963",
+   "display_name": null,
+   "funder_award_id": "FA8750",
+   "funder_id": "https://openalex.org/F4320332180",
+   "funder_display_name": "Defense Advanced Research Projects Agency"
+  },
+  {
+   "id": "https://openalex.org/G574185058",
+   "display_name": "SCH: INT: Collaborative Research: Dyadic Behavior Informatics for Psychotherapy Process and Outcome",
+   "funder_award_id": "1722822",
+   "funder_id": "https://openalex.org/F4320306076",
+   "funder_display_name": "National Science Foundation"
+  },
+  {
+   "id": "https://openalex.org/G946752494",
+   "display_name": null,
+   "funder_award_id": "IIS1763562",
+   "funder_id": "https://openalex.org/F4320306076",
+   "funder_display_name": "National Science Foundation"
+  }
+ ],
+ "funders": [
+  {
+   "id": "https://openalex.org/F4320306076",
+   "display_name": "National Science Foundation",
+   "ror": "https://ror.org/021nxhr62"
+  },
+  {
+   "id": "https://openalex.org/F4320309480",
+   "display_name": "Nvidia",
+   "ror": "https://ror.org/03jdj4y14"
+  },
+  {
+   "id": "https://openalex.org/F4320332180",
+   "display_name": "Defense Advanced Research Projects Agency",
+   "ror": "https://ror.org/02caytj08"
+  },
+  {
+   "id": "https://openalex.org/F4320332195",
+   "display_name": "Samsung",
+   "ror": "https://ror.org/04w3jy968"
+  },
+  {
+   "id": "https://openalex.org/F4320337346",
+   "display_name": "National Institute of Mental Health",
+   "ror": "https://ror.org/04xeg9z08"
+  },
+  {
+   "id": "https://openalex.org/F4320338294",
+   "display_name": "Air Force Research Laboratory",
+   "ror": "https://ror.org/02e2egq70"
+  }
+ ],
+ "has_content": {
+  "pdf": true,
+  "grobid_xml": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W2947476638.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W2947476638.grobid-xml"
+ },
+ "referenced_works_count": 33,
+ "referenced_works": [
+  "https://openalex.org/W1491334068",
+  "https://openalex.org/W1966797434",
+  "https://openalex.org/W2029996593",
+  "https://openalex.org/W2070353225",
+  "https://openalex.org/W2095176743",
+  "https://openalex.org/W2123442489",
+  "https://openalex.org/W2127141656",
+  "https://openalex.org/W2146334809",
+  "https://openalex.org/W2164587673",
+  "https://openalex.org/W2184188583",
+  "https://openalex.org/W2250539671",
+  "https://openalex.org/W2524011860",
+  "https://openalex.org/W2556418146",
+  "https://openalex.org/W2597655663",
+  "https://openalex.org/W2740550900",
+  "https://openalex.org/W2789541106",
+  "https://openalex.org/W2883409523",
+  "https://openalex.org/W2886193235",
+  "https://openalex.org/W2906625520",
+  "https://openalex.org/W2950399211",
+  "https://openalex.org/W2950738719",
+  "https://openalex.org/W2954330188",
+  "https://openalex.org/W2962788148",
+  "https://openalex.org/W2962931510",
+  "https://openalex.org/W2963091558",
+  "https://openalex.org/W2963341956",
+  "https://openalex.org/W2963403868",
+  "https://openalex.org/W2963631907",
+  "https://openalex.org/W2963685106",
+  "https://openalex.org/W2963871344",
+  "https://openalex.org/W2964045208",
+  "https://openalex.org/W2964216663",
+  "https://openalex.org/W2964266095"
+ ],
+ "related_works": [
+  "https://openalex.org/W1984314754",
+  "https://openalex.org/W2954586222",
+  "https://openalex.org/W1506595541",
+  "https://openalex.org/W2805122419",
+  "https://openalex.org/W2798573901",
+  "https://openalex.org/W2176910270",
+  "https://openalex.org/W2599591176",
+  "https://openalex.org/W3086054212",
+  "https://openalex.org/W2169967586",
+  "https://openalex.org/W3130777898",
+  "https://openalex.org/W2593659272",
+  "https://openalex.org/W2980801268",
+  "https://openalex.org/W2912220568",
+  "https://openalex.org/W2965445708",
+  "https://openalex.org/W3208639589",
+  "https://openalex.org/W2266685044",
+  "https://openalex.org/W3198993769",
+  "https://openalex.org/W2345855737",
+  "https://openalex.org/W3197394194",
+  "https://openalex.org/W2924679246"
+ ],
+ "abstract_inverted_index": {
+  "Human": [
+   0
+  ],
+  "language": [
+   1,
+   26
+  ],
+  "is": [
+   2,
+   83
+  ],
+  "often": [
+   3
+  ],
+  "multimodal,": [
+   4
+  ],
+  "which": [
+   5,
+   89
+  ],
+  "comprehends": [
+   6
+  ],
+  "a": [
+   7,
+   126
+  ],
+  "mixture": [
+   8
+  ],
+  "of": [
+   9,
+   80
+  ],
+  "natural": [
+   10
+  ],
+  "language,": [
+   11
+  ],
+  "facial": [
+   12
+  ],
+  "gestures,": [
+   13
+  ],
+  "and": [
+   14,
+   45,
+   100,
+   114
+  ],
+  "acoustic": [
+   15
+  ],
+  "behaviors.": [
+   16
+  ],
+  "However,": [
+   17
+  ],
+  "two": [
+   18
+  ],
+  "major": [
+   19
+  ],
+  "challenges": [
+   20
+  ],
+  "in": [
+   21,
+   68,
+   149
+  ],
+  "modeling": [
+   22
+  ],
+  "such": [
+   23
+  ],
+  "multimodal": [
+   24,
+   94,
+   116
+  ],
+  "human": [
+   25
+  ],
+  "time-series": [
+   27,
+   117
+  ],
+  "data": [
+   28,
+   32
+  ],
+  "exist:": [
+   29
+  ],
+  "1)": [
+   30
+  ],
+  "inherent": [
+   31
+  ],
+  "non-alignment": [
+   33
+  ],
+  "due": [
+   34
+  ],
+  "to": [
+   35,
+   62,
+   91,
+   107,
+   140
+  ],
+  "variable": [
+   36
+  ],
+  "sampling": [
+   37
+  ],
+  "rates": [
+   38
+  ],
+  "for": [
+   39
+  ],
+  "the": [
+   40,
+   58,
+   65,
+   75,
+   78,
+   84,
+   144
+  ],
+  "sequences": [
+   41,
+   95
+  ],
+  "from": [
+   42,
+   104
+  ],
+  "each": [
+   43
+  ],
+  "modality;": [
+   44
+  ],
+  "2)": [
+   46
+  ],
+  "long-range": [
+   47
+  ],
+  "dependencies": [
+   48
+  ],
+  "between": [
+   49,
+   93
+  ],
+  "elements": [
+   50
+  ],
+  "across": [
+   51,
+   96
+  ],
+  "modalities.": [
+   52
+  ],
+  "In": [
+   53,
+   129
+  ],
+  "this": [
+   54
+  ],
+  "paper,": [
+   55
+  ],
+  "we": [
+   56
+  ],
+  "introduce": [
+   57
+  ],
+  "Multimodal": [
+   59
+  ],
+  "Transformer": [
+   60
+  ],
+  "(MulT)": [
+   61
+  ],
+  "generically": [
+   63
+  ],
+  "address": [
+   64
+  ],
+  "above": [
+   66
+  ],
+  "issues": [
+   67
+  ],
+  "an": [
+   69
+  ],
+  "end-to-end": [
+   70
+  ],
+  "manner": [
+   71
+  ],
+  "without": [
+   72
+  ],
+  "explicitly": [
+   73
+  ],
+  "aligning": [
+   74
+  ],
+  "data.": [
+   76
+  ],
+  "At": [
+   77
+  ],
+  "heart": [
+   79
+  ],
+  "our": [
+   81,
+   120
+  ],
+  "model": [
+   82,
+   121
+  ],
+  "directional": [
+   85
+  ],
+  "pairwise": [
+   86
+  ],
+  "cross-modal": [
+   87
+  ],
+  "attention,": [
+   88
+  ],
+  "attends": [
+   90
+  ],
+  "interactions": [
+   92
+  ],
+  "distinct": [
+   97
+  ],
+  "time": [
+   98
+  ],
+  "steps": [
+   99
+  ],
+  "latently": [
+   101
+  ],
+  "adapt": [
+   102
+  ],
+  "streams": [
+   103
+  ],
+  "one": [
+   105
+  ],
+  "modality": [
+   106
+  ],
+  "another.": [
+   108
+  ],
+  "Comprehensive": [
+   109
+  ],
+  "experiments": [
+   110
+  ],
+  "on": [
+   111
+  ],
+  "both": [
+   112
+  ],
+  "aligned": [
+   113
+  ],
+  "non-aligned": [
+   115
+  ],
+  "show": [
+   118
+  ],
+  "that": [
+   119,
+   134
+  ],
+  "outperforms": [
+   122
+  ],
+  "state-of-the-art": [
+   123
+  ],
+  "methods": [
+   124
+  ],
+  "by": [
+   125,
+   143
+  ],
+  "large": [
+   127
+  ],
+  "margin.": [
+   128
+  ],
+  "addition,": [
+   130
+  ],
+  "empirical": [
+   131
+  ],
+  "analysis": [
+   132
+  ],
+  "suggests": [
+   133
+  ],
+  "correlated": [
+   135
+  ],
+  "crossmodal": [
+   136,
+   146
+  ],
+  "signals": [
+   137
+  ],
+  "are": [
+   138
+  ],
+  "able": [
+   139
+  ],
+  "be": [
+   141
+  ],
+  "captured": [
+   142
+  ],
+  "proposed": [
+   145
+  ],
+  "attention": [
+   147
+  ],
+  "mechanism": [
+   148
+  ],
+  "MulT.": [
+   150
+  ]
+ },
+ "counts_by_year": [
+  {
+   "year": 2025,
+   "cited_by_count": 43
+  },
+  {
+   "year": 2024,
+   "cited_by_count": 33
+  },
+  {
+   "year": 2023,
+   "cited_by_count": 25
+  },
+  {
+   "year": 2022,
+   "cited_by_count": 21
+  },
+  {
+   "year": 2021,
+   "cited_by_count": 8
+  },
+  {
+   "year": 2020,
+   "cited_by_count": 5
+  },
+  {
+   "year": 2019,
+   "cited_by_count": 2
+  }
+ ],
+ "updated_date": "2026-07-29T14:22:42.915294",
+ "created_date": "2025-10-10T00:00:00"
+}

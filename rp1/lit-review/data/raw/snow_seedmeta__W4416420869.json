@@ -1,0 +1,613 @@
+{
+ "id": "https://openalex.org/W4416420869",
+ "doi": "https://doi.org/10.21203/rs.3.rs-8006895/v1",
+ "title": "EGY-MER: Establishing The First Egyptian Arabic Multimodal Emotion Recognition Dataset for Affective Computing",
+ "display_name": "EGY-MER: Establishing The First Egyptian Arabic Multimodal Emotion Recognition Dataset for Affective Computing",
+ "publication_year": 2025,
+ "publication_date": "2025-11-20",
+ "ids": {
+  "openalex": "https://openalex.org/W4416420869",
+  "doi": "https://doi.org/10.21203/rs.3.rs-8006895/v1"
+ },
+ "language": null,
+ "primary_location": {
+  "id": "doi:10.21203/rs.3.rs-8006895/v1",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.21203/rs.3.rs-8006895/v1",
+  "pdf_url": "https://www.researchsquare.com/article/rs-8006895/latest.pdf",
+  "source": {
+   "id": "https://openalex.org/S4306525896",
+   "display_name": "Research Square",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "host_organization": null,
+   "host_organization_name": null,
+   "host_organization_lineage": [],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "acceptedVersion",
+  "is_accepted": true,
+  "is_published": false,
+  "raw_source_name": "Research Square",
+  "raw_type": "posted-content"
+ },
+ "type": "preprint",
+ "indexed_in": [
+  "crossref"
+ ],
+ "open_access": {
+  "is_oa": true,
+  "oa_status": "green",
+  "oa_url": "https://www.researchsquare.com/article/rs-8006895/latest.pdf",
+  "any_repository_has_fulltext": true
+ },
+ "authorships": [
+  {
+   "author_position": "first",
+   "author": {
+    "id": "https://openalex.org/A5113055956",
+    "display_name": "Amany Hussein",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I883909435",
+     "display_name": "International University",
+     "ror": "https://ror.org/02knr1992",
+     "country_code": "KH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I883909435"
+     ]
+    }
+   ],
+   "countries": [
+    "KH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Amany Hussein",
+   "raw_affiliation_strings": [
+    "German International University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "German International University",
+     "institution_ids": [
+      "https://openalex.org/I883909435"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": null,
+    "display_name": "May Hussien",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I883909435",
+     "display_name": "International University",
+     "ror": "https://ror.org/02knr1992",
+     "country_code": "KH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I883909435"
+     ]
+    }
+   ],
+   "countries": [
+    "KH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "May Hussien",
+   "raw_affiliation_strings": [
+    "German International University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "German International University",
+     "institution_ids": [
+      "https://openalex.org/I883909435"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5120509134",
+    "display_name": "Ammar Hassona",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I883909435",
+     "display_name": "International University",
+     "ror": "https://ror.org/02knr1992",
+     "country_code": "KH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I883909435"
+     ]
+    }
+   ],
+   "countries": [
+    "KH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Ammar Hassona",
+   "raw_affiliation_strings": [
+    "German International University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "German International University",
+     "institution_ids": [
+      "https://openalex.org/I883909435"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5110317553",
+    "display_name": "Wolfgang Minker",
+    "orcid": null
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I196349391",
+     "display_name": "Universität Ulm",
+     "ror": "https://ror.org/032000t02",
+     "country_code": "DE",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I196349391"
+     ]
+    }
+   ],
+   "countries": [
+    "DE"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Wolfgang Minker",
+   "raw_affiliation_strings": [
+    "University of Ulm"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "University of Ulm",
+     "institution_ids": [
+      "https://openalex.org/I196349391"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "middle",
+   "author": {
+    "id": "https://openalex.org/A5066592199",
+    "display_name": "Mohammed A.‐M. Salem",
+    "orcid": "https://orcid.org/0000-0003-1489-9830"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I96823368",
+     "display_name": "German University in Cairo",
+     "ror": "https://ror.org/03rjt0z37",
+     "country_code": "EG",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I96823368"
+     ]
+    }
+   ],
+   "countries": [
+    "EG"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Mohammed A.-M. Salem",
+   "raw_affiliation_strings": [
+    "German University in Cairo"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "German University in Cairo",
+     "institution_ids": [
+      "https://openalex.org/I96823368"
+     ]
+    }
+   ]
+  },
+  {
+   "author_position": "last",
+   "author": {
+    "id": "https://openalex.org/A5074560860",
+    "display_name": "Nada Sharaf",
+    "orcid": "https://orcid.org/0000-0002-0681-6743"
+   },
+   "institutions": [
+    {
+     "id": "https://openalex.org/I883909435",
+     "display_name": "International University",
+     "ror": "https://ror.org/02knr1992",
+     "country_code": "KH",
+     "type": "education",
+     "lineage": [
+      "https://openalex.org/I883909435"
+     ]
+    }
+   ],
+   "countries": [
+    "KH"
+   ],
+   "is_corresponding": false,
+   "raw_author_name": "Nada Sharaf",
+   "raw_affiliation_strings": [
+    "German International University"
+   ],
+   "raw_orcid": null,
+   "affiliations": [
+    {
+     "raw_affiliation_string": "German International University",
+     "institution_ids": [
+      "https://openalex.org/I883909435"
+     ]
+    }
+   ]
+  }
+ ],
+ "institutions": [],
+ "countries_distinct_count": 3,
+ "institutions_distinct_count": 3,
+ "corresponding_author_ids": [],
+ "corresponding_institution_ids": [],
+ "apc_list": null,
+ "apc_paid": null,
+ "fwci": null,
+ "has_fulltext": true,
+ "cited_by_count": 0,
+ "citation_normalized_percentile": null,
+ "cited_by_percentile_year": null,
+ "biblio": {
+  "volume": null,
+  "issue": null,
+  "first_page": null,
+  "last_page": null
+ },
+ "is_retracted": false,
+ "is_paratext": false,
+ "is_xpac": false,
+ "primary_topic": {
+  "id": "https://openalex.org/T10667",
+  "display_name": "Emotion and Mood Recognition",
+  "score": 0.9455999732017517,
+  "subfield": {
+   "id": "https://openalex.org/subfields/3205",
+   "display_name": "Experimental and Cognitive Psychology"
+  },
+  "field": {
+   "id": "https://openalex.org/fields/32",
+   "display_name": "Psychology"
+  },
+  "domain": {
+   "id": "https://openalex.org/domains/2",
+   "display_name": "Social Sciences"
+  }
+ },
+ "topics": [
+  {
+   "id": "https://openalex.org/T10667",
+   "display_name": "Emotion and Mood Recognition",
+   "score": 0.9455999732017517,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3205",
+    "display_name": "Experimental and Cognitive Psychology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/32",
+    "display_name": "Psychology"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T10664",
+   "display_name": "Sentiment Analysis and Opinion Mining",
+   "score": 0.01590000092983246,
+   "subfield": {
+    "id": "https://openalex.org/subfields/1702",
+    "display_name": "Artificial Intelligence"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/17",
+    "display_name": "Computer Science"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/3",
+    "display_name": "Physical Sciences"
+   }
+  },
+  {
+   "id": "https://openalex.org/T12488",
+   "display_name": "Mental Health via Writing",
+   "score": 0.002899999963119626,
+   "subfield": {
+    "id": "https://openalex.org/subfields/3207",
+    "display_name": "Social Psychology"
+   },
+   "field": {
+    "id": "https://openalex.org/fields/32",
+    "display_name": "Psychology"
+   },
+   "domain": {
+    "id": "https://openalex.org/domains/2",
+    "display_name": "Social Sciences"
+   }
+  }
+ ],
+ "keywords": [
+  {
+   "id": "https://openalex.org/keywords/affective-computing",
+   "display_name": "Affective computing",
+   "score": 0.661300003528595
+  },
+  {
+   "id": "https://openalex.org/keywords/modalities",
+   "display_name": "Modalities",
+   "score": 0.5587999820709229
+  },
+  {
+   "id": "https://openalex.org/keywords/emotion-recognition",
+   "display_name": "Emotion recognition",
+   "score": 0.553600013256073
+  },
+  {
+   "id": "https://openalex.org/keywords/arabic",
+   "display_name": "Arabic",
+   "score": 0.5382000207901001
+  },
+  {
+   "id": "https://openalex.org/keywords/baseline",
+   "display_name": "Baseline (sea)",
+   "score": 0.4812999963760376
+  },
+  {
+   "id": "https://openalex.org/keywords/emotion-classification",
+   "display_name": "Emotion classification",
+   "score": 0.4778999984264374
+  },
+  {
+   "id": "https://openalex.org/keywords/consistency",
+   "display_name": "Consistency (knowledge bases)",
+   "score": 0.42179998755455017
+  }
+ ],
+ "concepts": [
+  {
+   "id": "https://openalex.org/C6438553",
+   "wikidata": "https://www.wikidata.org/wiki/Q1185804",
+   "display_name": "Affective computing",
+   "level": 2,
+   "score": 0.661300003528595
+  },
+  {
+   "id": "https://openalex.org/C41008148",
+   "wikidata": "https://www.wikidata.org/wiki/Q21198",
+   "display_name": "Computer science",
+   "level": 0,
+   "score": 0.6226000189781189
+  },
+  {
+   "id": "https://openalex.org/C2779903281",
+   "wikidata": "https://www.wikidata.org/wiki/Q6888026",
+   "display_name": "Modalities",
+   "level": 2,
+   "score": 0.5587999820709229
+  },
+  {
+   "id": "https://openalex.org/C2777438025",
+   "wikidata": "https://www.wikidata.org/wiki/Q1339090",
+   "display_name": "Emotion recognition",
+   "level": 2,
+   "score": 0.553600013256073
+  },
+  {
+   "id": "https://openalex.org/C96455323",
+   "wikidata": "https://www.wikidata.org/wiki/Q13955",
+   "display_name": "Arabic",
+   "level": 2,
+   "score": 0.5382000207901001
+  },
+  {
+   "id": "https://openalex.org/C154945302",
+   "wikidata": "https://www.wikidata.org/wiki/Q11660",
+   "display_name": "Artificial intelligence",
+   "level": 1,
+   "score": 0.5299000144004822
+  },
+  {
+   "id": "https://openalex.org/C12725497",
+   "wikidata": "https://www.wikidata.org/wiki/Q810247",
+   "display_name": "Baseline (sea)",
+   "level": 2,
+   "score": 0.4812999963760376
+  },
+  {
+   "id": "https://openalex.org/C206310091",
+   "wikidata": "https://www.wikidata.org/wiki/Q750859",
+   "display_name": "Emotion classification",
+   "level": 2,
+   "score": 0.4778999984264374
+  },
+  {
+   "id": "https://openalex.org/C28490314",
+   "wikidata": "https://www.wikidata.org/wiki/Q189436",
+   "display_name": "Speech recognition",
+   "level": 1,
+   "score": 0.4287000000476837
+  },
+  {
+   "id": "https://openalex.org/C2776436953",
+   "wikidata": "https://www.wikidata.org/wiki/Q5163215",
+   "display_name": "Consistency (knowledge bases)",
+   "level": 2,
+   "score": 0.42179998755455017
+  },
+  {
+   "id": "https://openalex.org/C204321447",
+   "wikidata": "https://www.wikidata.org/wiki/Q30642",
+   "display_name": "Natural language processing",
+   "level": 1,
+   "score": 0.41990000009536743
+  },
+  {
+   "id": "https://openalex.org/C185798385",
+   "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+   "display_name": "Benchmark (surveying)",
+   "level": 2,
+   "score": 0.4172999858856201
+  },
+  {
+   "id": "https://openalex.org/C195704467",
+   "wikidata": "https://www.wikidata.org/wiki/Q327968",
+   "display_name": "Facial expression",
+   "level": 2,
+   "score": 0.41659998893737793
+  },
+  {
+   "id": "https://openalex.org/C31510193",
+   "wikidata": "https://www.wikidata.org/wiki/Q1192553",
+   "display_name": "Facial recognition system",
+   "level": 3,
+   "score": 0.3402000069618225
+  },
+  {
+   "id": "https://openalex.org/C2780910867",
+   "wikidata": "https://www.wikidata.org/wiki/Q1952416",
+   "display_name": "Multimodality",
+   "level": 2,
+   "score": 0.328000009059906
+  },
+  {
+   "id": "https://openalex.org/C118505674",
+   "wikidata": "https://www.wikidata.org/wiki/Q42586063",
+   "display_name": "Encoder",
+   "level": 2,
+   "score": 0.3276999890804291
+  },
+  {
+   "id": "https://openalex.org/C153180895",
+   "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+   "display_name": "Pattern recognition (psychology)",
+   "level": 2,
+   "score": 0.3192000091075897
+  },
+  {
+   "id": "https://openalex.org/C135641252",
+   "wikidata": "https://www.wikidata.org/wiki/Q738567",
+   "display_name": "Multimodal interaction",
+   "level": 2,
+   "score": 0.2639999985694885
+  },
+  {
+   "id": "https://openalex.org/C207347870",
+   "wikidata": "https://www.wikidata.org/wiki/Q371174",
+   "display_name": "Gesture",
+   "level": 2,
+   "score": 0.2556999921798706
+  }
+ ],
+ "mesh": [],
+ "locations_count": 1,
+ "locations": [
+  {
+   "id": "doi:10.21203/rs.3.rs-8006895/v1",
+   "is_oa": true,
+   "landing_page_url": "https://doi.org/10.21203/rs.3.rs-8006895/v1",
+   "pdf_url": "https://www.researchsquare.com/article/rs-8006895/latest.pdf",
+   "source": {
+    "id": "https://openalex.org/S4306525896",
+    "display_name": "Research Square",
+    "issn_l": null,
+    "issn": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "is_core": false,
+    "host_organization": null,
+    "host_organization_name": null,
+    "host_organization_lineage": [],
+    "host_organization_lineage_names": [],
+    "type": "repository"
+   },
+   "license": "cc-by",
+   "license_id": "https://openalex.org/licenses/cc-by",
+   "version": "acceptedVersion",
+   "is_accepted": true,
+   "is_published": false,
+   "raw_source_name": "Research Square",
+   "raw_type": "posted-content"
+  }
+ ],
+ "best_oa_location": {
+  "id": "doi:10.21203/rs.3.rs-8006895/v1",
+  "is_oa": true,
+  "landing_page_url": "https://doi.org/10.21203/rs.3.rs-8006895/v1",
+  "pdf_url": "https://www.researchsquare.com/article/rs-8006895/latest.pdf",
+  "source": {
+   "id": "https://openalex.org/S4306525896",
+   "display_name": "Research Square",
+   "issn_l": null,
+   "issn": null,
+   "is_oa": false,
+   "is_in_doaj": false,
+   "is_core": false,
+   "host_organization": null,
+   "host_organization_name": null,
+   "host_organization_lineage": [],
+   "host_organization_lineage_names": [],
+   "type": "repository"
+  },
+  "license": "cc-by",
+  "license_id": "https://openalex.org/licenses/cc-by",
+  "version": "acceptedVersion",
+  "is_accepted": true,
+  "is_published": false,
+  "raw_source_name": "Research Square",
+  "raw_type": "posted-content"
+ },
+ "sustainable_development_goals": [],
+ "awards": [],
+ "funders": [],
+ "has_content": {
+  "grobid_xml": true,
+  "pdf": true
+ },
+ "content_urls": {
+  "pdf": "https://content.openalex.org/works/W4416420869.pdf",
+  "grobid_xml": "https://content.openalex.org/works/W4416420869.grobid-xml"
+ },
+ "referenced_works_count": 0,
+ "referenced_works": [],
+ "related_works": [],
+ "abstract_inverted_index": null,
+ "counts_by_year": [],
+ "updated_date": "2026-07-14T23:27:15.235271",
+ "created_date": "2025-11-20T00:00:00"
+}
